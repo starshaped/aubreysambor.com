@@ -1,0 +1,168 @@
+main {
+  background-color: var(--background-color);
+
+  @include media('>small') {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  a {
+    color: var(--primary-link);
+    text-decoration: none;
+    box-shadow: inset 0 -0.25rem 0 0 var(--primary-link);
+    transition: box-shadow 0.2s;
+  
+    &:hover {
+      box-shadow: inset 0 -2.5rem 0 0 var(--primary-link-underline);
+    }
+  }
+}
+
+.posts {
+
+  &__item {
+    //line-height: 1.25;
+
+    @include media('>small') {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-family: var(--base-font-family);
+    line-height: 1.5;
+    font-size: 1.9rem;
+    font-weight: normal;
+  }
+
+  &__date {
+    flex: 0 0 175px;
+    order: -1;
+    font-family: var(--header-font-family);
+    font-size: 2rem;
+
+    @include media('>small') {
+      font-size: 2.1rem;
+    }
+
+    @include media('>medium') {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+.page,
+.post {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 32px 20px;
+
+  & > * + * { 
+    margin-top: var(--flow-space);
+  }
+
+  @include media('>small') {
+    padding: 48px 0;
+  }
+  
+  @include media('>medium') {
+    padding: 56px 0;
+  }
+
+  &__body {
+
+    ul {
+      margin-left: 24px;
+  
+      @include media('>small') {
+        margin-left: 32px;
+      }
+      
+      @include media('>medium') {
+        margin-left: 36px;
+      }
+    }
+  }
+}
+
+.post {
+
+  &__meta {
+    --flow-space: .5em;
+  }
+
+  &__date {
+    margin-right: 8px; 
+    font-size: 1.6rem;
+
+    @include media('>small') {
+      font-size: 1.7rem;
+    }
+  
+    @include media('>medium') {
+      font-size: 1.8rem;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.bio {
+  font-size: 2rem;
+
+  @include media('>small') {
+    font-size: 2.1rem;
+
+  }
+
+  @include media('>medium') {
+    font-size: 2.2rem;
+    width: 70%;
+  }
+}
+
+// Hide skip link visually by default
+.skip-link:not(:focus) {
+  @extend .visually-hidden;
+}
+
+.skip-link:focus {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: var(--header-color);
+  color: var(--accent-color);
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.heading-permalink {
+  margin-left: 10px;
+  box-shadow: none;
+  color: transparent;
+
+  &:hover {
+    box-shadow: none;
+    color: var(--primary-link);
+  }
+}
+
+img[src$="aubrey.jpg"] {
+  max-width: 300px;
+
+  @include media('>medium') {
+    margin-top: 8px;
+    margin-right: 24px;
+    float: left;
+  }
+}
+

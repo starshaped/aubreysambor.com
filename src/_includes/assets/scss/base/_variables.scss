@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,400i,700');
+
+@font-face {
+  font-family: 'Salted Mocha';
+  src: url('/fonts/SaltedMocha-Regular.woff2') format('woff2'),
+       url('/fonts/SaltedMocha-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  // Font families
+  --logo-font-family: "Salted Mocha", serif;
+  --base-font-family: "Roboto", sans-serif;
+  --header-font-family: "Playfair Display", serif;
+
+  // Basic site settings
+  --homepage-width: 960px;
+  --content-width: 960px;
+
+  // Colors
+  --background-color: #f9f9f9;
+  --header-color: #302E2F;
+  --text-color: #333;
+  --accent-color: #eee;
+  --primary-link: #c71d6f;
+  --secondary-link: #c71d6f;
+  --primary-link-underline: #f9d7e7;
+
+  --flow-space: 3.5rem;
+}
+
+// Media query breakpoints
+$breakpoints: (
+  'small': 30em,
+  'medium': 48em,
+  'large': 64em
+) !default;
+
+// Import include-media after breakpoint declaration
+@import '../../../../../node_modules/include-media/dist/_include-media';

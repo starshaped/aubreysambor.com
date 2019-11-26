@@ -1,0 +1,42 @@
+.footer {
+  background-color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  
+  a {
+    color: var(--secondary-link);
+  }
+
+  &__inner {
+    margin: auto;
+    max-width: var(--content-width);
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    @include media('>small') {
+      padding: 32px 0;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    @include media('>medium') {
+      padding: 48px 0;
+    }
+  }
+
+  &__content {
+    margin: 0;
+  }
+
+  &__divider {
+    padding: 0 8px;
+  }
+
+  &__end {
+    @include media('<=small') {
+      margin-top: 8px;
+    }
+  }
+}

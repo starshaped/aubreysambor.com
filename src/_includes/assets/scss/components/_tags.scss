@@ -1,0 +1,40 @@
+.tags {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+  &::before {
+    content: "·";
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  &__tag {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 1.5rem;
+
+    @include media('>small') {
+      font-size: 1.6rem;
+    }
+  
+    @include media('>medium') {
+      font-size: 1.7rem;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__list-item {
+    margin: 8px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

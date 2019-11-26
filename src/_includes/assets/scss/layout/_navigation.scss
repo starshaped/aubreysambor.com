@@ -1,0 +1,75 @@
+.nav {
+  text-align: center;
+
+  &__list {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list-item {
+    margin: 0 24px 0 0;
+    padding: 0;
+    display: inline-block;
+
+    @include media('>small') {
+      margin: 0 36px 0 0;
+    }
+
+    @include media('>medium') {
+      margin: 0 42px 0 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    color: var(--secondary-link);
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: none;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      top: 85%;
+      height: 3px;
+      width: 0;
+      left: 0;
+      background-color: var(--secondary-link);
+      transition: 0.5s ease all .3s;
+    }
+  
+    &:hover {
+      text-decoration: none;
+      color: var(--secondary-link);
+  
+      &::after {
+        width: 100%;
+        transition: 0.3s ease all;
+      }
+    }
+
+    @include media('>small') {
+      font-size: 1.7rem;
+    }
+
+    @include media('>medium') {
+      font-size: 1.8rem;
+    }
+
+    // Keep underline on active page
+    &[aria-current="page"] {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}

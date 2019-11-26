@@ -11,4 +11,4 @@ dist
 # Specifics
 
 # Hide compiled CSS
-src/_includes/assets/*
+src/_includes/assets/css

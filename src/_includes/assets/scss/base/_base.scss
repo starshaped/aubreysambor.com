@@ -1,0 +1,161 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: var(--base-font-family);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: var(--header-font-family);
+}
+
+h1,
+.h1 {
+  font-size: 3.2rem;
+
+  @include media('>small') {
+    font-size: 3.4rem;
+  }
+
+  @include media('>medium') {
+    font-size: 3.6rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 2.8rem;
+
+  @include media('>small') {
+    font-size: 3rem;
+  }
+
+  @include media('>medium') {
+    font-size: 3.2rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 2.8rem;
+
+  @include media('>small') {
+    font-size: 3rem;
+  }
+
+  @include media('>medium') {
+    font-size: 3.2rem;
+  }
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 0;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0;
+  margin-left: 20px;
+  --flow-space: 3rem;
+
+  & > * + * { 
+    margin-top: var(--flow-space);
+  }
+}
+
+p {
+  line-height: 1.825;
+}
+
+p,
+li {
+  font-size: 1.8rem;
+
+  @include media('>small') {
+    font-size: 1.9rem;
+  }
+
+  @include media('>medium') {
+    font-size: 2rem;
+  }
+
+  .compact-list & {
+    margin: 0 auto;
+    line-height: 2.25;
+  }
+}
+
+a {
+  color: var(--primary-link);
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+small {
+  font-size: 1.4rem;
+  display: block;
+}
+
+figure {
+  margin: 0 0 28px 0;
+
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 8px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+
+  @include media('>=small') {
+    font-size: 1.5rem;
+  }
+
+  @include media('>=medium') {
+    font-size: 1.6rem;
+  }
+}
+
+hr {
+  border: 0; 
+  height: 4px; 
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  margin: 32px auto;
+}
+
+section {
+  overflow: hidden;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}

@@ -1,0 +1,54 @@
+.header {
+  background: white;
+  padding: 16px 0;
+  
+  @include media('>small') {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  &__inner {
+    max-width: var(--content-width);
+    margin: auto;
+    text-align: center;
+  
+    @include media('>small') {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__title {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 6.4rem;
+    margin: 0;
+    padding: 0;
+  
+    @include media('>small') {
+      font-size: 6.4rem;
+    }
+  }
+
+  &__title-link {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--text-color);
+    }
+  }
+
+  &__desc {
+    display: block;
+    margin: 0;
+    margin-top: 16px;
+    color: var(--text-color);
+
+    @include media('<=small') {
+      display: none; 
+    }
+  }
+}
