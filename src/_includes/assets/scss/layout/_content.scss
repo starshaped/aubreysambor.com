@@ -21,7 +21,8 @@ main {
 .posts {
 
   &__item {
-    //line-height: 1.25;
+
+    line-height: 1;
 
     @include media('>small') {
       display: flex;

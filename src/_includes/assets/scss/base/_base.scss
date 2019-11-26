@@ -75,13 +75,10 @@ ul {
   }
 }
 
-p {
-  line-height: 1.825;
-}
-
 p,
 li {
   font-size: 1.8rem;
+  line-height: 1.825;
 
   @include media('>small') {
     font-size: 1.9rem;
@@ -89,11 +86,6 @@ li {
 
   @include media('>medium') {
     font-size: 2rem;
-  }
-
-  .compact-list & {
-    margin: 0 auto;
-    line-height: 2.25;
   }
 }
 
