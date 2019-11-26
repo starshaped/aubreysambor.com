@@ -19,7 +19,7 @@ As blogging became more popular, I started writing in this blog more than the on
 ## Find me elsewhere
 
 * **Acquia blog,** [The Women of the Drupal Community: starshaped](https://www.acquia.com/blog/women-drupal-community-starshaped)
-* **Developing Up podcast,** [Episode 30: Impostor Syndrome](http://www.developingup.com/30)
-* **Death Prattle podcast,** [Episode 72: Getting the call twice](http://www.prattlepod.com/2018/01/episode-72-getting-call-twice-with.html)
+* **Developing Up podcast,** [Episode 30: Impostor Syndrome](http://www.developingup.com/episodes/30)
+* **Death Prattle podcast,** [Episode 72: Getting the call twice](http://deathprattle.libsyn.com/podcast/episode-72-getting-the-call-twice-with-special-guest-aubrey)
 
 Thanks for reading!
