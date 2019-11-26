@@ -1,0 +1,39 @@
+---
+title: Tag Archives
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+permalink: /tags/{{ tag | slug }}/
+eleventyExcludeFromCollections: true
+---
+{% extends 'layouts/base.njk' %}
+
+{# Post list content #}
+{% set postListItems = collections[tag] %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="page">
+      <h1 class="page__title">Posts tagged with &ldquo;{{ tag }}&rdquo;</h1>
+      <ul class="posts">
+        {% for post in postListItems | reverse %}
+          <li class="posts__item">
+            <h3 class="posts__title">
+              <a href="{{ post.url | url }}" rel="bookmark">{{ post.data.title }}</a>
+            </h3>
+            <time class="posts__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
+          </li>
+        {% endfor %}
+      </ul>
+      {# {% include "partials/components/pagination.njk" %} #}
+    </article>
+  </main>
+{% endblock %}

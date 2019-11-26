@@ -1,0 +1,22 @@
+{
+  "name": "starshaped",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass --watch src/_includes/assets/scss -o src/_includes/assets/css",
+    "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run scss'",
+    "site:production": "node-sass src/_includes/assets/scss -o src/_includes/assets/css && npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@tbranyen/jsdom": "^13.0.0",
+    "concurrently": "^5.0.0",
+    "include-media": "^1.4.9",
+    "node-sass": "^4.13.0"
+  }
+}

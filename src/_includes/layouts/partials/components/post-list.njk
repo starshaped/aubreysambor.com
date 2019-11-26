@@ -1,0 +1,18 @@
+{% if not postListItems.length %}
+  {% set postListItems = collections.all | reverse %}
+{% endif %}
+
+{% if postListHeading %}
+  <h2 class="page__title h1">{{ postListHeading }}</h2>
+{% endif %}
+
+<ul class="posts">
+  {%- for post in postListItems -%}
+    <li class="posts__item">
+      <h3 class="posts__title">
+        <a href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
+      </h3>
+      <time class="posts__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
+    </li>
+  {%- endfor -%}
+</ul>

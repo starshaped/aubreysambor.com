@@ -1,0 +1,12 @@
+{% extends 'layouts/base.njk' %}
+
+{# Post list content #}
+{% set postListHeading = 'Archives' %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+  <article class="page">
+    {% include "layouts/partials/components/post-list.njk" %}
+    </article>
+  </main>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
+{# Post list content #}
+{% set postListHeading = postsHeading %}
+{% set postListItems = collections.homepagePosts %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <div class="page">
+      <p class="bio">
+        My name is <b>Aubrey</b> and I love knitting, tea, and web development. I code during the day and make my own yarn, write in my journal, and cook tasty food in the evenings.
+      </p>
+      {% include "layouts/partials/components/post-list.njk" %}
+      <p>
+        <a href="/archives" class="post__navigation-arrow">
+          See all posts
+          <span aria-hidden="true">→</span>
+        </a>
+      </p>
+    </div>
+  </main>
+{% endblock %}
+
