@@ -8,7 +8,7 @@
       margin-right: 2.4rem;
 
       @include media('>small') {
-        margin-right: 3.6rem;
+        margin-right: 3rem;
       }
 
       @include media('>medium') {
@@ -18,7 +18,7 @@
   }
 
   &__link {
-    color: var(--secondary-link);
+    color: var(--primary-link);
     position: relative;
     display: inline-block;
     text-decoration: none;
@@ -34,13 +34,13 @@
       height: 3px;
       width: 0;
       left: 0;
-      background-color: var(--secondary-link);
+      background-color: var(--primary-link);
       transition: 0.5s ease all .3s;
     }
   
     &:hover {
       text-decoration: none;
-      color: var(--secondary-link);
+      color: var(--primary-link);
   
       &::after {
         width: 100%;

@@ -13,7 +13,7 @@ main {
     transition: box-shadow 0.2s;
   
     &:hover {
-      box-shadow: inset 0 -2.5rem 0 0 var(--primary-link-underline);
+      box-shadow: inset 0 -2.5rem 0 0 var(--primary-link-hover);
     }
   }
 }
@@ -161,7 +161,7 @@ main {
   top: 0;
   left: 0;
   padding: 20px;
-  background-color: var(--header-color);
+  background-color: var(--text-color);
   color: var(--accent-color);
   line-height: 1;
   text-decoration: none;

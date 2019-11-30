@@ -44,7 +44,7 @@ module.exports = function (value, outputPath) {
       // Loop each heading and add a little anchor and an ID to each one
       articleHeadings.forEach(heading => {
 
-        if (!heading.classList.contains('content__title') && !heading.classList.contains('homepage__title')) {
+        if (!heading.classList.contains('content__title') && !heading.classList.contains('posts-list__title')) {
 
           const headingSlug = slugify(heading.textContent.toLowerCase());
           const anchor = document.createElement('a');

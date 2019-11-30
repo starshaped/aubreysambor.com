@@ -1,28 +1,29 @@
 .footer {
   background-color: white;
-  padding-left: 2.4rem;
-  padding-right: 2.4rem;
+  padding: 2.4rem 0;
+
+  @include media('>small') {
+    padding: 3.2rem 2.4rem;
+  }
+
+    @include media('>medium') {
+      padding: 4.8rem 2.4rem;;
+    }
   
   a {
-    color: var(--secondary-link);
+    color: var(--primary-link);
   }
 
   &__inner {
     margin: auto;
     max-width: var(--content-width);
-    padding: 2.4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   
     @include media('>small') {
-      padding: 3.2rem 0;
       flex-direction: row;
       justify-content: space-between;
-    }
-
-    @include media('>medium') {
-      padding: 4.8rem 0;
     }
   }
 

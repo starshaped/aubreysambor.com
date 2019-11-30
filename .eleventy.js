@@ -2,7 +2,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
 // Import filters
-const bodyClassFilter = require('./src/filters/body-class-filter.js');
 const formattedDateFilter = require('./src/filters/formatted-date-filter.js');
 const htmlDateFilter = require('./src/filters/html-date-filter.js');
 const yearFilter = require('./src/filters/year-filter.js');
@@ -19,7 +18,6 @@ module.exports = function(config) {
   config.addPlugin(rssPlugin);
 
   // Filters
-  config.addFilter('bodyClassFilter', bodyClassFilter);
   config.addFilter('formattedDateFilter', formattedDateFilter);
   config.addFilter('htmlDateFilter', htmlDateFilter);
   config.addFilter('yearFilter', yearFilter);

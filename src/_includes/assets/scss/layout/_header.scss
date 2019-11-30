@@ -23,17 +23,15 @@
     font-family: var(--logo-font-family);
     font-weight: 700;
     text-transform: lowercase;
-    font-size: 6.4rem;
-    margin: 0;
-    padding: 0;
+    font-size: 5.6rem;
+
+    @include media('>medium') {
+      font-size: 6.4rem;
+    }
   }
 
   &__title-link {
     color: var(--text-color);
     text-decoration: none;
-
-    &:hover {
-      color: var(--text-color);
-    }
   }
 }
