@@ -2,9 +2,11 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="page">
-      <h1 class="page__title">{{ title }}</h1>
-      {{ content | safe }}
+    <article class="content">
+      <h1 class="content__title">{{ title }}</h1>
+      <div class="content__body">
+        {{ content | safe }}
+      </div>
     </article>
   </main>
 {% endblock %}

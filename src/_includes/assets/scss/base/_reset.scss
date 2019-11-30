@@ -18,6 +18,8 @@ h2,
 h3,
 h4,
 p,
+ul[class],
+ol[class],
 li,
 figure,
 figcaption,
@@ -25,6 +27,14 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: var(--base-font-family);
+  font-weight: 400;
+  color: var(--text-color);
 }
 
 /* Set core body defaults */
@@ -50,11 +60,8 @@ a:not([class]) {
 img {
   max-width: 100%;
   display: block;
-}
-
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Inherit fonts for inputs and buttons */

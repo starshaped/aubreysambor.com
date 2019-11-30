@@ -2,8 +2,8 @@ main {
   background-color: var(--background-color);
 
   @include media('>small') {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
   }
 
   a {
@@ -22,7 +22,7 @@ main {
 
   &__item {
 
-    line-height: 1;
+    line-height: 2.5;
 
     @include media('>small') {
       display: flex;
@@ -38,7 +38,7 @@ main {
   }
 
   &__date {
-    flex: 0 0 175px;
+    flex: 0 0 17.5rem;
     order: -1;
     font-family: var(--header-font-family);
     font-size: 2rem;
@@ -53,48 +53,26 @@ main {
   }
 }
 
-.page,
-.post {
+.content {
   max-width: var(--content-width);
   margin: auto;
-  padding: 32px 20px;
-
-  & > * + * { 
-    margin-top: var(--flow-space);
-  }
+  padding: 3.2rem 2rem;
 
   @include media('>small') {
-    padding: 48px 0;
+    padding: 4.8rem 0;
   }
   
   @include media('>medium') {
-    padding: 56px 0;
+    padding: 5.6rem 0;
   }
-
-  &__body {
-
-    ul {
-      margin-left: 24px;
-  
-      @include media('>small') {
-        margin-left: 32px;
-      }
-      
-      @include media('>medium') {
-        margin-left: 36px;
-      }
-    }
-  }
-}
-
-.post {
 
   &__meta {
-    --flow-space: .5em;
+    margin-top: calc(var(--flow-space) * .25);
+    margin-bottom: var(--flow-space);
   }
 
   &__date {
-    margin-right: 8px; 
+    margin-right: .4rem; 
     font-size: 1.6rem;
 
     @include media('>small') {
@@ -106,14 +84,59 @@ main {
     }
   }
 
-  img {
-    max-width: 100%;
-    display: block;
-    margin: auto;
+  &__body {
+
+    & > * + * {
+      margin-top: var(--flow-space);
+    }
+
+    ul,
+    ol {
+      --flow-space: 3rem;
+      & > * + * { 
+        margin-top: var(--flow-space);
+      }
+    }
+
+    ol {
+      list-style-type: decimal;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+
+    figure {
+      margin: 0 0 2.8rem 0;
+    }
+
+    figcaption {
+      text-align: center;
+      margin-top: .8rem;
+      font-size: 1.4rem;
+      line-height: 1.5;
+
+      @include media('>=small') {
+        font-size: 1.5rem;
+      }
+
+      @include media('>=medium') {
+        font-size: 1.6rem;
+      }
+    }
+
+    hr {
+      border: 0; 
+      height: .4rem; 
+      background-color: var(--accent-color);
+      border-radius: .4rem;
+      margin: 3.2rem auto;
+    }
   }
 }
 
 .bio {
+  margin-bottom: var(--flow-space);
   font-size: 2rem;
 
   @include media('>small') {
@@ -147,7 +170,7 @@ main {
 }
 
 .heading-permalink {
-  margin-left: 10px;
+  margin-left: 1rem;
   box-shadow: none;
   color: transparent;
 
@@ -158,12 +181,36 @@ main {
 }
 
 img[src$="aubrey.jpg"] {
-  max-width: 300px;
+  max-width: 30rem;
 
   @include media('>medium') {
-    margin-top: 8px;
-    margin-right: 24px;
+    margin-top: .8rem;
+    margin-right: 2.4rem;
     float: left;
+  }
+}
+
+.posts-list {
+
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 3.2rem 2rem;
+
+  @include media('>small') {
+    padding: 4.8rem 0;
+  }
+  
+  @include media('>medium') {
+    padding: 5.6rem 0;
+  }
+
+  &__title {
+    @extend %h1;
+    margin-bottom: calc(var(--flow-space) * .5);
+  }
+
+  &__see-all-link {
+    margin-top: var(--flow-space);
   }
 }
 

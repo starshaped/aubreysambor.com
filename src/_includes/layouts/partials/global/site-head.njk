@@ -1,12 +1,20 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header role="banner" class="header">
   <div class="header__inner">
-    <h1 class="header__title">
+    {% if page.url == '/' %}
+      <h1 class="header__title">
+    {% else %}
+      <span class="header__title">
+    {% endif %}
       <a href="/" class="header__title-link"{{ 'aria-current=page' if page.url == '/' | safe }}>
         <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
         <span aria-hidden="true">{{ site.name }}</span>
       </a>
-    </h1>
+    {% if page.url == '/' %}
+      </h1>
+    {% else %}
+      </span>
+    {% endif %}
     {% include "layouts/partials/components/nav.njk" %}
   </div>
 </header>

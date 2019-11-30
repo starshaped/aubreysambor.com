@@ -2,12 +2,12 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="post">
-      <h1 class="post__title">{{ title }}</h1>
+    <article class="content">
+      <h1 class="content__title">{{ title }}</h1>
 
-      <div class="post__meta">
+      <div class="content__meta">
         {% if date %}
-          <time datetime="{{ date | htmlDateFilter }}" class="post__date">{{ date | formattedDateFilter }}</time>
+          <time datetime="{{ date | htmlDateFilter }}" class="content__date">{{ date | formattedDateFilter }}</time>
         {% endif %}
 
         {% if tags %}
@@ -20,9 +20,9 @@
           </ul>
         {% endif %}
       </div>
-
+      <div class="content__body">
       {{ content | safe }}
-
+      </div>
     </article>
   </main>
 {% endblock %}

@@ -1,20 +1,15 @@
 .tags {
-  margin: 0;
-  padding: 0;
   display: inline-block;
 
   &::before {
     content: "·";
     display: inline-block;
-    margin-right: 8px;
+    margin-right: .4rem;
   }
 
   &__tag {
-    margin: 0;
-    padding: 0;
-    list-style: none;
     display: inline-block;
-    margin-right: 8px;
+    margin-right: .8rem;
     font-size: 1.5rem;
 
     @include media('>small') {
@@ -27,14 +22,6 @@
 
     &:last-child {
       margin-right: 0;
-    }
-  }
-
-  &__list-item {
-    margin: 8px 0;
-
-    &:last-child {
-      margin-bottom: 0;
     }
   }
 }

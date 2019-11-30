@@ -21,8 +21,8 @@ eleventyExcludeFromCollections: true
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="page">
-      <h1 class="page__title">Posts tagged with &ldquo;{{ tag }}&rdquo;</h1>
+    <article class="posts-list">
+      <h1 class="posts-list__title">Posts tagged with &ldquo;{{ tag }}&rdquo;</h1>
       <ul class="posts">
         {% for post in postListItems | reverse %}
           <li class="posts__item">
@@ -33,7 +33,6 @@ eleventyExcludeFromCollections: true
           </li>
         {% endfor %}
       </ul>
-      {# {% include "partials/components/pagination.njk" %} #}
     </article>
   </main>
 {% endblock %}
