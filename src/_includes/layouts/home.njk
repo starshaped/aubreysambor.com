@@ -2,25 +2,25 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <div class="posts-list">
+    <div class="post-listing">
       <p class="bio homepage__bio">
         My name is <b>Aubrey</b> and I love knitting, tea, and web development. I code during the day and make my own yarn, write in my journal, and cook tasty food in the evenings.
       </p>
 
-      <h2 class="posts-list__title">{{ postsHeading }}</h2>
+      <h2 class="post-listing__heading">{{ postsHeading }}</h2>
 
-      <ul class="posts">
+      <ul class="post-listing__list">
         {%- for post in collections.homepagePosts -%}
-          <li class="posts__item">
-            <h3 class="posts__title">
+          <li class="post-listing__item">
+            <h3 class="post-listing__title">
               <a href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
             </h3>
-            <time class="posts__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
+            <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
           </li>
         {%- endfor -%}
       </ul>
 
-      <p class="posts-list__see-all-link">
+      <p class="post-listing__see-all-link">
         <a href="/archives">
           See all posts
           <span aria-hidden="true">→</span>

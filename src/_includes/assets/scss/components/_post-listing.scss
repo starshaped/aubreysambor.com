@@ -1,13 +1,44 @@
-.posts-list {
+.post-listing {
   @extend %content-padding-inner;
 
-  &__title {
+  &__heading {
     @extend %h1;
     margin-bottom: calc(var(--flow-space) * .5);
   }
 
   &__see-all-link {
     margin-top: var(--flow-space);
+  }
+
+  &__item {
+    line-height: 2.5;
+
+    @include media('>small') {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    font-family: var(--base-font-family);
+    line-height: 1.5;
+    font-size: 1.9rem;
+    font-weight: normal;
+  }
+
+  &__date {
+    flex: 0 0 17.5rem;
+    order: -1;
+    font-family: var(--header-font-family);
+    font-size: 2rem;
+
+    @include media('>small') {
+      font-size: 2.1rem;
+    }
+
+    @include media('>medium') {
+      font-size: 2.2rem;
+    }
   }
 }
 
