@@ -6,7 +6,7 @@ tags:
 ---
 ![A beautifully arranged plate of sushi from Japan.](../../images/japan-sushi.jpg "I ate sushi in Japan this year. Naturally, it was fantastic.")
 
-Last year, I started compiling a list of [good things that happened throughout the year](/2017-good-things-list). I enjoyed coming up with good things last year, so I'm doing it again for 2018. Here are some good things from the year:
+Last year, I started compiling a list of [good things that happened throughout the year](/posts/2017-good-things-list). I enjoyed coming up with good things last year, so I'm doing it again for 2018. Here are some good things from the year:
 
 * I traveled a bunch -- Portland, Oregon for the [Pacific Northwest Drupal Summit](https://pnwdrupalsummit.org/); Fort Lauderdale for work; New Orleans for [VueConf](http://vueconf.us/); and Japan (!!!), a trip high on my bucket list. 
 * Naturally, the Japan trip gets its own bullet point! We spent nearly three weeks riding the bullet train across the southern part of the country, journeying to Fukuoka, Beppu, Osaka, Himeji, Kobe, Kyoto, Nara, Kanazawa, and Tokyo. We walked a lot and toured a ton of castles and gardens, and I of course ate some delicious food. 
