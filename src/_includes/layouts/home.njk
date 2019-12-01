@@ -1,14 +1,5 @@
 {% extends 'layouts/base.njk' %}
 
-{# Intro content #}
-{% set introHeading = title %}
-{% set introSummary %}
-  {{ content | safe }}
-{% endset %}
-
-{# Post list content #}
-{% set postListItems = collections.homepagePosts %}
-
 {% block content %}
   <main id="main-content" tabindex="-1">
     <div class="posts-list">
@@ -19,7 +10,7 @@
       <h2 class="posts-list__title">{{ postsHeading }}</h2>
 
       <ul class="posts">
-        {%- for post in postListItems -%}
+        {%- for post in collections.homepagePosts -%}
           <li class="posts__item">
             <h3 class="posts__title">
               <a href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>

@@ -1,6 +1,7 @@
 @import './base/variables';
 @import './base/reset';
-@import './base/base';
+@import './base/utils';
+@import './base/typography';
 
 @import './layout/content';
 @import './layout/header';
@@ -8,3 +9,4 @@
 @import './layout/footer';
 
 @import './components/tags';
+@import './components/posts-list';

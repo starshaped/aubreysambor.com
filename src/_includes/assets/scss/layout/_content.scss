@@ -1,9 +1,9 @@
 main {
+
   background-color: var(--background-color);
 
   @include media('>small') {
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
+    @include content-padding;
   }
 
   a {
@@ -18,53 +18,8 @@ main {
   }
 }
 
-.posts {
-
-  &__item {
-
-    line-height: 2.5;
-
-    @include media('>small') {
-      display: flex;
-      align-items: center;
-    }
-  }
-
-  &__title {
-    font-family: var(--base-font-family);
-    line-height: 1.5;
-    font-size: 1.9rem;
-    font-weight: normal;
-  }
-
-  &__date {
-    flex: 0 0 17.5rem;
-    order: -1;
-    font-family: var(--header-font-family);
-    font-size: 2rem;
-
-    @include media('>small') {
-      font-size: 2.1rem;
-    }
-
-    @include media('>medium') {
-      font-size: 2.2rem;
-    }
-  }
-}
-
 .content {
-  max-width: var(--content-width);
-  margin: auto;
-  padding: 3.2rem 2rem;
-
-  @include media('>small') {
-    padding: 4.8rem 0;
-  }
-  
-  @include media('>medium') {
-    padding: 5.6rem 0;
-  }
+  @extend %content-padding-inner;
 
   &__meta {
     margin-top: calc(var(--flow-space) * .25);
@@ -85,7 +40,6 @@ main {
   }
 
   &__body {
-
     & > * + * {
       margin-top: var(--flow-space);
     }
@@ -134,83 +88,3 @@ main {
     }
   }
 }
-
-.bio {
-  margin-bottom: var(--flow-space);
-  font-size: 2rem;
-
-  @include media('>small') {
-    font-size: 2.1rem;
-
-  }
-
-  @include media('>medium') {
-    font-size: 2.2rem;
-    width: 70%;
-  }
-}
-
-// Hide skip link visually by default
-.skip-link:not(:focus) {
-  @extend .visually-hidden;
-}
-
-.skip-link:focus {
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  background-color: var(--text-color);
-  color: var(--accent-color);
-  line-height: 1;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 1.6rem;
-}
-
-.heading-permalink {
-  margin-left: 1rem;
-  box-shadow: none;
-  color: transparent;
-
-  &:hover {
-    box-shadow: none;
-    color: var(--primary-link);
-  }
-}
-
-img[src$="aubrey.jpg"] {
-  max-width: 30rem;
-
-  @include media('>medium') {
-    margin-top: .8rem;
-    margin-right: 2.4rem;
-    float: left;
-  }
-}
-
-.posts-list {
-
-  max-width: var(--content-width);
-  margin: auto;
-  padding: 3.2rem 2rem;
-
-  @include media('>small') {
-    padding: 4.8rem 0;
-  }
-  
-  @include media('>medium') {
-    padding: 5.6rem 0;
-  }
-
-  &__title {
-    @extend %h1;
-    margin-bottom: calc(var(--flow-space) * .5);
-  }
-
-  &__see-all-link {
-    margin-top: var(--flow-space);
-  }
-}
-

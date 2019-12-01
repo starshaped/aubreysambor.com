@@ -1,0 +1,77 @@
+// Mixins.
+@mixin content-padding($padding-vertical: 0) {
+  padding: $padding-vertical 2.4rem;
+}
+
+
+// Placeholders.
+%content-padding-inner {
+  max-width: var(--content-width);
+  margin: auto;
+  padding: 3.2rem 1.6rem;
+
+  @include media('>small') {
+    padding: 4.8rem 0;
+  }
+  
+  @include media('>medium') {
+    padding: 5.6rem 0;
+  }
+}
+
+// Accessibility fun!
+.skip-link:not(:focus) {
+  @extend .visually-hidden;
+}
+
+.skip-link:focus {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: var(--text-color);
+  color: var(--accent-color);
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+// General shit that doesn't belong anywhere else.
+.heading-permalink {
+  margin-left: 1rem;
+  box-shadow: none;
+  color: transparent;
+
+  &:hover {
+    box-shadow: none;
+    color: var(--primary-link);
+  }
+}
+
+// About me related stuff.
+.bio {
+  margin-bottom: var(--flow-space);
+  font-size: 2rem;
+
+  @include media('>small') {
+    font-size: 2.1rem;
+
+  }
+
+  @include media('>medium') {
+    font-size: 2.2rem;
+    width: 70%;
+  }
+}
+
+img[src$="aubrey.jpg"] {
+  max-width: 30rem;
+
+  @include media('>medium') {
+    margin-top: .8rem;
+    margin-right: 2.4rem;
+    float: left;
+  }
+}
