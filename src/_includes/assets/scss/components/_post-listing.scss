@@ -11,11 +11,19 @@
   }
 
   &__item {
-    line-height: 2.5;
+    line-height: 1.5;
+
+    @include media('<=small') {
+      &:not(:last-child) {
+        margin-bottom: calc(var(--flow-space) * .5);
+      }
+    }
 
     @include media('>small') {
+      line-height: 2.5;
       display: flex;
       align-items: center;
+      margin-bottom: 0;
     }
   }
 
