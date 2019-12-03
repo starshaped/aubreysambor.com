@@ -1,5 +1,5 @@
 ---
-title: Hot Chocolate Run 5k 2013 race recap!
+title: 2013 Hot Chocolate Run 5k race recap!
 date: 2013-12-26
 tags:
 - running

@@ -1,5 +1,5 @@
 ---
-title: Race recap - 2014 Market Square Day 10k
+title: 2014 Market Square Day 10k race recap
 date: 2014-06-16
 tags:
 - running
