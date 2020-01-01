@@ -8,7 +8,7 @@ tags:
 
 2019, for lack of a better term, *sucked*. It was a hard year full of loss and grief, plus I dealt with my anxiety a lot and that certainly wasn't easy. I spent some of this year in tears, feeling down about myself and the world in general, but I'm trying to stay positive. I'm trying to remember the good things that *did* happen this year, and a lot of good things *did* occur. Here are some of those things!
 
-* I was fortunate enough to go on a few great trips -- Canada to visit Adam's parents, Seattle for [DrupalCon](https://events.drupal.org/seattle2019), a train trip to the Grand Canyon and Zion national parks, Oklahoma for work (my first time in that state!), Philadelphia with my friends, a road trip to Prince Edward Island, and a long weekend at Rhinebeck with my knitting friends!
+* I was fortunate enough to go on a few great trips -- Canada to visit Adam's parents, Seattle for [DrupalCon](https://events.drupal.org/seattle2019), a train trip to the Grand Canyon and Zion national parks, Oklahoma for work (my first time in that state!), Philadelphia with some friends, a road trip to Prince Edward Island, and a long weekend at Rhinebeck with my knitting friends!
 * [Just like in 2018](/posts/2018-good-things-list), my relationship with [Adam](https://phenaproxima.net) continued to grow. We learned a lot about each other this year and we continue to teach each other new things. We also challenge each other, which I find incredibly important in a relationship! I hope our relationship continues to grow in 2020.
 * On a related note, Adam and I signed a lease to an apartment in 2019! I won't be moving into the apartment until later in 2020 when my lease is up at my current place, but I'm excited to live together.
 * For the first time since the late 90s, I lived in the same dwelling for over two years. I have moved SO MANY TIMES as an adult so it was great to stay in the same place for awhile!
@@ -18,3 +18,5 @@ tags:
 * We saw a bunch of awesome shows this year -- Bombino, Weird Al (for the second year in a row!), Jody Wisternoff, Caravan Palace, The New Pornographers, and Opiuo (again, for the second year in a row). They were all super fun!
 * For the first time in 5 and a half years, I ran a race! I ran a Turkey Trot 5k on Thanksgiving morning. It was my slowest ever 5k but I'm so, so happy I got back out there. One of my 2020 goals is to start running again, so this was a good way to start.
 * I knit a bunch of things this year, including 5 pairs of socks for Adam. I love that [he wears everything I knit for him](/posts/adams-awesome-blue-socks), AND that he buys the yarn for the socks I knit for him! He's a keeper.
+
+**Read past good things lists:** [2018 good things list](/posts/2018-good-things-list), [2017 good things list](/posts/2017-good-things-list).
