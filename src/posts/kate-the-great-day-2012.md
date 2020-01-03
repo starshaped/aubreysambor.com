@@ -2,7 +2,7 @@
 title: Kate the Great Day 2012!
 date: 2012-03-06
 tags:
-- life in general
+- beer
 ---
 Can you believe it's been a year since [I last wrote about standing in line for a beer](/posts/kate-the-great-day-2011)? No? Well, I can't either.
 

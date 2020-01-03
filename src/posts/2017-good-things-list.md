@@ -2,7 +2,7 @@
 title: 2017 good things list
 date: '2017-12-16'
 tags: 
-  - life in general
+  - good things list
 ---
 ![The Louvre.](../../images/louvre.jpg "Yes, I went to Paris!")
 

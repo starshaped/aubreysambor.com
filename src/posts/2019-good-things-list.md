@@ -2,7 +2,7 @@
 title: 2019 good things list
 date: 2020-01-01
 tags:
-  - life in general
+  - good things list
 ---
 ![The Grand Canyon.](../../images/grand-canyon.jpg "I FINALLY went to the Grand Canyon and it was amazing.")
 

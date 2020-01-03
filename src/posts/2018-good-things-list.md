@@ -2,7 +2,7 @@
 title: 2018 good things list
 date: 2018-12-29
 tags:
-  - life in general
+  - good things list
 ---
 ![A beautifully arranged plate of sushi from Japan.](../../images/japan-sushi.jpg "I ate sushi in Japan this year. Naturally, it was fantastic.")
 

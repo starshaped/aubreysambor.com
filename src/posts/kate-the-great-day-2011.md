@@ -2,7 +2,7 @@
 title: Kate the Great Day 2011!
 date: 2011-03-28
 tags:
-- life in general
+- beer
 ---
 So, I kind of like beer. A lot. I love trying new beers and scoping out breweries.
 
