@@ -19,8 +19,6 @@ A few weeks ago I came across [Just Bento](http://justbento.com), a site highlig
 
 Anyway. As you can see, the above picture is not of one of my lunches, but of a dinner I tried a few weeks ago with a recipe from the Just Bento site. The author makes these dishes for the lunches she makes, but I've been using them for dinners instead. The recipes have been excellent; pictured above is the [Very Easy Marinated Chicken Skewers](http://justbento.com/handbook/recipe-collection-mains/very-easy-marinated-chicken-skewers) recipe. It contains ingredients I already had laying around my apartment, and cooking didn't take very long either; it doesn't look like a lot of food, but I'll eat these meals with rice as well, which works out for me.
 
-<drupal-entity alt="Sesame pork" data-caption="I heart sesame flavored pork." data-embed-button="media_browser" data-entity-embed-display="media_image" data-entity-embed-display-settings="{&quot;image_style&quot;:&quot;large&quot;,&quot;image_link&quot;:&quot;&quot;}" data-entity-type="media" data-entity-uuid="6e9a9708-b716-4891-89a4-f8a0bf419595" title="Sesame pork"></drupal-entity>
-
 Other recipes I've made (and loved!):
 
 * [Sesame Flavored Beef](http://justbento.com/handbook/recipe-collection-mains/sesame-flavored-beef) (I've only made this with pork so far, but it's still delicious!)

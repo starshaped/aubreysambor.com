@@ -24,6 +24,4 @@ It wasn't sub 30, but it *was* a new PR. I looked again in disbelief. After my 3
 
 ![My split times for the Great Bay 5k.](../../images/greatbay-splits.png "My splits.")
 
-<drupal-entity alt="Great Bay 5k splits" data-caption="My splits." data-embed-button="media_browser" data-entity-embed-display="media_image" data-entity-embed-display-settings="{&quot;image_style&quot;:&quot;&quot;,&quot;image_link&quot;:&quot;&quot;}" data-entity-type="media" data-entity-uuid="92255bdf-7ca6-4d71-ade8-b3125641bed2" title="Great Bay 5k splits"></drupal-entity>
-
 I'm signed up for two more 5ks before the end of the year. I am **so** close to a sub-30 5k. **I can do this.**

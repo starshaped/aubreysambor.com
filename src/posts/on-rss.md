@@ -1,0 +1,19 @@
+---
+title: On RSS
+date: 2003-08-10
+tags:
+- tech
+---
+These days, when I’m surfing the net and checking out new websites, I read all about RSS and how RSS feeds should be implemented. What’s RSS? Yeah, I could give out one of those long-winded explanations on what it is, but in all truth, I’m not really sure myself. I only know that if a person has a weblog that’s run by any of the major weblogging software systems ([Movable Type](https://www.movabletype.org), [b2](http://cafelog.com), etc.), then that person also has had an automatic RSS feed of their weblog, with the template generated when the weblog is installed or created. Other than that, that’s all I know.
+
+Why is this useful? Well, if a person reads enough weblogs and is too lazy to go and check each and every one every day (yeah, it all comes down to laziness, pretty much), then that person can just download or purchase a piece of software called a news aggregator and add the specific weblogs’ RSS feeds to it. Viola, now all the person needs to do to check out all their favorite weblogs is to click the ‘update’ button on their aggregator and all the updated RSS feeds appear.
+
+I’m not a huge fan of this, however. With RSS feeds, none of the layout aspects of the webpage displays, just the text itself. Sure, content is the most important part of the weblog, but it would be rediculous to think that presentation doesn’t matter at all. I feel strange reading weblog posts on a white background, with black text, nearly indistinguishable from each other unless I read the title to see who’s weblog I’m reading. Thankfully, most of the time only excerpts from the actual entry are posted in the news aggregator, with a link to the actual website to read the rest of the post below the excerpt. However, some people like to actually put the entire entry in their RSS feeds instead of only the excerpt, so people reading the site via RSS feeds can read the entire entry right then and there. This is where I see most of the controversy I read online about RSS, the ‘excerpt or no excerpt’ argument.
+
+Some people, like myself, like the excerpt system. I like giving the 3 people who read my site via RSS feeds the option to read the entire entry or not. If the entry doesn’t sound interesting, then they can just skip on by! Also, I like getting hits to my site. (Who doesn’t?) If someone just reads the entire entry via RSS feeds, then will they go to my site? Probably not, unless they feel incredibly compelled to comment on something I’ve said.
+
+On the other hand, some people prefer to read entire entries in their newsreaders, forgoing the excerpt idea altogether. People would much rather read the entire entry right there instead of clicking on the link to the rest of the entry; after all, why choose to read the RSS feed instead of going to the actual site if that’s the option? (Sarcasm.)
+
+Actually, I don’t care how people read sites. Unfortunately, only the weblog author him (or her)self has the choice on how they want their RSS feeds displayed. I could set mine so that there isn’t an excerpt, but everyone would have to deal with how I’ve changed it. I don’t like how some HTML tags aren’t displayed in my newsreader (which could be because of the one I’m using, because I’m a broke college student and I don’t have the money to spend on software when I can just use a freeware one for far cheaper), and I don’t like people not going to my site to, well, read my site. I’m happy with how my RSS feeds are displayed now, and I’m even happier when people click on my link to read my site.
+
+That’s my take on RSS. It’s not a big deal to me, and I use feeds to read sites on occasion, but I’d much rather take the time to go to the individual websites to both read the content and take in the layout that is displayed. To me, both things make a weblog interesting and engaging.
