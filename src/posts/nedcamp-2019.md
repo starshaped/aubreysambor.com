@@ -10,6 +10,7 @@ NEDCamp was held in Providence, RI again this year, so that worked out well for 
 ## The Sessions
 
 ### Drupal 8 &amp; Gatsby JS: What, Why &amp; How by Zachary Weishar
+
 ![Zachary talking about Drupal and Gatsby.](../../images/nedcamp-2019-gatsby.jpg "Photo courtesy of the NEDCamp 2019 team.")
 
 Even though I no longer use Gatsby to power my site, I still enjoy going to talks about decoupling Drupal. This was a nice overview of what you gain and lose by decoupling your Drupal site, so this session's a great reminder of the plusses and minuses of using Gatsby as your front end.
