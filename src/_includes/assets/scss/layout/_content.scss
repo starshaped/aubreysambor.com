@@ -1,20 +1,21 @@
-main {
+  a {
+    color: var(--primary-link);
+    text-decoration-thickness: .175rem;
+    text-underline-offset: .25rem;
+    transition: all 0.3s;
+    padding: 0 .5rem; 
+  
+    &:hover {
+      background-color: var(--primary-link-hover);
+    }
+  }
+  
+  main {
 
   background-color: var(--background-color);
 
   @include media('>small') {
     @include content-padding;
-  }
-
-  a {
-    color: var(--primary-link);
-    text-decoration: none;
-    box-shadow: inset 0 -0.25rem 0 0 var(--primary-link);
-    transition: box-shadow 0.2s;
-  
-    &:hover {
-      box-shadow: inset 0 -2.5rem 0 0 var(--primary-link-hover);
-    }
   }
 }
 

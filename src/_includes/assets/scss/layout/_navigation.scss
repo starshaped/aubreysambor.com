@@ -22,10 +22,11 @@
     position: relative;
     display: inline-block;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
-    text-transform: uppercase;
+    //text-transform: uppercase;
     box-shadow: none;
+    padding: 0;
   
     &::after {
       content: '';
@@ -41,6 +42,7 @@
     &:hover {
       text-decoration: none;
       color: var(--primary-link);
+      background-color: transparent;
   
       &::after {
         width: 100%;
@@ -49,11 +51,11 @@
     }
 
     @include media('>small') {
-      font-size: 1.7rem;
+      font-size: 2.1rem;
     }
 
     @include media('>medium') {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
     }
 
     // Keep underline on active page

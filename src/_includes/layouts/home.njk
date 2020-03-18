@@ -13,19 +13,17 @@
         {%- for post in collections.homepagePosts -%}
           <li class="post-listing__item">
             <h3 class="post-listing__title">
-              <a href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
+              <a class="post-listing__link" href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
             </h3>
             <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
           </li>
         {%- endfor -%}
       </ul>
 
-      <p class="post-listing__see-all-link">
-        <a href="/archives">
-          See all posts
-          <span aria-hidden="true">→</span>
-        </a>
-      </p>
+      <a class="post-listing__see-all-link" href="/archives">
+        See all posts
+        <span aria-hidden="true">→</span>
+      </a>
     </div>
   </main>
 {% endblock %}

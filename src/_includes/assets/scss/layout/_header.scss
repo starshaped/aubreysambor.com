@@ -32,5 +32,9 @@
   &__title-link {
     color: var(--text-color);
     text-decoration: none;
+
+    &:hover {
+      background-color: transparent;
+    }
   }
 }
