@@ -1,6 +1,7 @@
 ---
 title: 2019 good things list
 date: 2020-01-01
+summary: "I am a test meta description"
 tags:
   - good things list
 ---

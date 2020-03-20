@@ -1,14 +1,10 @@
 {% set pageTitle = title + ' | ' + site.name %}
-{% set pageDesc = '' %}
+{% set pageDesc = site.description %}
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
 
-{% if metaTitle %}
-  {% set pageTitle = metaTitle %}
-{% endif %}
-
-{% if metaDesc %}
-  {% set pageDesc = metaDesc %}
+{% if summary %}
+  {% set pageDesc = summary %}
 {% endif %}
 
 <title>{{ pageTitle }}</title>
@@ -23,15 +19,13 @@
   <meta name="twitter:creator" content="@{{ site.authorHandle | replace('@', '') }}" />
 {% endif %}
 
-{% if metaDesc %}
-  <meta name="description" content="{{ metaDesc }}" />
-  <meta name="twitter:description" content="{{ metaDesc }}" />
-  <meta property="og:description" content="{{ metaDesc }}" />
-{% endif %}
+<meta name="description" content="{{ pageDesc }}" />
+<meta name="twitter:description" content="{{ pageDesc }}" />
+<meta property="og:description" content="{{ pageDesc }}" />
 
-{% if socialImage %}  
-  <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
+{% if featuredImage %}  
+  <meta property="og:image" content="{{ featuredImage }}" />
+  <meta name="twitter:image" content="{{ featuredImage }}" />
   <meta property="og:image:alt" content="Page image for {{ site.name }}" />
   <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
