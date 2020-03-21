@@ -11,8 +11,7 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import site information
 const site = require('./src/_data/site.json');
 
-module.exports = function(config) {
-
+module.exports = function (config) {
   // Plugins
   config.addPlugin(rssPlugin);
 
@@ -24,13 +23,13 @@ module.exports = function(config) {
   config.addTransform('parse', parseTransform);
 
   // Passthrough copy
-  config.addPassthroughCopy({ "src/_includes/assets/css": "css" });
-  config.addPassthroughCopy({"src/_includes/assets/fonts": "fonts"});
-  config.addPassthroughCopy({"src/_includes/assets/images": "images"});
+  config.addPassthroughCopy({ 'src/_includes/assets/css': 'css' });
+  config.addPassthroughCopy({ 'src/_includes/assets/fonts': 'fonts' });
+  config.addPassthroughCopy({ 'src/_includes/assets/images': 'images' });
   config.addPassthroughCopy('src/js');
 
   // Limit homepage posts by the max posts per page.
-  config.addCollection('homepagePosts', collection => {
+  config.addCollection('homepagePosts', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')]
       .reverse()
       .slice(0, site.maxPostsPerPage);
@@ -38,9 +37,9 @@ module.exports = function(config) {
 
   return {
     dir: {
-      input: "src",
-      output: "dist",
-      layouts: "_includes/layouts"
-    }
-  }
+      input: 'src',
+      output: 'dist',
+      layouts: '_includes/layouts',
+    },
+  };
 };

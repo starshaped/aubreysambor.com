@@ -12,12 +12,16 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
+    "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@tbranyen/jsdom": "^13.0.0",
     "concurrently": "^5.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "include-media": "^1.4.9",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "prettier": "^2.0.0"
   }
 }
