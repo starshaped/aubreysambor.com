@@ -35,6 +35,10 @@ module.exports = function (config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  config.addCollection('archives', (collection) => {
+    return collection.getAll();
+  });
+
   return {
     dir: {
       input: 'src',
