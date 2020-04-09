@@ -3,7 +3,6 @@
   padding: $padding-vertical 2.4rem;
 }
 
-
 // Placeholders.
 %content-padding-inner {
   max-width: var(--content-width);
@@ -13,7 +12,7 @@
   @include media('>small') {
     padding: 4.8rem 0;
   }
-  
+
   @include media('>medium') {
     padding: 5.6rem 0;
   }
@@ -50,14 +49,13 @@
   }
 }
 
-// About me related stuff.
-.bio {
+// General intro text.
+.intro p {
   margin-bottom: var(--flow-space);
   font-size: 2rem;
 
   @include media('>small') {
     font-size: 2.1rem;
-
   }
 
   @include media('>medium') {
@@ -66,11 +64,11 @@
   }
 }
 
-img[src$="about-aubrey.jpg"] {
+img[src$='about-aubrey.jpg'] {
   max-width: 30rem;
 
   @include media('>medium') {
-    margin-top: .8rem;
+    margin-top: 0.8rem;
     margin-right: 2.4rem;
     float: left;
   }

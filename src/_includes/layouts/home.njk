@@ -1,11 +1,15 @@
 {% extends 'layouts/base.njk' %}
 
+{% set introSummary %}
+  {{ content | safe }}
+{% endset %}
+
 {% block content %}
   <main id="main-content" tabindex="-1">
+
     <div class="post-listing">
-      <p class="bio homepage__bio">
-        My name is <b>Aubrey</b> and I love knitting, tea, and web development. I code during the day and make my own yarn, write in my journal, and cook tasty food in the evenings.
-      </p>
+
+      {% include "layouts/partials/components/intro.njk" %}
 
       <h2 class="post-listing__heading">{{ postsHeading }}</h2>
 
