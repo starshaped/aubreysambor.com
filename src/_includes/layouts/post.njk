@@ -11,13 +11,11 @@
         {% endif %}
 
         {% if tags %}
-          <ul class="tags">
+          <p class="tags">Tagged with 
             {% for tag in tags %}
-              <li class="tags__tag">
-                <a class="tags__tag-link" href="/tags/{{ tag | slug }}">{{ tag }}</a>
-              </li>
+              <a class="tags__tag-link" href="/tags/{{ tag | slug }}">{{ tag }}</a>
             {% endfor %}
-          </ul>
+          </p>
         {% endif %}
       </div>
       <div class="content__body">
