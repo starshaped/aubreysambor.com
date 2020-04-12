@@ -18,50 +18,6 @@
   }
 
   &__link {
-    color: var(--primary-link);
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: bold;
-    box-shadow: none;
-    padding: 0;
-  
-    &::after {
-      content: '';
-      position: absolute;
-      top: 85%;
-      height: 3px;
-      width: 0;
-      left: 0;
-      background-color: var(--primary-link);
-      transition: 0.5s ease all .3s;
-    }
-  
-    &:hover {
-      text-decoration: none;
-      color: var(--primary-link);
-      background-color: transparent;
-  
-      &::after {
-        width: 100%;
-        transition: 0.3s ease all;
-      }
-    }
-
-    @include media('>small') {
-      font-size: 2.1rem;
-    }
-
-    @include media('>medium') {
-      font-size: 2.2rem;
-    }
-
-    // Keep underline on active page
-    &[aria-current="page"] {
-      &::after {
-        width: 100%;
-      }
-    }
+    padding: 0.5rem 0.75rem;
   }
 }
