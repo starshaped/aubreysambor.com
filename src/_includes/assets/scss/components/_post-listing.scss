@@ -63,11 +63,7 @@
 .posts {
   &__item {
     line-height: 2.5;
-
-    @include media('>small') {
-      display: flex;
-      align-items: center;
-    }
+    color: #ccc;
   }
 
   &__title {
