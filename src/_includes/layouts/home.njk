@@ -4,30 +4,27 @@
   {{ content | safe }}
 {% endset %}
 
+{% set postListItems = collections.homepagePosts %}
+
 {% block content %}
   <main id="main-content" tabindex="-1">
-
-    <div class="post-listing">
+    <div class="content">
 
       {% include "layouts/partials/components/intro.njk" %}
 
-      <h2 class="post-listing__heading">{{ postsHeading }}</h2>
+      <hr />
 
-      <ul class="post-listing__list">
-        {%- for post in collections.homepagePosts -%}
-          <li class="post-listing__item">
-            <h3 class="post-listing__title">
-              <a class="post-listing__link" href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
-            </h3>
-            <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
-          </li>
-        {%- endfor -%}
-      </ul>
+      <div class="content__recent">
 
-      <a class="post-listing__see-all-link" href="/archives">
-        See all posts
-        <span aria-hidden="true">→</span>
-      </a>
+        <h2 class="content__title">{{ postsHeading }}</h2>
+
+        {% include "layouts/partials/components/post-listing.njk" %}
+
+        <a class="content__see-all-link" href="/archives">
+          See all posts
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
     </div>
   </main>
 {% endblock %}

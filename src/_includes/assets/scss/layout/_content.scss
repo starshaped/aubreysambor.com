@@ -1,15 +1,3 @@
-a {
-  color: var(--primary-link);
-  text-decoration-thickness: 0.175rem;
-  text-underline-offset: 0.25rem;
-  transition: all 0.3s;
-  padding: 0 0.25rem;
-
-  &:hover {
-    background-color: var(--primary-link-hover);
-  }
-}
-
 main {
   background-color: var(--background-color);
 
@@ -20,6 +8,36 @@ main {
 
 .content {
   @extend %content-padding-inner;
+
+  &__intro {
+    margin-bottom: calc(var(--flow-space) * 1.5);
+
+    p {
+      font-size: 2rem;
+
+      @include media('>small') {
+        font-size: 2.1rem;
+      }
+
+      @include media('>medium') {
+        font-size: 2.2rem;
+        width: 70%;
+      }
+    }
+  }
+
+  &__recent {
+    margin-top: calc(var(--flow-space) * 1.25);
+  }
+
+  &__title {
+    @extend %h1;
+    margin-bottom: calc(var(--flow-space) * 1.25);
+
+    &--condensed {
+      margin-bottom: calc(var(--flow-space) * 0.25);
+    }
+  }
 
   &__meta {
     margin-top: calc(var(--flow-space) * 0.25);
@@ -43,54 +61,19 @@ main {
     & > * + * {
       margin-top: var(--flow-space);
     }
+  }
 
-    ul,
-    ol {
-      --flow-space: 3rem;
-      & > * + * {
-        margin-top: var(--flow-space);
-      }
+  &__see-all-link {
+    display: inline-block;
+    margin-top: var(--flow-space);
+    font-size: 1.8rem;
+
+    @include media('>small') {
+      font-size: 1.9rem;
     }
 
-    ol {
-      list-style-type: decimal;
-    }
-
-    ul {
-      list-style-type: square;
-    }
-
-    figure {
-      margin: 0 0 2.8rem 0;
-    }
-
-    figcaption {
-      text-align: center;
-      margin-top: 0.8rem;
-      font-size: 1.4rem;
-      line-height: 1.5;
-
-      @include media('>=small') {
-        font-size: 1.5rem;
-      }
-
-      @include media('>=medium') {
-        font-size: 1.6rem;
-      }
-    }
-
-    blockquote {
-      margin-left: 50px;
-      padding-left: 15px;
-      border-left: 3px solid var(--text-color);
-    }
-
-    hr {
-      border: 0;
-      height: 0.4rem;
-      background-color: var(--accent-color);
-      border-radius: 0.4rem;
-      margin: 3.2rem auto;
+    @include media('>medium') {
+      font-size: 2rem;
     }
   }
 }

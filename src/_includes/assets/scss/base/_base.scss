@@ -1,0 +1,123 @@
+html {
+  font-size: 10px;
+  font-family: var(--base-font-family);
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+hr {
+  border: 0;
+  height: 0.4rem;
+  background-color: var(--accent-color);
+  border-radius: 0.4rem;
+}
+
+a {
+  color: var(--primary-link);
+  text-decoration-thickness: 0.175rem;
+  text-underline-offset: 0.25rem;
+  transition: all 0.3s;
+  padding: 0 0.25rem;
+
+  &:hover {
+    background-color: var(--primary-link-hover);
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--header-font-family);
+}
+
+h1,
+%h1 {
+  font-size: 3.6rem;
+
+  @include media('>small') {
+    font-size: 4rem;
+  }
+
+  @include media('>medium') {
+    font-size: 4.2rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+
+  @include media('>small') {
+    font-size: 3.2rem;
+  }
+
+  @include media('>medium') {
+    font-size: 3.4rem;
+  }
+}
+
+h3 {
+  font-size: 2.8rem;
+
+  @include media('>small') {
+    font-size: 3rem;
+  }
+
+  @include media('>medium') {
+    font-size: 3.2rem;
+  }
+}
+
+p,
+li {
+  font-size: 1.8rem;
+  line-height: 1.825;
+
+  @include media('>small') {
+    font-size: 1.9rem;
+  }
+
+  @include media('>medium') {
+    font-size: 2rem;
+  }
+}
+
+ul,
+ol {
+  --flow-space: 3rem;
+  & > * + * {
+    margin-top: var(--flow-space);
+  }
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: square;
+}
+
+figure {
+  margin: 0 0 2.8rem 0;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
+
+  @include media('>=small') {
+    font-size: 1.5rem;
+  }
+
+  @include media('>=medium') {
+    font-size: 1.6rem;
+  }
+}
+
+blockquote {
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid var(--text-color);
+}
