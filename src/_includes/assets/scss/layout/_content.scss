@@ -33,6 +33,10 @@ main {
   &__title {
     @extend %h1;
     margin-bottom: calc(var(--flow-space) * 1.25);
+
+    &--condensed {
+      margin-bottom: calc(var(--flow-space) * 0.25);
+    }
   }
 
   &__meta {
