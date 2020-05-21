@@ -16,13 +16,13 @@ eleventyExcludeFromCollections: true
 ---
 {% extends 'layouts/base.njk' %}
 
-{# Post list content #}
+{% set contentHeading = "Posts tagged with “" ~ tag ~ "”" %}
 {% set postListItems = collections[tag] | reverse %}
-{% set postListHeading = "Posts tagged with “" ~ tag ~ "”" %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="post-listing">
+    <article class="content">
+     <h1 class="content__title">{{ contentHeading }}</h1>
       {% include "layouts/partials/components/post-listing.njk" %}
     </article>
   </main>

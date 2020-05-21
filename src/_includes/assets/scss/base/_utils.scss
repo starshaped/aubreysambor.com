@@ -49,19 +49,16 @@
   }
 }
 
-// General intro text.
-.intro p {
-  margin-bottom: var(--flow-space);
-  font-size: 2rem;
-
-  @include media('>small') {
-    font-size: 2.1rem;
-  }
-
-  @include media('>medium') {
-    font-size: 2.2rem;
-    width: 70%;
-  }
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 
 img[src$='about-aubrey.jpg'] {

@@ -1,5 +1,6 @@
 ---
 title: CSS Naked Day 2020
+summary: Hey, what's with the lack of style here today?
 date: 2020-04-08
 tags:
   - web development
