@@ -1,5 +1,6 @@
 ---
 title: DrupalCamp New Jersey 2019
+summary: Adam and I took multiple modes of transportation to attend DrupalCamp New Jersey, and we enjoyed time with friends, awesome sessions, and fantastic local brews.
 date: '2019-02-18'
 tags:
   - conferences
@@ -14,9 +15,9 @@ The camp started bright and early Saturday morning. We hitched a ride with a cou
 
 ## The sessions
 
-It wouldn't be a camp without attending a couple sessions!  I ended up attending four, spending the rest of my time in the sprint room working on fixing this blog. Let's just say I've learned a lot about ESLint over the last few weeks...
+It wouldn't be a camp without attending a couple sessions! I ended up attending four, spending the rest of my time in the sprint room working on fixing this blog. Let's just say I've learned a lot about ESLint over the last few weeks...
 
-### What’s new in WCAG 2.1 by Kara Gaulrapp 
+### What’s new in WCAG 2.1 by Kara Gaulrapp
 
 ![A woman speaking in front of a group of people.](../../images/a11y.jpg)
 
@@ -32,7 +33,7 @@ This session was also very informative and I loved the speaker's badass pink hai
 
 I belong to a little community called the Drupal Coffee Exchange, in which I'm paired with someone else and we send each other local coffee. At some conferences, real life coffee exchanges occur as well, and this camp was no exception. Sadly, I forgot to bring coffee to exchange, but Adam Bergstein (better known as [nerdstein](https://www.drupal.org/u/nerdstein)) bought a box of coffee from a local NJ coffeeshop to share with the participants. It was very tasty!
 
-### How to keep Drupal relevant in the Git-based and API-driven CMS era by Jesus Manuel Olivas 
+### How to keep Drupal relevant in the Git-based and API-driven CMS era by Jesus Manuel Olivas
 
 ![A man speaking in front of a group of people.](../../images/drupal-relevant-git.jpg)
 
@@ -42,7 +43,7 @@ I'm always a sucker for sessions that talk about Gatsby, so of course I attended
 
 I hear a lot about Layout Builder, yet the concept never really made complete sense to me... until this session. Ted demonstrated the capabilites of Layout Builder, and seeing it live made me realize how _easy_ building site-wide layouts and layout one-offs will be once this becomes stable in Drupal 8.7. Care has been given to make Layout Builder as accessible as possible, and the usability is a lot better than I thought I'd be as well. Even I might start using Layout Builder in Drupal projects once it lands!
 
-* * *
+---
 
 After the sessions ended, we headed to a nearby building to enjoy some food and delicious beers while talking more about the day, and after _that_, I headed out with a few friends to enjoy brews at [Triumph Brewing Company](https://www.triumphbrewing.com/). I always enjoy local beers at a local brewpub, and this place did not disappoint! I particularly enjoyed their Winter Wonder, a winter warmer that felt great to drink on a cold winter night. It was a fantastic time.
 

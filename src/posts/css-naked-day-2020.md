@@ -1,6 +1,6 @@
 ---
 title: CSS Naked Day 2020
-summary: Hey, what's with the lack of style here today?
+summary: Hey, what's with the lack of style here today? Learn about CSS Naked Day and why I temporarily removed my theme.
 date: 2020-04-08
 tags:
   - web development

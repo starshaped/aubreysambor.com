@@ -10,7 +10,7 @@
     max-width: var(--content-width);
     margin: auto;
     text-align: center;
-  
+
     @include media('>small') {
       display: flex;
       align-items: center;
