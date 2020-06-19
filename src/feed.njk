@@ -13,6 +13,7 @@ eleventyExcludeFromCollections: true
 	<author>
     <name>{{ site.authorName }}</name>
 	</author>
+  
 	{% for post in collections.all | reverse %}
   {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
   <entry>
