@@ -32,4 +32,26 @@
       margin-top: 0.8rem;
     }
   }
+
+  &__content {
+    .footer__end & {
+      display: flex;
+    }
+  }
+
+  &__social-media {
+    &:hover {
+      background-color: initial;
+    }
+  }
+}
+
+.icon {
+  width: 30px;
+  fill: var(--text-color);
+  transition: all 0.3s;
+
+  &:hover {
+    fill: var(--primary-link);
+  }
 }
