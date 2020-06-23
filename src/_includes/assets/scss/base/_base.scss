@@ -14,13 +14,9 @@ hr {
 
 a {
   color: var(--primary-link);
-  text-decoration-thickness: 0.175rem;
-  text-underline-offset: 0.25rem;
-  transition: all 0.3s;
-  padding: 0 0.25rem;
+  font-weight: bold;
 
   &:hover {
-    background-color: var(--primary-link-hover);
   }
 }
 
