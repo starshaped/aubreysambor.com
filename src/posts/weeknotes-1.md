@@ -20,6 +20,8 @@ Last year, I attempted to write a post on Sundays recapping my week, but I didn'
 
 - I listened to the [latest episode](https://www.tech4humans.io/Tech4HumansEpisode10/) of the [Tech 4 Humans](https://www.tech4humans.io/) podcast, with [Erika Myles](https://twitter.com/EriPDev) as the guest talking about web accessibility. I'm always super jazzed to hear excitement regarding web accessibility, so I recommend this podcast and this episode to anyone else who wants to learn more!
 
+- Book-wise, I finished reading [She Would Be King](https://www.goodreads.com/book/show/41135095-she-would-be-king) by Wayétu Moore earlier this week and started [How to Be an Antiracist](https://www.goodreads.com/book/show/40815366-how-to-be-an-antiracist) by Ibram X. Kendi. I'm now up to [23 books read](https://www.goodreads.com/user_challenges/19792130) so far this year.
+
 - I worked a short week last week, taking Thursday and Friday off. During my short week, I spent some time working on a React application for our client, updating our Storybook instance with updated components. I used Storybook back when I worked on a design system for the company I worked for, so it was fun getting back into it. Also, I _finally_ did my taxes and renewed my driver's license, so gold star for me!
 
 ---
