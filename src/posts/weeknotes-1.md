@@ -14,7 +14,7 @@ Last year, I attempted to write a post on Sundays recapping my week, but I didn'
 
 - Thanks to the [Party Corgi Discord server](https://discord.gg/partycorgi), I've thought a little about what I want this space to be. What do I want to put out there for others? Do I want to write about code, do I want to write about life, or do I want to write about a combination of the two? The only conclusion I've reached is that I need to write _something_, so here I am.
 
-- I'm participating in [Tour de Fleece](https://spinoffmagazine.com/the-tour-de-fleece-carries-on/) this year, which is a fiber spinning challenge that happens every year during the Tour de France. I'm challenging myself by spinning for at least 15 minutes a day, and so far, I've only missed one day. Spinning yarn is a meditative activity for me and I need it more than ever right now.
+- I'm participating in [Tour de Fleece](https://spinoffmagazine.com/the-tour-de-fleece-carries-on/) this year, which is a fiber spinning challenge that happens every year during the Tour de France. I'm challenging myself by spinning for at least 15 minutes a day, and so far, I've only missed one day. [Spinning yarn](/tags/spinning) is a meditative activity for me and I need it more than ever right now.
 
 - My yoga practice is going well. I started doing yoga every morning a little over 3 weeks ago as a way to ground myself and stay active. I've needed this bit of exercise to improve my mental health, as the pandemic has vastly affected my well being. (Honestly, who _hasn't_ been affected by this?) Doing 20-30 minutes of yoga has helped me a lot, and next, in August, I'm planning on [running](/tags/running/) again. I've missed it.
 
