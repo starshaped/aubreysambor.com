@@ -1,15 +1,15 @@
 .tags {
   display: inline-block;
 
-  margin-right: 0.8rem;
-  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.9375rem;
 
   @include media('>small') {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 
   @include media('>medium') {
-    font-size: 1.7rem;
+    font-size: 1.0625rem;
   }
 
   &:last-child {
@@ -19,6 +19,6 @@
   &::before {
     content: '·';
     display: inline-block;
-    margin-right: 0.4rem;
+    margin-right: 0.25rem;
   }
 }
