@@ -9,14 +9,14 @@
     display: inline-block;
 
     &:not(:last-child) {
-      margin-right: 2.4rem;
+      margin-right: 1.5rem;
 
       @include media('>small') {
-        margin-right: 3rem;
+        margin-right: 1.875rem;
       }
 
       @include media('>medium') {
-        margin-right: 4.2rem;
+        margin-right: 2.625rem;
       }
     }
   }
