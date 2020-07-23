@@ -26,15 +26,7 @@ main {
     margin-bottom: calc(var(--flow-space) * 1.5);
 
     p {
-      font-size: 1.25rem;
-
-      @include media('>small') {
-        font-size: 1.3125rem;
-      }
-
-      @include media('>medium') {
-        font-size: 1.375rem;
-      }
+      font-size: calc(var(--step-0) * 1.125);
     }
   }
 
@@ -44,29 +36,20 @@ main {
 
   &__title {
     @extend %h1;
-    margin-bottom: calc(var(--flow-space) * 1.25);
+    margin-bottom: calc(var(--flow-space) * 0.375);
 
     &--condensed {
-      margin-bottom: calc(var(--flow-space) * 0.25);
+      margin-bottom: calc(var(--flow-space) * 0.0625);
     }
   }
 
   &__meta {
-    margin-top: calc(var(--flow-space) * 0.25);
     margin-bottom: var(--flow-space);
   }
 
   &__date {
     margin-right: 0.125rem;
-    font-size: 0.9375rem;
-
-    @include media('>small') {
-      font-size: 1rem;
-    }
-
-    @include media('>medium') {
-      font-size: 1.0625rem;
-    }
+    font-size: var(--step--05);
   }
 
   &__body {
@@ -77,14 +60,6 @@ main {
 
   &__see-all {
     margin-top: var(--flow-space);
-    font-size: 1.125rem;
-
-    @include media('>small') {
-      font-size: 1.1875rem;
-    }
-
-    @include media('>medium') {
-      font-size: 1.25rem;
-    }
+    font-size: var(--step-0);
   }
 }
