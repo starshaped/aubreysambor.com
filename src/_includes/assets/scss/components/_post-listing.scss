@@ -9,11 +9,13 @@
     font-family: var(--base-font-family);
     line-height: 1.5;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: var(--step-1);
     font-weight: 600;
   }
 
   &__date {
-    font-size: 1.125rem;
+    font-size: var(--step--05);
+    display: inline-block;
+    margin-bottom: calc(var(--flow-space) * 0.25);
   }
 }

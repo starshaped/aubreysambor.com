@@ -2,15 +2,7 @@
   display: inline-block;
 
   margin-right: 0.5rem;
-  font-size: 0.9375rem;
-
-  @include media('>small') {
-    font-size: 1rem;
-  }
-
-  @include media('>medium') {
-    font-size: 1.0625rem;
-  }
+  font-size: var(--step--05);
 
   &:last-child {
     margin-right: 0;
