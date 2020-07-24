@@ -39,10 +39,6 @@ main {
     margin-bottom: calc(var(--flow-space) * 0.375);
 
     &--condensed {
-      @include media('<=medium') {
-        line-height: 1.25;
-      }
-
       margin-bottom: calc(var(--flow-space) * 0.0625);
     }
   }
