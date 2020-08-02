@@ -1,9 +1,6 @@
 .nav {
   text-align: center;
-
-  &__list {
-    --flow-space: 0;
-  }
+  --flow-space: 0;
 
   &__list-item {
     display: inline-block;

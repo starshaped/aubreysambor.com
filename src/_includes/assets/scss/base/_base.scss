@@ -18,8 +18,9 @@ a {
 }
 
 :is(header, footer) a:not([class]) {
+  --flow-space: 0.1em;
   position: relative;
-  padding-bottom: 0.125rem;
+  padding-bottom: var(--flow-space);
 
   &::before {
     content: '';
@@ -83,10 +84,6 @@ ol {
 
 ul {
   list-style-type: square;
-}
-
-figure {
-  // margin: 0 0 1.75rem 0;
 }
 
 figcaption {
