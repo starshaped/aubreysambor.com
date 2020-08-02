@@ -70,7 +70,6 @@ li {
 
 ul,
 ol {
-  --flow-space: 1.875rem;
   padding-left: 1rem;
 
   & > * + * {
@@ -87,7 +86,7 @@ ul {
 }
 
 figure {
-  margin: 0 0 1.75rem 0;
+  // margin: 0 0 1.75rem 0;
 }
 
 figcaption {
