@@ -40,6 +40,9 @@
   }
 
   &__social-media {
+    padding: 0.75rem;
+    line-height: 1;
+
     &:hover {
       background-color: initial;
     }
@@ -47,7 +50,8 @@
 }
 
 .icon {
-  width: 30px;
+  width: 24px;
+  height: 24px;
   fill: var(--text-color);
   transition: all 0.3s;
 
