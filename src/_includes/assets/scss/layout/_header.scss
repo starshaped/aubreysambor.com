@@ -20,9 +20,10 @@
 
   &__title {
     font-family: var(--logo-font-family);
-    font-weight: 700;
+    font-weight: normal;
     text-transform: lowercase;
-    font-size: var(--step-4);
+    font-size: var(--step-2);
+    margin-bottom: 0.5rem;
   }
 
   &__title-link {

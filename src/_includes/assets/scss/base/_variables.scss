@@ -48,18 +48,9 @@
       url('/fonts/roboto-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-@font-face {
-  font-family: 'Salted Mocha';
-  src: url('/fonts/SaltedMocha-Regular.woff2') format('woff2'),
-    url('/fonts/SaltedMocha-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   // Font families
-  --logo-font-family: 'Salted Mocha', serif;
+  --logo-font-family: 'Roboto', sans-serif;
   --base-font-family: 'Roboto', sans-serif;
   --header-font-family: 'Playfair Display', serif;
 
