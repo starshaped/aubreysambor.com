@@ -6,15 +6,16 @@
     display: inline-block;
 
     &:not(:last-child) {
-      margin-right: 1.5rem;
+      margin-right: 1rem;
 
       @include media('>small') {
-        margin-right: 1.875rem;
-      }
-
-      @include media('>medium') {
-        margin-right: 2.625rem;
+        margin-right: 1.5rem;
       }
     }
+  }
+
+  &__list-link {
+    display: block;
+    padding: 0.5rem 0.75rem;
   }
 }
