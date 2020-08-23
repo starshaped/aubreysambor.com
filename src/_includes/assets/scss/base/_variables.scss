@@ -58,11 +58,12 @@
   --content-width: 800px;
 
   // Colors
+  --primary-link-base: 344;
+  --primary-link: hsla(var(--primary-link-base), 56%, 54%, 100%);
+  --primary-link-hover: hsla(var(--primary-link-base), 56%, 46%, 100%);
   --background-color: #f9f9f9;
   --text-color: #333;
   --accent-color: #eee;
-  --primary-link: #cb476a;
-  --primary-link-hover: #e39db9;
   --secondary-link: #70d7d0;
 
   --flow-space: 2.1875em;

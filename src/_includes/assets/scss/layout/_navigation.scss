@@ -17,5 +17,9 @@
   &__list-link {
     display: block;
     padding: 0.5rem 0.75rem;
+
+    &:hover {
+      color: var(--primary-link-hover);
+    }
   }
 }
