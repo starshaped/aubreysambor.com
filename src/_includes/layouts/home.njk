@@ -7,14 +7,14 @@
 {% set postListItems = collections.homepagePosts %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
+  <main tabindex="-1">
     <div class="content">
 
       {% include "layouts/partials/components/intro.njk" %}
 
       <hr />
 
-      <div class="content__recent">
+      <div class="content__recent" id="main-content">
 
         <h2 class="content__title">{{ postsHeading }}</h2>
 
