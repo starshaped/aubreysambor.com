@@ -1,3 +1,7 @@
 [build]
   command = "npm run site:production"
   publish = "dist"
+
+[[redirects]]
+  from = "/posts/*"
+  to = "/:splat"
