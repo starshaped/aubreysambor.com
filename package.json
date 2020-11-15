@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "compile-sass": "sass --watch src/_includes/assets/scss/main.scss src/_includes/assets/css/main.css --style=compressed",
+    "compile-sass": "sass --watch src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed",
     "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run compile-sass'",
     "site:production": "concurrently 'npx @11ty/eleventy' 'npm run compile-sass'"
   },
