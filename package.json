@@ -6,7 +6,7 @@
   "scripts": {
     "compile-sass": "sass --watch src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed",
     "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run compile-sass'",
-    "site:production": "concurrently 'npx @11ty/eleventy' 'npm run compile-sass'"
+    "site:production": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed && npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "include-media": "^1.4.9",
     "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
     "sass": "^1.29.0"
   }
