@@ -1,12 +1,15 @@
 .post-listing {
+  padding-left: 0;
+
   &__item {
+    list-style-type: none;
+
     &:not(:last-child) {
       margin-bottom: calc(var(--flow-space) * 1.25);
     }
   }
 
   &__title {
-    font-family: var(--base-font-family);
     line-height: 1.5;
     font-weight: normal;
     font-size: var(--step-1);

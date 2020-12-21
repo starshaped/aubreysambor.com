@@ -2,24 +2,32 @@
   text-align: center;
   --flow-space: 0;
 
+  &__list {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
   &__list-item {
     display: inline-block;
 
     &:not(:last-child) {
-      margin-right: 1rem;
+      margin-right: 1.5rem;
 
       @include media('>small') {
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
       }
     }
-  }
 
-  &__list-link {
-    display: block;
-    padding: 0.5rem 0.75rem;
-
-    &:hover {
-      color: var(--primary-link-hover);
+    a {
+      font-family: var(--header-font-family);
     }
+
+    // a {
+    //   background: #d26481;
+    //   color: white;
+    //   padding: 10px 20px;
+    //   text-decoration: none;
+    //   border-radius: 4px;
+    // }
   }
 }

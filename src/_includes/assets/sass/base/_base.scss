@@ -14,34 +14,36 @@ hr {
 a {
   color: var(--primary-link);
   font-weight: bold;
-  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 2px;
 }
 
 :is(header, footer) a:not([class]) {
-  --flow-space: 0.1em;
-  position: relative;
-  padding-bottom: var(--flow-space);
+  // text-decoration: underline;
+  // --flow-space: 0.1em;
+  // position: relative;
+  // padding-bottom: var(--flow-space);
 
-  &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--primary-link);
-    visibility: hidden;
-    transform: scaleX(0);
-    transform-origin: 0% 50%;
-    transition: all 0.3s ease-in-out 0s;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 3px;
+  //   bottom: 0;
+  //   left: 0;
+  //   background-color: var(--primary-link);
+  //   visibility: hidden;
+  //   transform: scaleX(0);
+  //   transform-origin: 0% 50%;
+  //   transition: all 0.3s ease-in-out 0s;
+  // }
 
-  &:hover {
-    &::before {
-      visibility: visible;
-      transform: scaleX(1);
-    }
-  }
+  // &:hover {
+  //   &::before {
+  //     visibility: visible;
+  //     transform: scaleX(1);
+  //   }
+  // }
 }
 
 h1,
