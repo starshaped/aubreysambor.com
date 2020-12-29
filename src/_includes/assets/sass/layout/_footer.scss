@@ -10,10 +10,6 @@
     @include content-padding(3rem);
   }
 
-  a {
-    color: var(--primary-link);
-  }
-
   &__inner {
     margin: auto;
     max-width: var(--content-width);
