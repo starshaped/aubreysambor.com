@@ -16,11 +16,15 @@ After the React project, I switched gears and returned to good ol' Drupal develo
 
 ## Personal update
 
-Well. Where do I begin? I laugh at my 2019 review, saying the year sucked -- no. 2020 has been the worst year of my personal life. My long-term relationship ended in the middle of a global pandemic right before I turned 40, so I'll be spending 2021 learning a lot about myself and hoping I'll be able to hang out with my friends again.
+I laugh at my 2019 review, saying the year sucked -- no. 2020 has been the worst year of my personal life. My long-term relationship ended in the middle of a global pandemic right before I turned 40, so yeah, things haven't been the greatest. Hopefully things improve in 2021.
 
 ## Good things
 
+Even though the year's been awful, I'm going to try to remember _some_ good things about this year.
+
 - I started running again for the first time in 6 years. I stopped when it got too cold, but I'm confident I will pick it up again once it warms up and once I don't have to wear a mask to run outdoors.
-- I discovered the joy of fountain pens
+- I discovered the joy of fountain pens.
+- Before the pandemic, I spent a week in Palm Springs with my team for our company retreat. It was such a fantastic time and I'm glad I was able to take one trip this year.
+- I moved to a new apartment with an in-unit washer and dryer. Enough said!
 
 **Read past good things lists:** [2018 good things list](/posts/2018-good-things-list), [2017 good things list](/posts/2017-good-things-list).
