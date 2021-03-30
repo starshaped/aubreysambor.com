@@ -10,7 +10,7 @@ For the last three years, I've compiled a list of good things that happened in t
 
 Still, a few good things _did_ happen this year, so I'll note them here. 
 
-- I started running again for the first time in 6 years. I stopped when it got too cold, but I'm confident I will pick it up again once it warms up and once I don't have to wear a mask to run outdoors.
+- I started [running](/tags/running) again for the first time in 6 years. I stopped when it got too cold, but I'm confident I will pick it up again once it warms up and once I don't have to wear a mask to run outdoors.
 - I discovered the joy of fountain pens.
 - Before the pandemic, I spent a week in Palm Springs with my team for our company retreat. It was such a fantastic time and I'm glad I was able to take one trip this year.
 - I moved to a new apartment with an in-unit washer and dryer. Enough said!
