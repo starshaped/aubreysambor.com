@@ -7,7 +7,7 @@
 
       <div class="content__meta">
         {% if date %}
-          <time datetime="{{ date | htmlDateFilter }}" class="content__date">{{ date | formattedDateFilter }}</time>
+          <time datetime="{{ date | postDate }}" class="content__date">{{ date | postDate }}</time>
         {% endif %}
 
         {% if tags %}

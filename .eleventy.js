@@ -1,9 +1,7 @@
+// TODO Re-add filter html? Maybe?
+
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
-
-// Import filters
-const formattedDateFilter = require('./src/filters/formatted-date-filter.js');
-const htmlDateFilter = require('./src/filters/html-date-filter.js');
 
 // Import transforms
 const parseTransform = require('./src/transforms/parse-transform.js');
@@ -12,14 +10,17 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 const site = require('./src/_data/site.json');
 
 const slugify = require("slugify");
+const { DateTime } = require("luxon");
 
 module.exports = function (config) {
   // Plugins
   config.addPlugin(rssPlugin);
 
   // Filters
-  config.addFilter('formattedDateFilter', formattedDateFilter);
-  config.addFilter('htmlDateFilter', htmlDateFilter);
+  config.addFilter('htmlDateFilter', (value) => {
+    const dateObject = new Date(value);
+    return dateObject.toISOString();
+  });
 
   config.addFilter("slug", (str) => {
     return slugify(str, {
@@ -27,6 +28,10 @@ module.exports = function (config) {
       strict: true,
       remove: /["]/g,
     });
+  });
+
+  config.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_MED);
   });
 
   // Transforms

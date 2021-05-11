@@ -8,7 +8,7 @@
       <h2 class="post-listing__title">
         <a class="post-listing__link" href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
       </h2>
-      <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | formattedDateFilter }}</time>
+      <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | postDate }}</time>
       <p class="post-listing__summary">{{ post.data.summary }}</p>
     </li>
   {%- endfor -%}
