@@ -11,6 +11,8 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import site information
 const site = require('./src/_data/site.json');
 
+const slugify = require("slugify");
+
 module.exports = function (config) {
   // Plugins
   config.addPlugin(rssPlugin);
@@ -18,6 +20,14 @@ module.exports = function (config) {
   // Filters
   config.addFilter('formattedDateFilter', formattedDateFilter);
   config.addFilter('htmlDateFilter', htmlDateFilter);
+
+  config.addFilter("slug", (str) => {
+    return slugify(str, {
+      lower: true,
+      strict: true,
+      remove: /["]/g,
+    });
+  });
 
   // Transforms
   config.addTransform('parse', parseTransform);
