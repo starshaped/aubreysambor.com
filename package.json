@@ -21,7 +21,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "include-media": "^1.4.10",
     "modern-css-reset": "^1.4.0",
-    "moment": "^2.29.1",
     "prettier": "^2.2.1",
     "sass": "^1.32.12"
   }
