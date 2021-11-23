@@ -1,6 +1,7 @@
 ---
 title: "Aaaaand I'm back!"
 date: 2021-11-23
+summary: "After ignoring my site for almost a year, I'm back with a little update on my life since the last post."
 tags:
   - life in general
 ---
