@@ -1,5 +1,3 @@
-// TODO Re-add filter html? Maybe?
-
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
@@ -8,6 +6,8 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 
 // Import site information
 const site = require('./src/_data/site.json');
+
+const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 const slugify = require("slugify");
 const { DateTime } = require("luxon");
@@ -45,13 +45,15 @@ module.exports = function (config) {
 
   // Limit homepage posts by the max posts per page.
   config.addCollection('homepagePosts', (collection) => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')]
-      .reverse()
-      .slice(0, site.maxPostsPerPage);
+    return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md')).slice(0, site.maxPostsPerPage);
   });
 
   config.addCollection('archives', (collection) => {
-    return collection.getAll();
+    return sortByDisplayOrder(collection.getAll());
+  });
+
+  config.addCollection('feed', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
   return {
