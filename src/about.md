@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 
 ![A headshot of Aubrey, the author of this blog.](../images/about-aubrey.jpg)
 
-Hi, I&lsquo;m **Aubrey**, a knitter and web developer living in the Boston area. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and shawls with needles and yarn.
+Hi, I&lsquo;m **Aubrey**, a knitter and web developer living in western Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and shawls with needles and yarn.
 
 I've been making websites professionally since 2006 and personally since 1998, so I've seen a _lot_. ([Remember including standards-compliant CSS on your site with an @import because Netscape 4 didn't support it?](http://www.ericmeyeroncss.com/bonus/trick-hide.html) I certainly do!)
 
@@ -18,7 +18,7 @@ I've been cross-stitching since the early 90s, knitting since 2002, and spinning
 
 I registered this domain name in August 2000 as a gift to myself when I finally received my driver&lsquo;s license. Initially I used it to post updates about my now defunct online journal (who remembers _those_ days?), but in December 2000, I started this blog.
 
-As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 18 years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.io/">Eleventy</a>. Thanks to [Lea Verou](https://twitter.com/LeaVerou/status/1241619866475474946) for the emoji as favicon idea!
+As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 18 years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.dev/">Eleventy</a>. Thanks to [Lea Verou](https://twitter.com/LeaVerou/status/1241619866475474946) for the emoji as favicon idea!
 
 ## Find me elsewhere
 
