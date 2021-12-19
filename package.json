@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "compile-sass": "sass --watch src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed",
+    "compile-sass": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed --watch",
     "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run compile-sass'",
     "site:production": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed && npx @11ty/eleventy"
   },
@@ -20,6 +20,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jsdom": "^18.1.1",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-pxtorem": "^6.0.0",
     "prettier": "^2.4.1",
     "sass": "^1.43.4"
   }
