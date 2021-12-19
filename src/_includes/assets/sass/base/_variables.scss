@@ -21,9 +21,9 @@
 
 // Media query breakpoints
 $breakpoints: (
-  small: 30em,
-  medium: 48em,
-  large: 64em,
+  'small': 30em,
+  'medium': 48em,
+  'large': 64em,
 ) !default;
 
 /* @link https://utopia.fyi/generator?c=320,21,1.2,1140,24,1.25,5,2, */

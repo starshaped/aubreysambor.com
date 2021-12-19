@@ -2,11 +2,11 @@
   @include content-padding(1.5rem);
   background-color: white;
 
-  @include breakpoint(small) {
+  @include breakpoint('small') {
     @include content-padding(2rem);
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint('medium') {
     @include content-padding(3rem);
   }
 
@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
 
-    @include breakpoint(small) {
+    @include breakpoint('small') {
       flex-direction: row;
       justify-content: space-between;
     }
@@ -26,7 +26,7 @@
   &__end {
     margin-top: 0.5rem;
 
-    @include breakpoint(small) {
+    @include breakpoint('small') {
       margin-top: 0;
     }
   }

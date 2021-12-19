@@ -13,7 +13,7 @@
     &:not(:last-child) {
       margin-right: 1.5rem;
 
-      @include breakpoint(small) {
+      @include breakpoint('small') {
         margin-right: 2.5rem;
       }
     }

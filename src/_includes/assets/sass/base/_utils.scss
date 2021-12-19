@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 // Mixins.
 @mixin content-padding($padding-vertical: 0) {
   padding: $padding-vertical 1.5rem;
@@ -15,18 +17,33 @@
   }
 }
 
+// Functions.
+// @function rem($value) {
+//   $remValue: math.div($value, 16) + rem;
+//   @return $remValue;
+// }
+
+@function stripUnit($value) {
+  @return math.div($value, ($value * 0 + 1));
+}
+
+@function rem($value) {
+  $remValue: math.div(stripUnit($value), stripUnit(16px)) + rem;
+  @return $remValue;
+}
+
 // Placeholders.
 %content-padding-inner {
   max-width: var(--content-width);
   margin: auto;
   padding: 2rem 1rem;
 
-  @include breakpoint(small) {
+  @include breakpoint('small') {
     padding: 3rem 0;
   }
 
-  @include breakpoint(medium) {
-    padding: 3.5rem 0;
+  @include breakpoint('medium') {
+    padding: rem(56px) 0;
   }
 }
 
@@ -77,7 +94,7 @@
 img[src$='about-aubrey.jpg'] {
   max-width: 18.75rem;
 
-  @include breakpoint(medium) {
+  @include breakpoint('medium') {
     margin-top: 0.5rem;
     margin-right: 1.5rem;
     float: left;
