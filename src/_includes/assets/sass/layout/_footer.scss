@@ -2,11 +2,11 @@
   @include content-padding(1.5rem);
   background-color: white;
 
-  @include media('>small') {
+  @include breakpoint(small) {
     @include content-padding(2rem);
   }
 
-  @include media('>medium') {
+  @include breakpoint(medium) {
     @include content-padding(3rem);
   }
 
@@ -17,15 +17,17 @@
     flex-direction: column;
     align-items: center;
 
-    @include media('>small') {
+    @include breakpoint(small) {
       flex-direction: row;
       justify-content: space-between;
     }
   }
 
   &__end {
-    @include media('<=small') {
-      margin-top: 0.5rem;
+    margin-top: 0.5rem;
+
+    @include breakpoint(small) {
+      margin-top: 0;
     }
   }
 

@@ -83,9 +83,9 @@
 
 // Media query breakpoints
 $breakpoints: (
-  'small': 30em,
-  'medium': 48em,
-  'large': 64em,
+  small: 30em,
+  medium: 48em,
+  large: 64em,
 ) !default;
 
 // Import include-media after breakpoint declaration

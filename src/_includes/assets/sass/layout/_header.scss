@@ -2,7 +2,7 @@
   background: white;
   padding: 1rem 0;
 
-  @include media('>small') {
+  @include breakpoint(small) {
     @include content-padding(1rem);
   }
 
@@ -11,7 +11,7 @@
     margin: auto;
     text-align: center;
 
-    @include media('>medium') {
+    @include breakpoint(medium) {
       display: flex;
       align-items: center;
       justify-content: space-between;

@@ -13,7 +13,7 @@
     &:not(:last-child) {
       margin-right: 1.5rem;
 
-      @include media('>small') {
+      @include breakpoint(small) {
         margin-right: 2.5rem;
       }
     }
@@ -21,13 +21,5 @@
     a {
       font-family: var(--header-font-family);
     }
-
-    // a {
-    //   background: #d26481;
-    //   color: white;
-    //   padding: 10px 20px;
-    //   text-decoration: none;
-    //   border-radius: 4px;
-    // }
   }
 }

@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "compile-sass": "sass -I node_modules/modern-css-reset/dist --watch src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed",
+    "compile-sass": "sass --watch src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed",
     "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run compile-sass'",
-    "site:production": "sass -I node_modules/modern-css-reset/dist src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed && npx @11ty/eleventy"
+    "site:production": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed && npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
@@ -19,9 +19,7 @@
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "include-media": "^1.4.10",
     "jsdom": "^18.1.1",
-    "modern-css-reset": "^1.4.0",
     "prettier": "^2.4.1",
     "sass": "^1.43.4"
   }

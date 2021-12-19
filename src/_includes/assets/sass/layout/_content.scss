@@ -1,7 +1,7 @@
 main {
   background-color: var(--background-color);
 
-  @include media('>small') {
+  @include breakpoint(small) {
     @include content-padding;
   }
 
