@@ -18,19 +18,14 @@
 }
 
 // Functions.
-// @function rem($value) {
-//   $remValue: math.div($value, 16) + rem;
-//   @return $remValue;
+// @function stripUnit($value) {
+//   @return math.div($value, ($value * 0 + 1));
 // }
 
-@function stripUnit($value) {
-  @return math.div($value, ($value * 0 + 1));
-}
-
-@function rem($value) {
-  $remValue: math.div(stripUnit($value), stripUnit(16px)) + rem;
-  @return $remValue;
-}
+// @function rem($value) {
+//   $remValue: math.div(stripUnit($value), stripUnit(16px)) + rem;
+//   @return $remValue;
+// }
 
 // Placeholders.
 %content-padding-inner {
@@ -59,7 +54,8 @@
   line-height: 1;
   text-decoration: none;
   font-weight: 700;
-  font-size: var(--step-0);
+  // font-size: var(--step-0);
+  font-size: 20px;
   transform: translateY(-100%);
 
   &:focus {

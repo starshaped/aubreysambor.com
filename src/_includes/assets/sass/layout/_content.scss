@@ -22,15 +22,6 @@ main {
 .content {
   @extend %content-padding-inner;
 
-  &__intro {
-    margin-bottom: calc(var(--flow-space) * 1.5);
-    font-family: var(--header-font-family);
-
-    p {
-      font-size: calc(var(--step-0) * 1.125);
-    }
-  }
-
   &__recent {
     margin-top: calc(var(--flow-space) * 1.25);
   }
@@ -50,7 +41,8 @@ main {
 
   &__date {
     margin-right: rem(2px);
-    font-size: var(--step--05);
+    // font-size: var(--step--05);
+    font-size: 17px;
   }
 
   &__body {
@@ -61,7 +53,8 @@ main {
 
   &__see-all {
     margin-top: var(--flow-space);
-    font-size: var(--step-0);
+    // font-size: var(--step-0);
+    font-size: 20px;
     font-family: var(--header-font-family);
   }
 }

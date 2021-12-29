@@ -56,6 +56,8 @@ module.exports = function (config) {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
+  config.setUseGitIgnore(false);
+
   return {
     dir: {
       input: 'src',
