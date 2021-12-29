@@ -11,8 +11,7 @@
 }
 
 .post-listing__date {
-  // small text for dates and tags
-  font-size: clamp(0.9rem, 0.75rem + 0.5vw, 1rem);
+  font-size: var(--size-small);
   display: inline-block;
   margin-bottom: calc(var(--flow-space) * 0.25);
 }

@@ -20,6 +20,8 @@
 
   // Fonts
   --size-h2: clamp(24px, 12px + 2.5vw, 32px);
+  --size-body: clamp(18px, 12px + 1.25vw, 22px);
+  --size-small: clamp(16px, 11px + 0.625vw, 18px);
 }
 
 // Media query breakpoints

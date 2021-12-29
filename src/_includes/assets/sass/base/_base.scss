@@ -6,9 +6,9 @@ html {
 
 hr {
   border: 0;
-  height: 0.25rem;
+  height: 4px;
   background-color: var(--accent-color);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 a {
@@ -24,14 +24,12 @@ h3 {
   font-family: var(--header-font-family);
 }
 
-h1,
-%h1 {
+h1 {
   // font-size: var(--step-3);
   font-size: 44px;
 }
 
 h2 {
-  // font-size: var(--step-2);
   font-size: var(--size-h2);
   line-height: 1.5;
 }
@@ -44,13 +42,12 @@ h3 {
 p,
 li {
   line-height: 1.825;
-  // font-size: var(--step-0);
-  font-size: clamp(1.125rem, 0.75rem + 1.25vw, 1.375rem);
+  font-size: var(--size-body);
 }
 
 ul,
 ol {
-  padding-left: 1rem;
+  padding-left: 16px;
 
   & > * + * {
     margin-top: var(--flow-space);
@@ -67,9 +64,8 @@ ul {
 
 figcaption {
   text-align: center;
-  margin-top: 0.5rem;
-  // font-size: var(--step--1);
-  font-size: 16px;
+  margin-top: 8px;
+  font-size: var(--size-small);
   line-height: 1.5;
 }
 

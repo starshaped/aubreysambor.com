@@ -1,13 +1,13 @@
 .footer {
-  @include content-padding(1.5rem);
+  @include content-padding(24px);
   background-color: white;
 
   @include breakpoint('small') {
-    @include content-padding(2rem);
+    @include content-padding(32px);
   }
 
   @include breakpoint('medium') {
-    @include content-padding(3rem);
+    @include content-padding(48px);
   }
 
   &__inner {
@@ -24,7 +24,7 @@
   }
 
   &__end {
-    margin-top: 0.5rem;
+    margin-top: 8px;
 
     @include breakpoint('small') {
       margin-top: 0;
@@ -38,11 +38,12 @@
   }
 
   &__social-media {
-    padding: 0.75rem;
+    padding: 12px;
     line-height: 1;
 
     &:hover {
       background-color: initial;
+      // todo: use currentColor here?
     }
   }
 }

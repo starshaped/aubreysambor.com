@@ -1,8 +1,6 @@
-@use 'sass:math';
-
 // Mixins.
 @mixin content-padding($padding-vertical: 0) {
-  padding: $padding-vertical 1.5rem;
+  padding: $padding-vertical 24px;
 }
 
 @mixin breakpoint($breakpoint) {
@@ -17,28 +15,18 @@
   }
 }
 
-// Functions.
-// @function stripUnit($value) {
-//   @return math.div($value, ($value * 0 + 1));
-// }
-
-// @function rem($value) {
-//   $remValue: math.div(stripUnit($value), stripUnit(16px)) + rem;
-//   @return $remValue;
-// }
-
 // Placeholders.
 %content-padding-inner {
   max-width: var(--content-width);
   margin: auto;
-  padding: 2rem 1rem;
+  padding: 32px 16px;
 
   @include breakpoint('small') {
-    padding: 3rem 0;
+    padding: 48px 0;
   }
 
   @include breakpoint('medium') {
-    padding: rem(56px) 0;
+    padding: 56px 0;
   }
 }
 
@@ -54,8 +42,7 @@
   line-height: 1;
   text-decoration: none;
   font-weight: 700;
-  // font-size: var(--step-0);
-  font-size: 20px;
+  font-size: var(--size-body);
   transform: translateY(-100%);
 
   &:focus {
@@ -65,7 +52,7 @@
 
 // General shit that doesn't belong anywhere else.
 .heading-permalink {
-  margin-left: 0.625rem;
+  margin-left: 10px;
   box-shadow: none;
   color: transparent;
 
@@ -88,11 +75,11 @@
 }
 
 img[src$='about-aubrey.jpg'] {
-  max-width: 18.75rem;
+  max-width: 300px;
 
   @include breakpoint('medium') {
-    margin-top: 0.5rem;
-    margin-right: 1.5rem;
+    margin-top: 8px;
+    margin-right: 24px;
     float: left;
   }
 }
