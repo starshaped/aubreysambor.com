@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "compile-sass": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed --watch",
-    "site:local": "concurrently 'npx @11ty/eleventy --serve' 'npm run compile-sass'",
-    "site:production": "sass src/_includes/assets/sass/main.scss src/_includes/assets/css/main.css --style=compressed && npx @11ty/eleventy",
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },

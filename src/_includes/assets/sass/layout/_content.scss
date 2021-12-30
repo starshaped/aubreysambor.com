@@ -1,9 +1,5 @@
-main {
-  background-color: var(--background-color);
-
-  @include breakpoint('small') {
-    @include content-padding;
-  }
+.content {
+  @extend %content-padding-inner;
 
   a {
     color: var(--text-color);
@@ -14,44 +10,35 @@ main {
 
     &:hover {
       box-shadow: inset 0 -2em 0 0 var(--secondary-link);
-      color: var(--text-color);
     }
   }
 }
 
-.content {
-  @extend %content-padding-inner;
+.content__title {
+  margin-bottom: calc(var(--flow-space) * 0.375);
 
-  &__recent {
-    margin-top: calc(var(--flow-space) * 1.25);
+  &--condensed {
+    margin-bottom: calc(var(--flow-space) * 0.0625);
   }
+}
 
-  &__title {
-    margin-bottom: calc(var(--flow-space) * 0.375);
+.content__meta {
+  margin-bottom: var(--flow-space);
+}
 
-    &--condensed {
-      margin-bottom: calc(var(--flow-space) * 0.0625);
-    }
-  }
+.content__date {
+  margin-right: 2px;
+  font-size: var(--size-small);
+}
 
-  &__meta {
-    margin-bottom: var(--flow-space);
-  }
-
-  &__date {
-    margin-right: 2px;
-    font-size: var(--size-small);
-  }
-
-  &__body {
-    & > * + * {
-      margin-top: var(--flow-space);
-    }
-  }
-
-  &__see-all {
+.content__body {
+  & > * + * {
     margin-top: var(--flow-space);
-    font-size: var(--size-body);
-    font-family: var(--header-font-family);
   }
+}
+
+.content__see-all {
+  margin-top: var(--flow-space);
+  font-size: var(--size-body);
+  font-family: var(--header-font-family);
 }

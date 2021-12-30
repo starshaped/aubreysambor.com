@@ -10,6 +10,11 @@
       "url": "/archives/",
       "external": false
     },
+        {
+      "text": "Twitter",
+      "url": "https://twitter.com/starshaped",
+      "external": true
+    },
     {
       "text": "RSS",
       "url": "/feed.xml",

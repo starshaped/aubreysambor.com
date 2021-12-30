@@ -4,23 +4,19 @@
   {{ content | safe }}
 {% endset %}
 
-{% set postListItems = collections.homepagePosts %}
+{% set postListItems = pagination.items %}
 
 {% block content %}
   <main tabindex="-1">
     <div class="content">
-      <div class="content__recent" id="main-content">
 
-        {% include "components/post-list.njk" %}
+      {% include "components/post-list.njk" %}
 
-        <p class="content__see-all">
-          <a href="/archives">
-          See all posts
-          <span aria-hidden="true">→</span>
-        </a>
-        </p>
-      </div>
+      {% include "components/pagination.njk" %}
+
     </div>
   </main>
 {% endblock %}
+
+
 

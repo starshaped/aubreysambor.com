@@ -9,52 +9,9 @@
   @include breakpoint('medium') {
     @include content-padding(48px);
   }
-
-  &__inner {
-    margin: auto;
-    max-width: var(--content-width);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @include breakpoint('small') {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  }
-
-  &__end {
-    margin-top: 8px;
-
-    @include breakpoint('small') {
-      margin-top: 0;
-    }
-  }
-
-  &__content {
-    .footer__end & {
-      display: flex;
-    }
-  }
-
-  &__social-media {
-    padding: 12px;
-    line-height: 1;
-
-    &:hover {
-      background-color: initial;
-      // todo: use currentColor here?
-    }
-  }
 }
 
-.icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--text-color);
-  transition: all 0.3s;
-
-  &:hover {
-    fill: var(--primary-link);
-  }
+.footer__inner {
+  margin: auto;
+  max-width: var(--content-width);
 }
