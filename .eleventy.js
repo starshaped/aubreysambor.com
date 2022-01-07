@@ -37,6 +37,9 @@ module.exports = function (config) {
   // Transforms
   config.addTransform('parse', parseTransform);
 
+  // Shortcodes
+  config.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   // Passthrough copy
   config.addPassthroughCopy({ 'src/_includes/assets/css': 'css' });
   config.addPassthroughCopy({ 'src/_includes/assets/fonts': 'fonts' });
