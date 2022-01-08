@@ -1,28 +1,7 @@
 .content {
   @extend %content-padding-inner;
 
-  a {
-    color: var(--text-color);
-    box-shadow: inset 0 -0.375em 0 0 var(--secondary-link);
-    transition: all 0.3s;
-    text-decoration: none;
-    font-weight: bold;
-
-    &.heading-permalink {
-      margin-left: 10px;
-      box-shadow: none;
-      color: transparent;
-
-      &:hover {
-        box-shadow: none;
-        color: var(--secondary-link);
-      }
-    }
-
-    &:hover {
-      box-shadow: inset 0 -2em 0 0 var(--secondary-link);
-    }
-  }
+  border-bottom: solid 8px var(--accent-color);
 }
 
 .content__title {
@@ -46,10 +25,4 @@
   & > * + * {
     margin-top: var(--flow-space);
   }
-}
-
-.content__see-all {
-  margin-top: var(--flow-space);
-  font-size: var(--size-body);
-  font-family: var(--header-font-family);
 }
