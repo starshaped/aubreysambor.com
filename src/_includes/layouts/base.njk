@@ -8,17 +8,18 @@
   {% include "components/meta.njk" %}
   <script>document.documentElement.classList.remove('no-js');</script>
   <style>{% include "assets/css/main.css" %}</style>
-  {% block head %}
-  {% endblock %}
+  <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
+
+  {% block head %}{% endblock %}
 </head>
 <body>
 <div class="layout-container">
   {% include "components/header.njk" %}
-  {% block content %}
-  {% endblock content %}
+  <main tabindex="-1" id="main-content">
+    {% block content %}{% endblock content %}
+  </main>
   {% include "components/footer.njk" %}
-  {% block foot %}
-  {% endblock %}
+  {% block foot %}{% endblock %}
   </div>
 </body>
 </html>

@@ -1,7 +1,6 @@
 {% extends 'layouts/base.njk' %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
     <article class="content">
       <h1 class="content__title content__title--condensed">{{ title }}</h1>
 
@@ -22,5 +21,4 @@
       {{ content | safe }}
       </div>
     </article>
-  </main>
 {% endblock %}

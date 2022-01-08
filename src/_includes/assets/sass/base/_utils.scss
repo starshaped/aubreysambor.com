@@ -51,17 +51,6 @@
 }
 
 // General shit that doesn't belong anywhere else.
-.heading-permalink {
-  margin-left: 10px;
-  box-shadow: none;
-  color: transparent;
-
-  &:hover {
-    box-shadow: none;
-    color: var(--primary-link);
-  }
-}
-
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);

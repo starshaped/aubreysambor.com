@@ -46,15 +46,6 @@ module.exports = function (config) {
   config.addPassthroughCopy({ 'src/_includes/assets/images': 'images' });
   config.addPassthroughCopy('src/js');
 
-  // Limit homepage posts by the max posts per page.
-  config.addCollection('homepagePosts', (collection) => {
-    return sortByDisplayOrder(collection.getFilteredByGlob('./src/posts/*.md')).slice(0, site.maxPostsPerPage);
-  });
-
-  config.addCollection('archives', (collection) => {
-    return sortByDisplayOrder(collection.getAll());
-  });
-
   config.addCollection('feed', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
