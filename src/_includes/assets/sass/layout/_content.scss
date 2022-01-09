@@ -8,11 +8,12 @@
   margin-bottom: calc(var(--flow-space) * 0.375);
 
   &--condensed {
-    margin-bottom: calc(var(--flow-space) * 0.0625);
+    margin-bottom: calc(var(--flow-space) * 0.125);
   }
 }
 
 .content__meta {
+  font-style: italic;
   margin-bottom: var(--flow-space);
 }
 
