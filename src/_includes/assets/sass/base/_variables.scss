@@ -4,7 +4,7 @@
   --header-font-family: 'Lato', sans-serif;
 
   // Basic site settings
-  --content-width: 800px;
+  --content-width: 900px;
 
   // Colors
   --primary-link-base: 344;
@@ -19,11 +19,19 @@
   --flow-space: 2.1875em;
 
   // Fonts
-  --size-logo: clamp(32px, 29px + 1.875vw, 34px);
-  --size-h1: clamp(40px, 4px + 7.5vw, 48px);
-  --size-h2: clamp(32px, 26px + 1.25vw, 36px);
-  --size-body: clamp(20px, 14px + 1.25vw, 24px);
-  --size-small: clamp(16px, 11px + 0.625vw, 18px);
+  --font-size-sm: clamp(1rem, 0.4vw + 0.9rem, 1.13rem);
+  --font-size-base: clamp(1.25rem, 0.8vw + 1.05rem, 1.5rem);
+  --font-size-md: clamp(1.56rem, 1.4vw + 1.21rem, 2rem);
+  --font-size-lg: clamp(1.95rem, 2.28vw + 1.38rem, 2.67rem);
+  --font-size-xl: clamp(2.44rem, 3.56vw + 1.55rem, 3.55rem);
+  --font-size-xxl: clamp(3.05rem, 5.39vw + 1.7rem, 4.74rem);
+  --font-size-xxxl: clamp(3.81rem, 7.99vw + 1.82rem, 6.31rem);
+
+  --size-logo: var(--font-size-lg);
+  --size-h1: var(--font-size-lg);
+  --size-h2: var(--font-size-lg);
+  --size-body: var(--font-size-base);
+  --size-small: var(--font-size-sm);
 }
 
 // Media query breakpoints
