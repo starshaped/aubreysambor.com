@@ -11,12 +11,12 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-img": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@babel/eslint-parser": "^7.17.0",
-    "concurrently": "^7.0.0",
-    "eslint": "^8.11.0",
+    "concurrently": "^7.1.0",
+    "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "get-google-fonts": "^1.2.2",
@@ -25,10 +25,10 @@
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "jsdom": "^19.0.0",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.13",
     "postcss-cli": "^9.1.0",
     "postcss-pxtorem": "^6.0.0",
-    "prettier": "^2.6.0",
-    "sass": "^1.49.9"
+    "prettier": "^2.6.2",
+    "sass": "^1.51.0"
   }
 }
