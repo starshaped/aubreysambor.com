@@ -19,13 +19,13 @@
   --flow-space: 2.1875em;
 
   // Fonts
---font-size-sm: clamp(0.9rem, 0.72vw + 0.72rem, 1.13rem);
-  --font-size-base: clamp(1.13rem, 1.2vw + 0.82rem, 1.5rem);
-  --font-size-md: clamp(1.41rem, 1.9vw + 0.93rem, 2rem);
-  --font-size-lg: clamp(1.76rem, 2.9vw + 1.03rem, 2.67rem);
-  --font-size-xl: clamp(2.2rem, 4.34vw + 1.11rem, 3.55rem);
-  --font-size-xxl: clamp(2.75rem, 6.37vw + 1.16rem, 4.74rem);
-  --font-size-xxxl: clamp(3.43rem, 9.22vw + 1.13rem, 6.31rem);
+--font-size-sm: clamp(0.9rem, 0.41vw + 0.8rem, 1.13rem);
+  --font-size-base: clamp(1.13rem, 0.68vw + 0.95rem, 1.5rem);
+  --font-size-md: clamp(1.41rem, 1.08vw + 1.14rem, 2rem);
+  --font-size-lg: clamp(1.76rem, 1.65vw + 1.35rem, 2.67rem);
+  --font-size-xl: clamp(2.2rem, 2.46vw + 1.58rem, 3.55rem);
+  --font-size-xxl: clamp(2.75rem, 3.62vw + 1.84rem, 4.74rem);
+  --font-size-xxxl: clamp(3.43rem, 5.24vw + 2.12rem, 6.31rem);
 
   --size-logo: var(--font-size-lg);
   --size-h1: var(--font-size-lg);
