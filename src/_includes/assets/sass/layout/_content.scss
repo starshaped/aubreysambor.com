@@ -1,7 +1,9 @@
 .content {
   @extend %content-padding-inner;
 
-  border-bottom: solid 8px var(--accent-color);
+  &:not(:only-child) {
+    border-bottom: solid 8px var(--accent-color);
+  }
 }
 
 .content__title {
