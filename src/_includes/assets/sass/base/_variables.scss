@@ -4,7 +4,7 @@
   --header-font-family: 'Lato', sans-serif;
 
   // Basic site settings
-  --content-width: 900px;
+  --content-width: 800px;
 
   // Colors
   --primary-link-base: 344;
@@ -19,13 +19,13 @@
   --flow-space: 2.1875em;
 
   // Fonts
-  --font-size-sm: clamp(0.9rem, 0.41vw + 0.8rem, 1.13rem);
-  --font-size-base: clamp(1.13rem, 0.68vw + 0.95rem, 1.5rem);
-  --font-size-md: clamp(1.41rem, 1.08vw + 1.14rem, 2rem);
-  --font-size-lg: clamp(1.76rem, 1.65vw + 1.35rem, 2.67rem);
-  --font-size-xl: clamp(2.2rem, 2.46vw + 1.58rem, 3.55rem);
-  --font-size-xxl: clamp(2.75rem, 3.62vw + 1.84rem, 4.74rem);
-  --font-size-xxxl: clamp(3.43rem, 5.24vw + 2.12rem, 6.31rem);
+  --font-size-sm: clamp(0.8rem, 0.55vw + 0.66rem, 0.94rem);
+  --font-size-base: clamp(1rem, 1vw + 0.75rem, 1.25rem);
+  --font-size-md: clamp(1.25rem, 1.67vw + 0.83rem, 1.67rem);
+  --font-size-lg: clamp(1.56rem, 2.63vw + 0.9rem, 2.22rem);
+  --font-size-xl: clamp(1.95rem, 4.03vw + 0.95rem, 2.96rem);
+  --font-size-xxl: clamp(2.44rem, 6.02vw + 0.94rem, 3.95rem);
+  --font-size-xxxl: clamp(3.05rem, 8.84vw + 0.84rem, 5.26rem);
 
   --size-logo: var(--font-size-lg);
   --size-h1: var(--font-size-xl);
