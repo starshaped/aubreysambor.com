@@ -10,10 +10,12 @@
       "url": "/archives/",
       "external": false
     },
-        {
-      "text": "Twitter",
-      "url": "https://twitter.com/starshaped",
-      "external": true
+    {
+      "text": "Mastodon",
+      "url": "https://labyrinth.social/@starshaped",
+      "attributes": {
+        "rel": "me"
+      }
     },
     {
       "text": "RSS",

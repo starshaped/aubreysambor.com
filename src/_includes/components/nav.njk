@@ -4,6 +4,13 @@
       {% for item in navigation.items %}
         {% set externalAttribute = '' %}
         {% set currentAttribute = '' %}
+        {% set navigationAttributes = '' %}
+
+        {% if item.attributes %}
+          {% for key, attribute in item.attributes %}
+            {% set navigationAttributes = " " ~ key ~ " = " ~ attribute %}
+          {% endfor %}
+        {% endif %}
 
         {% if item.external %}
           {% set externalAttribute = ' rel="external"' %}
@@ -14,7 +21,7 @@
         {% endif %}
 
         <li class="nav__list-item">
-          <a href="{{ item.url }}"{{ externalAttribute | safe }}{{ currentAttribute | safe }}>{{ item.text }}</a>
+          <a href="{{ item.url }}"{{ externalAttribute | safe }}{{ currentAttribute | safe }}{{ navigationAttributes | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
     </ul>
