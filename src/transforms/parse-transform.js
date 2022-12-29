@@ -1,7 +1,5 @@
-const jsdom = require('jsdom');
 const slugify = require('slugify');
-
-const { JSDOM } = jsdom;
+const { JSDOM } = require('jsdom');
 
 module.exports = function (value, outputPath) {
   if (outputPath.endsWith('.html')) {
