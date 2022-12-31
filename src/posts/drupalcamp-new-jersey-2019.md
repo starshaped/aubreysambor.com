@@ -1,7 +1,7 @@
 ---
 title: DrupalCamp New Jersey 2019
 summary: Adam and I took multiple modes of transportation to attend DrupalCamp New Jersey, and we enjoyed time with friends, awesome sessions, and fantastic local brews.
-date: '2019-02-18'
+date: 2019-02-18
 tags:
   - conferences
   - drupal

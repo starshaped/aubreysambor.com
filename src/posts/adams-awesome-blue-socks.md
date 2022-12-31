@@ -1,6 +1,6 @@
 ---
 title: Adam's awesome blue socks
-date: '2019-01-24'
+date: 2019-01-24
 tags:
   - knitting
 ---
@@ -15,8 +15,8 @@ The first sock knit up so quickly that it practically jumped out of my hands, bu
 
 ## Details
 
-* Yarn: [Madelinetosh Twist Light](https://madelinetosh.com/collections/twist-light-solid) in the Baltic colorway
-* Needles: US size 1, 2.25mm
-* Pattern: Same as I used for [the last pair of socks I knit for him](/posts/blueberry-socks). I'm psyched to have figured out a sock recipe for him!
+- Yarn: [Madelinetosh Twist Light](https://madelinetosh.com/collections/twist-light-solid) in the Baltic colorway
+- Needles: US size 1, 2.25mm
+- Pattern: Same as I used for [the last pair of socks I knit for him](/posts/blueberry-socks). I'm psyched to have figured out a sock recipe for him!
 
 What color socks will I knit him next? Well, you'll just have to see! He bought four (yes, FOUR) skeins of sock yarn in Canada, so many more pairs of socks will be knit for him. I can't wait.

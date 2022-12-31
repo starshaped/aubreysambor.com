@@ -2,7 +2,7 @@
 title: NEDCamp 2019
 summary: Another year, another fun time at NEDCamp! I enjoyed some fantastic sessions and even gave a talk of my own. Hanging with my Drupal friends is the best.
 tags: ['conferences', 'drupal']
-date: '2019-11-30'
+date: 2019-11-30
 ---
 
 This past weekend, I attended [NEDCamp](https://nedcamp.org), a camp I've been attending for the past 4 years. As always, I enjoyed the camp and all the fantastic sessions. This year [I presented a session of my own](https://nedcamp.org/sessions/2019/putting-c-back-css-modern-techniques-todays-website), and I think it went pretty well!

@@ -27,12 +27,41 @@
   --font-size-xxl: clamp(2.9rem, 2.98vw + 2.15rem, 4.54rem);
   --font-size-xxxl: clamp(3.62rem, 4.41vw + 2.52rem, 6.05rem);
 
-  --size-logo: var(--font-size-lg);
-  --size-h1: var(--font-size-xl);
-  --size-h2: var(--font-size-lg);
-  --size-h3: var(--font-size-md);
-  --size-body: var(--font-size-base);
-  --size-small: var(--font-size-sm);
+  --step--2: clamp(0.87rem, calc(0.81rem + 0.31vw), 0.96rem);
+  --step--1: clamp(1.04rem, calc(0.94rem + 0.53vw), 1.20rem);
+  --step-0: clamp(1.25rem, calc(1.08rem + 0.83vw), 1.50rem);
+  --step-1: clamp(1.50rem, calc(1.25rem + 1.25vw), 1.88rem);
+  --step-2: clamp(1.80rem, calc(1.44rem + 1.81vw), 2.34rem);
+  --step-3: clamp(2.16rem, calc(1.65rem + 2.57vw), 2.93rem);
+  --step-4: clamp(2.59rem, calc(1.88rem + 3.57vw), 3.66rem);
+  --step-5: clamp(3.11rem, calc(2.13rem + 4.89vw), 4.58rem);
+
+    --space-3xs: clamp(0.31rem, calc(0.27rem + 0.21vw), 0.38rem);
+      --space-2xs: clamp(0.63rem, calc(0.54rem + 0.42vw), 0.75rem);
+      --space-xs: clamp(0.94rem, calc(0.81rem + 0.63vw), 1.13rem);
+      --space-s: clamp(1.25rem, calc(1.08rem + 0.83vw), 1.50rem);
+      --space-m: clamp(1.88rem, calc(1.63rem + 1.25vw), 2.25rem);
+      --space-l: clamp(2.50rem, calc(2.17rem + 1.67vw), 3.00rem);
+      --space-xl: clamp(3.75rem, calc(3.25rem + 2.50vw), 4.50rem);
+      --space-2xl: clamp(5.00rem, calc(4.33rem + 3.33vw), 6.00rem);
+      --space-3xl: clamp(7.50rem, calc(6.50rem + 5.00vw), 9.00rem);
+    
+      /* One-up pairs */
+      --space-3xs-2xs: clamp(0.31rem, calc(0.02rem + 1.46vw), 0.75rem);
+      --space-2xs-xs: clamp(0.63rem, calc(0.29rem + 1.67vw), 1.13rem);
+      --space-xs-s: clamp(0.94rem, calc(0.56rem + 1.88vw), 1.50rem);
+      --space-s-m: clamp(1.25rem, calc(0.58rem + 3.33vw), 2.25rem);
+      --space-m-l: clamp(1.88rem, calc(1.13rem + 3.75vw), 3.00rem);
+      --space-l-xl: clamp(2.50rem, calc(1.17rem + 6.67vw), 4.50rem);
+      --space-xl-2xl: clamp(3.75rem, calc(2.25rem + 7.50vw), 6.00rem);
+      --space-2xl-3xl: clamp(5.00rem, calc(2.33rem + 13.33vw), 9.00rem);
+
+  --size-logo: var(--step-2);
+  --size-h1: var(--step-3);
+  --size-h2: var(--step-3);
+  --size-h3: var(--step-1);
+  --size-body: var(--step-0);
+  --size-small: var(--step--1);
 }
 
 // Media query breakpoints
