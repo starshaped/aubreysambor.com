@@ -16,8 +16,8 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@babel/eslint-parser": "^7.19.1",
     "concurrently": "^7.6.0",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "get-google-fonts": "^1.2.2",
     "gulp": "^4.0.2",
@@ -25,10 +25,10 @@
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "jsdom": "^20.0.3",
-    "postcss": "^8.4.19",
-    "postcss-cli": "^10.0.0",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
     "postcss-pxtorem": "^6.0.0",
-    "prettier": "^2.8.0",
-    "sass": "^1.56.1"
+    "prettier": "^2.8.1",
+    "sass": "^1.57.1"
   }
 }
