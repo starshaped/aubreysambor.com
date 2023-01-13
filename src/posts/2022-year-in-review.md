@@ -3,7 +3,7 @@ title: 2022 year in review
 date: 2023-01-12
 summary: ''
 tags:
-  - life
+  - life in general
 ---
 
 This took me a million and a half years to write, but finally, here's my 2022 in review!
