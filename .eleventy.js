@@ -4,15 +4,17 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 // Import transforms
 const parseTransform = require('./src/transforms/parse-transform.js');
 
-// Import site information
-const site = require('./src/_data/site.json');
-
-const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+// Import utils
+const addFonts = require('./src/utils/add-fonts.js');
 
 const slugify = require("slugify");
 const { DateTime } = require("luxon");
 
+// Import site information
+const site = require('./src/_data/site.json');
+
 module.exports = function (config) {
+
   // Plugins
   config.addPlugin(rssPlugin);
 
@@ -36,6 +38,9 @@ module.exports = function (config) {
 
   // Transforms
   config.addTransform('parse', parseTransform);
+
+  // Utils
+  addFonts();
 
   // Shortcodes
   config.addShortcode("year", () => `${new Date().getFullYear()}`);
