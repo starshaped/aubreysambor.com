@@ -9,7 +9,13 @@
         <a class="post-listing__link" href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
       </h2>
       <time class="post-listing__date" datetime="{{ post.date | htmlDateFilter }}">{{ post.date | postDate }}</time>
-      <p class="post-listing__summary">{{ post.data.summary }}</p>
+      <p class="post-listing__summary">
+        {% if post.data.summary %}
+          {{ post.data.summary }}
+        {% else %}
+          {{ post.content | truncatePost }}
+        {% endif %}
+      </p>
     </li>
   {%- endfor -%}
 </ul>

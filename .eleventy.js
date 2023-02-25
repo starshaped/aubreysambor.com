@@ -36,6 +36,18 @@ module.exports = function (config) {
     return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_MED);
   });
 
+  config.addFilter('truncatePost', (value) => {
+    const truncate = (str, max = 40) => {
+      const array = str.trim().split(' ');
+      const ellipsis = array.length > max ? '...' : '';
+
+      return array.slice(0, max).join(' ') + ellipsis;
+    };
+
+    const newValue = value.replace(/(<([^>]+)>)/gi, "");
+    return truncate(newValue);
+  });
+
   // Transforms
   config.addTransform('parse', parseTransform);
 
