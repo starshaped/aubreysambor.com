@@ -33,7 +33,7 @@ module.exports = function (config) {
   });
 
   config.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_MED);
+    return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_FULL);
   });
 
   config.addFilter('truncatePost', (value) => {
