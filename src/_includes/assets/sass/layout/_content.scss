@@ -6,25 +6,15 @@
   }
 }
 
-.content__title {
-  margin-bottom: calc(var(--flow-space) * 0.375);
-
-  &--condensed {
-    margin-bottom: calc(var(--flow-space) * 0.125);
-  }
+.content > * + * {
+  margin-top: var(--flow-space, 1em);
 }
 
 .content__meta {
-  margin-bottom: var(--flow-space);
+  --flow-space: 1em;
 }
 
 .content__date {
   margin-right: 2px;
   font-size: var(--size-small);
-}
-
-.content__body {
-  & > * + * {
-    margin-top: var(--flow-space);
-  }
 }

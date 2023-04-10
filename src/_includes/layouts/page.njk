@@ -3,8 +3,6 @@
 {% block content %}
   <article class="content">
     <h1 class="content__title">{{ title }}</h1>
-    <div class="content__body">
-      {{ content | safe }}
-    </div>
+    {{ content | safe }}
   </article>
 {% endblock %}

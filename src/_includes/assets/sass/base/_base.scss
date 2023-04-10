@@ -26,6 +26,7 @@ h3 {
 
 h1 {
   font-size: var(--size-h1);
+  line-height: 1.3;
 }
 
 h2 {
@@ -35,6 +36,12 @@ h2 {
 
 h3 {
   font-size: var(--size-h3);
+}
+
+small,
+p:has(small) {
+  font-size: var(--size-small);
+  line-height: 1.7;
 }
 
 p,
