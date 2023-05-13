@@ -1,8 +1,4 @@
 // Mixins.
-@mixin content-padding($padding-vertical: 0) {
-  padding: $padding-vertical 24px;
-}
-
 @mixin breakpoint($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
     $value: map-get($breakpoints, $breakpoint);
@@ -12,21 +8,6 @@
     }
   } @else {
     @warn "Unknown `#{$breakpoint}` in $breakpoints";
-  }
-}
-
-// Placeholders.
-%content-padding-inner {
-  max-width: var(--content-width);
-  margin: auto;
-  padding: 48px 16px 32px 16px;
-
-  @include breakpoint('small') {
-    padding: 64px 0 48px 0;
-  }
-
-  @include breakpoint('medium') {
-    padding: 72px 0 56px 0;
   }
 }
 

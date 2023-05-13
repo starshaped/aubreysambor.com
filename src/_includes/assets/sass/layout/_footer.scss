@@ -1,13 +1,14 @@
 .footer {
-  @include content-padding(24px);
+  --content-padding: 24px;
+  padding: var(--content-padding) 24px;
   background-color: white;
 
   @include breakpoint('small') {
-    @include content-padding(32px);
+    --content-padding: 32px;
   }
 
   @include breakpoint('medium') {
-    @include content-padding(48px);
+    --content-padding: 48px;
   }
 }
 

@@ -3,7 +3,8 @@
   padding: 16px 0;
 
   @include breakpoint('small') {
-    @include content-padding(16px);
+    --content-padding: 16px;
+    padding: var(--content-padding) 24px;
   }
 }
 
