@@ -1,6 +1,7 @@
 const { dest, src } = require('gulp');
 const cleanCSS = require('gulp-clean-css');
 const postcss = require('gulp-postcss');
+const postcssCustomMedia = require('postcss-custom-media');
 const pxtorem = require('postcss-pxtorem');
 const sassProcessor = require('gulp-sass')(require('sass'));
 
@@ -11,6 +12,7 @@ const plugins = [
   pxtorem({
     propList: ['*'],
   }),
+  postcssCustomMedia(),
 ];
 
 // The main Sass method grabs all root Sass files,

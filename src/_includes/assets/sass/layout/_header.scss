@@ -2,7 +2,7 @@
   background-color: white;
   padding: 16px 0;
 
-  @include breakpoint('small') {
+  @media (--small) {
     --content-padding: 16px;
     padding: var(--content-padding) 24px;
   }
@@ -13,7 +13,7 @@
   margin: auto;
   text-align: center;
 
-  @include breakpoint('medium') {
+  @media (--medium) {
     display: flex;
     align-items: center;
     justify-content: space-between;

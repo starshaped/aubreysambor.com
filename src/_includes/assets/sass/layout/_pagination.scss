@@ -3,7 +3,7 @@
   margin: auto;
   padding: var(--flow-space) 16px;
 
-  @include breakpoint('small') {
+  @media (--small) {
     padding-left: 0;
     padding-right: 0;
   }

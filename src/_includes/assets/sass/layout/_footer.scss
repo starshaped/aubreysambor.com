@@ -3,11 +3,11 @@
   padding: var(--content-padding) 24px;
   background-color: white;
 
-  @include breakpoint('small') {
+  @media (--small) {
     --content-padding: 32px;
   }
 
-  @include breakpoint('medium') {
+  @media (--medium) {
     --content-padding: 48px;
   }
 }

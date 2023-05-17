@@ -1,3 +1,7 @@
+@custom-media --small (min-width: 30em);
+@custom-media --medium (min-width: 48em);
+@custom-media --large (min-width: 64em);
+
 :root {
   // Font families
   --base-font-family: 'Roboto', sans-serif;
@@ -56,10 +60,3 @@
 
   --content-padding: 0;
 }
-
-// Media query breakpoints
-$breakpoints: (
-  'small': 30em,
-  'medium': 48em,
-  'large': 64em,
-) !default;

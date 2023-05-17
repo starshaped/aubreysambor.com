@@ -3,11 +3,11 @@
   margin: auto;
   padding: 48px 16px 32px 16px;
 
-  @include breakpoint('small') {
+  @media (--small) {
     padding: 64px 0 48px 0;
   }
 
-  @include breakpoint('medium') {
+  @media (--medium) {
     padding: 72px 0 56px 0;
   }
 
