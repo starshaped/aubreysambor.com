@@ -1,0 +1,33 @@
+.header {
+  background-color: white;
+  padding: 16px 0;
+
+  @media (--small) {
+    --content-padding: 16px;
+    padding: var(--content-padding) 24px;
+  }
+}
+
+.header__inner {
+  max-width: var(--content-width);
+  margin: auto;
+  text-align: center;
+
+  @media (--medium) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.header__title {
+  font-family: var(--header-font-family);
+  text-transform: lowercase;
+  font-size: var(--size-logo);
+  margin-bottom: 8px;
+}
+
+.header__title-link {
+  color: var(--text-color);
+  text-decoration: none;
+}

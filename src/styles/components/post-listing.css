@@ -1,0 +1,17 @@
+.post-listing {
+  padding-left: 0;
+}
+
+.post-listing__item {
+  list-style-type: none;
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--flow-space) * 1.75);
+  }
+}
+
+.post-listing__date {
+  font-size: var(--size-small);
+  display: inline-block;
+  margin-bottom: calc(var(--flow-space) * 0.25);
+}

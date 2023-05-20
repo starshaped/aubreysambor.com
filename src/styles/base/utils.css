@@ -1,0 +1,42 @@
+/* Accessibility fun! */
+.skip-link {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  background-color: var(--text-color);
+  color: var(--accent-color);
+  line-height: 1;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: var(--size-body);
+  transform: translateY(-100%);
+
+  &:focus {
+    transform: translateY(0%);
+  }
+}
+
+/* General shit that doesn't belong anywhere else. */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+img[src$='about-aubrey.jpg'] {
+  max-width: 300px;
+
+  @media (--medium) {
+    margin-top: 8px;
+    margin-right: 24px;
+    float: left;
+  }
+}

@@ -1,6 +1,12 @@
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
+const postcss = require('postcss');
+const cssnano = require('cssnano');
+const postcssImport = require('postcss-import');
+const postcssCustomMedia = require('postcss-custom-media');
+const pxtorem = require('postcss-pxtorem');
+
 // Import transforms
 const parseTransform = require('./src/transforms/parse-transform.js');
 
@@ -14,6 +20,32 @@ const { DateTime } = require("luxon");
 const site = require('./src/_data/site.json');
 
 module.exports = function (config) {
+
+  config.addTemplateFormats('css');
+
+  config.addExtension('css', {
+    outputFileExtension: 'css',
+    compile: async (content, path) => {
+      if (path !== './src/styles/styles.css') {
+        return;
+      }
+
+      return async () => {
+        let output = await postcss([
+          pxtorem({
+            propList: ['*'],
+          }),
+          postcssImport,
+          postcssCustomMedia,
+          cssnano,
+        ]).process(content, {
+          from: path,
+        });
+
+        return output.css;
+      }
+    }
+  });
 
   // Plugins
   config.addPlugin(rssPlugin);
@@ -58,10 +90,9 @@ module.exports = function (config) {
   config.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  config.addPassthroughCopy({ 'src/_includes/assets/css': 'css' });
+  config.addPassthroughCopy({ 'src/_includes/assets/styles': 'styles' });
   config.addPassthroughCopy({ 'src/_includes/assets/fonts': 'fonts' });
   config.addPassthroughCopy({ 'src/_includes/assets/images': 'images' });
-  config.addPassthroughCopy('src/js');
 
   config.addCollection('feed', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();

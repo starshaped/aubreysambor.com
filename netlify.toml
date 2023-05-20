@@ -1,5 +1,5 @@
 [build]
-  command = "npm run production"
+  command = "npx @11ty/eleventy"
   publish = "dist"
 
 [[redirects]]

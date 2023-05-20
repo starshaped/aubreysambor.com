@@ -1,0 +1,25 @@
+.nav {
+  text-align: center;
+  --flow-space: 0;
+}
+
+.nav__list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.nav__list-item {
+  display: inline-block;
+
+  &:not(:last-child) {
+    margin-right: 24px;
+
+    @media (--small) {
+      margin-right: 40px;
+    }
+  }
+
+  & a {
+    font-family: var(--header-font-family);
+  }
+}
