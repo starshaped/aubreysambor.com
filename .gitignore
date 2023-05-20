@@ -7,10 +7,5 @@ npm-debug.*
 node_modules
 dist 
 
-# Specifics
-
-# Hide compiled CSS
-src/_includes/assets/css
-
 # Local Netlify folder
 .netlify
