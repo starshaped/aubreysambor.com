@@ -50,6 +50,10 @@ li {
   font-size: var(--size-body);
 }
 
+li {
+  --flow-space: 1em;
+}
+
 ul,
 ol {
   padding-left: 16px;
