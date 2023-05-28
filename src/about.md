@@ -21,18 +21,17 @@ I registered this domain name in August 2000 as a gift to myself when I finally 
 As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 18 years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.dev/">Eleventy</a>. Thanks to [Lea Verou](https://twitter.com/LeaVerou/status/1241619866475474946) for the emoji as favicon idea!
 
 ## Articles
-- **The Drop Times,** [Who You Know Is As Important As What You Know; Aubrey Sambor](https://www.thedroptimes.com/28354/who-you-know-important-what-you-know-aubrey-sambor-fldc)
-- **Lullabot blog,** [CSS Features We’re Thankful For and CSS Features We Need](https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need)
-- **Acquia blog,** [The Women of the Drupal Community: starshaped](https://www.acquia.com/blog/women-drupal-community-starshaped)
+- *The Drop Times,* [Who You Know Is As Important As What You Know; Aubrey Sambor](https://www.thedroptimes.com/28354/who-you-know-important-what-you-know-aubrey-sambor-fldc)
+- *Lullabot blog,* [CSS Features We’re Thankful For and CSS Features We Need](https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need)
+- *Acquia blog,* [The Women of the Drupal Community: starshaped](https://www.acquia.com/blog/women-drupal-community-starshaped)
 
 ## Podcasts
-- **Lullabot podcast,** [Episode 259: Healthy Minds @Lullabot](https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot)
-- **Developing Up podcast,** [Episode 30: Impostor Syndrome](http://www.developingup.com/episodes/30)
-- **Death Prattle podcast,** [Episode 72: Getting the call twice](http://deathprattle.libsyn.com/podcast/episode-72-getting-the-call-twice-with-special-guest-aubrey)
+- _Lullabot podcast_, [Episode 259: Healthy Minds @Lullabot](https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot)
+- _Developing Up podcast_, [Episode 30: Impostor Syndrome](http://www.developingup.com/episodes/30)
+- _Death Prattle podcast_, [Episode 72: Getting the call twice](http://deathprattle.libsyn.com/podcast/episode-72-getting-the-call-twice-with-special-guest-aubrey)
 
 ## Webrings
 
-<p><a href="https://cs.sjoy.lol/">CS.Sjoy.lol</a> webring<br />
-<a href="https://webri.ng/webring/cssjoy/previous?via=https://www.star-shaped.org/">Previous Site</a> · <a href="https://webri.ng/webring/cssjoy/random?via=https://www.star-shaped.org/">Random Site</a> · <a href="https://webri.ng/webring/cssjoy/next?via=https://www.star-shaped.org/">Next Site</a></p>
+<p><a href="https://webri.ng/webring/cssjoy/previous?via=https://www.star-shaped.org/"><span aria-hidden="true">←</span> <span class="visually-hidden">Previous Site</span></a> · <a href="https://cs.sjoy.lol/">CS.Sjoy.lol</a> · <a href="https://webri.ng/webring/cssjoy/next?via=https://www.star-shaped.org/"><span class="visually-hidden">Next Site</span> <span aria-hidden="true">→</span></a></p>
 
 Thanks for reading!
