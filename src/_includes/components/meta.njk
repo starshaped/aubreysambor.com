@@ -16,17 +16,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ currentUrl }}" />
 
-{% if site.authorHandle %}
-  <meta name="twitter:creator" content="@{{ site.authorHandle | replace('@', '') }}" />
-{% endif %}
-
 <meta name="description" content="{{ pageDesc }}" />
-<meta name="twitter:description" content="{{ pageDesc }}" />
 <meta property="og:description" content="{{ pageDesc }}" />
 
 {% if featuredImage %}  
   <meta property="og:image" content="{{ featuredImage }}" />
-  <meta name="twitter:image" content="{{ featuredImage }}" />
   <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
