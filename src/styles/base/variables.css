@@ -22,23 +22,14 @@
   /* Spacing */
   --flow-space: 2.25em;
 
-  /* --step--2: clamp(0.65rem, calc(0.50rem + 0.76vw), 0.88rem);
-  --step--1: clamp(0.78rem, calc(0.57rem + 1.06vw), 1.10rem);
-  --step-0: clamp(0.94rem, calc(0.65rem + 1.46vw), 1.38rem);
-  --step-1: clamp(1.13rem, calc(0.73rem + 1.98vw), 1.72rem);
-  --step-2: clamp(1.35rem, calc(0.82rem + 2.66vw), 2.15rem);
-  --step-3: clamp(1.62rem, calc(0.91rem + 3.55vw), 2.69rem);
-  --step-4: clamp(1.94rem, calc(1.00rem + 4.71vw), 3.36rem);
-  --step-5: clamp(2.33rem, calc(1.09rem + 6.21vw), 4.20rem); */
-
-  --step--2: clamp(0.65rem, calc(0.60rem + 0.26vw), 0.80rem);
-    --step--1: clamp(0.78rem, calc(0.71rem + 0.38vw), 1.00rem);
-    --step-0: clamp(0.94rem, calc(0.83rem + 0.54vw), 1.25rem);
-    --step-1: clamp(1.13rem, calc(0.97rem + 0.76vw), 1.56rem);
-    --step-2: clamp(1.35rem, calc(1.14rem + 1.05vw), 1.95rem);
-    --step-3: clamp(1.62rem, calc(1.33rem + 1.43vw), 2.44rem);
-    --step-4: clamp(1.94rem, calc(1.56rem + 1.93vw), 3.05rem);
-    --step-5: clamp(2.33rem, calc(1.82rem + 2.58vw), 3.82rem);
+  --step--2: clamp(0.65rem, calc(0.55rem + 0.50vw), 0.80rem);
+  --step--1: clamp(0.78rem, calc(0.64rem + 0.73vw), 1.00rem);
+  --step-0: clamp(0.94rem, calc(0.73rem + 1.04vw), 1.25rem);
+  --step-1: clamp(1.13rem, calc(0.83rem + 1.46vw), 1.56rem);
+  --step-2: clamp(1.35rem, calc(0.95rem + 2.01vw), 1.95rem);
+  --step-3: clamp(1.62rem, calc(1.07rem + 2.74vw), 2.44rem);
+  --step-4: clamp(1.94rem, calc(1.21rem + 3.69vw), 3.05rem);
+  --step-5: clamp(2.33rem, calc(1.34rem + 4.94vw), 3.82rem);
 
   --space-3xs: clamp(0.25rem, calc(0.17rem + 0.42vw), 0.38rem);
   --space-2xs: clamp(0.50rem, calc(0.38rem + 0.63vw), 0.69rem);
