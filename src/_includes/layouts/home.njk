@@ -24,8 +24,9 @@
         {% endif %}
       </div>
 
-
-      {{ post.templateContent | safe }}
+      <div class="content__text">
+        {{ post.templateContent | safe }}
+      </div>
     </article>
   {%- endfor -%}
 

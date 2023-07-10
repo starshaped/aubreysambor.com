@@ -46,7 +46,7 @@ p:has(small) {
 
 p,
 li {
-  line-height: 1.825;
+  line-height: 2;
   font-size: var(--size-body);
 }
 

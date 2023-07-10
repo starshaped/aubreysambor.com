@@ -16,6 +16,7 @@
   }
 }
 
+/* todo: fix this? */
 .content > * + * {
   margin-top: var(--flow-space, 1em);
 }
@@ -27,4 +28,14 @@
 .content__date {
   margin-right: 2px;
   font-size: var(--size-small);
+}
+
+.content__text {
+  & h2 {
+    border-bottom: solid 1px var(--text-color);
+  }
+
+    > * + * {
+      margin-top: var(--flow-space, 1em);
+    }
 }

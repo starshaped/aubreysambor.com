@@ -20,7 +20,7 @@
   --secondary-link: #70d7d0;
 
   /* Spacing */
-  --flow-space: 2.25em;
+  --flow-space: 1.5em;
 
   --step--2: clamp(0.65rem, calc(0.55rem + 0.50vw), 0.80rem);
   --step--1: clamp(0.78rem, calc(0.64rem + 0.73vw), 1.00rem);
