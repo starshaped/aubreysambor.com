@@ -24,7 +24,8 @@ h3 {
   font-family: var(--header-font-family);
 }
 
-h1 {
+h1,
+.h1 {
   font-size: var(--size-h1);
   line-height: 1.3;
 }
