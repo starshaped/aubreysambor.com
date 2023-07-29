@@ -1,6 +1,6 @@
-@custom-media --small (min-width: 30em);
-@custom-media --medium (min-width: 48em);
-@custom-media --large (min-width: 64em);
+@custom-media --small (width >= 30em);
+@custom-media --medium (width>= 48em);
+@custom-media --large (width>= 64em);
 
 :root {
   /* Font families */
@@ -16,6 +16,9 @@
   --primary-link-hover: hsla(var(--primary-link-base), 56%, 46%, 100%);
   --background-color: #f9f9f9;
   --text-color: #333;
+  --text-color-light: color-mix(in srgb,
+        var(--secondary-link),
+        black 15%);
   --accent-color: #eee;
   --secondary-link: #70d7d0;
 
