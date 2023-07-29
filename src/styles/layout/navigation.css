@@ -21,5 +21,9 @@
 
   & a {
     font-family: var(--header-font-family);
+
+    &:hover {
+      color: var(--primary-link-dark);
+    }
   }
 }

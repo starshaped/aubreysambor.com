@@ -1,12 +1,13 @@
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
+// PostCSS goodness!
 const postcss = require('postcss');
 const cssnano = require('cssnano');
-const postcssImport = require('postcss-import');
 const postcssCustomMedia = require('postcss-custom-media');
-const pxtorem = require('postcss-pxtorem');
+const postcssImport = require('postcss-import');
 const postcssNesting = require('postcss-nesting');
+const pxtorem = require('postcss-pxtorem');
 
 // Import transforms
 const parseTransform = require('./src/transforms/parse-transform.js');
