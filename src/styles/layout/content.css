@@ -32,10 +32,14 @@
 
 .content__text {
   & h2 {
-    border-bottom: solid 1px var(--primary-link);
+    margin-top: 2.5em;
   }
 
-    > * + * {
-      margin-top: var(--flow-space, 1em);
-    }
+  & h3 {
+    margin-top: 2.5em;
+  }
+
+  > * + * {
+    margin-top: var(--flow-space, 1em);
+  }
 }

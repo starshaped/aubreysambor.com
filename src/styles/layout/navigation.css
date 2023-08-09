@@ -1,14 +1,29 @@
 .nav {
   text-align: center;
   --flow-space: 0;
+  margin-top: 16px;
+
+  @media (--medium) {
+    margin-top: 0;
+  }
 }
 
 .nav__list {
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (--medium) {
+    justify-content: flex-end;
+  }
 }
 
 .nav__list-item {
+  margin: 0;
+  padding: 0;
   display: inline-block;
 
   &:not(:last-child) {
