@@ -6,7 +6,7 @@ tags:
 ---
 I'm proud of myself; I've finally spun up around 6oz of purple roving I bought last weekend, and it looks halfway decent!
 
-![Two bobbins of purple handspun yarn.](../../images/purple-yarn-spun-up.jpg "Purple yarn, spun up!")
+![Two bobbins of purple handspun yarn.](./images/purple-yarn-spun-up.jpg "Purple yarn, spun up!")
 
 It's taken me roughly a week to spin this up; I started it last weekend at our monthly knitting guild meeting, and finished about a half hour ago. The difference of quality between the two is definitely noticeable; guess which one I spun first?
 

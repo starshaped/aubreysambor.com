@@ -25,7 +25,7 @@ I’ve used Layout Paragraphs in a project before and I’ve liked it, so I was 
 
 ### New things we love and more things we want in CSS by Adam Varn and… me!
 
-![Adam Varn and Aubrey Sambor giving their CSS talk at Florida DrupalCamp.](../../images/fldc23-adam-aubrey.jpg 'Picture courtesy of @symfonystation@phpc.social.')
+![Adam Varn and Aubrey Sambor giving their CSS talk at Florida DrupalCamp.](./images/fldc23-adam-aubrey.jpg 'Picture courtesy of @symfonystation@phpc.social.')
 
 I had so much fun giving this talk and nerding out about CSS with Adam and the people attending the session! We talked about awesome new CSS goodness such as container queries (supported in all modern browsers as of February 14th, 2023!) and :is and :where, and things we want such as subgrid and color-contrast. We ran into a technical difficulty with our slides, but we recovered (fairly) gracefully and continued on with the session. I’m so glad to be back in action speaking at conferences!
 
@@ -39,7 +39,7 @@ I met Andy a few years ago at Design 4 Drupal Boston and he started working on m
 
 ### Next Drupal admin UI improvements by Cristina Chumillas
 
-![Cristina Chumillas talking about Admin UI improvements in Drupal 10.](../../images/fldc23-cristina.jpg 'Picture courtesy of @symfonystation@phpc.social.')
+![Cristina Chumillas talking about Admin UI improvements in Drupal 10.](./images/fldc23-cristina.jpg 'Picture courtesy of @symfonystation@phpc.social.')
 
 Cristina spoke to a full house about new improvements in Drupal’s UI and ways to contribute! She discussed an initiative to create a new dashboard for the Drupal admin pages and urged people to help out with the CSS modernization initiative. It was a great session and I came away from it excited for the future of Drupal.
 
@@ -47,7 +47,7 @@ Cristina spoke to a full house about new improvements in Drupal’s UI and ways 
 
 ### The 10 Most Useful Libraries in Drupal 10 Core by Andy Blum
 
-![Andy Blum wrapping up his talk on 10 useful libraries in Drupal 10.](../../images/fldc23-andy.jpg)
+![Andy Blum wrapping up his talk on 10 useful libraries in Drupal 10.](./images/fldc23-andy.jpg)
 
 Andy’s a great speaker and I always enjoy attending his talks! In this talk, he listed some useful libraries in Drupal core such as once() and debounce(). I absolutely loved his slides, too, and it was a great session to attend at the end of the day.
 
@@ -61,11 +61,11 @@ We ended the day with lightning talks! People who wanted to participate wrote th
 
 After the lightning talks, we all headed over to the afterparty, a venue with bowling, axe throwing, corn hole, beer pong, and many other games! After a few hours of fun, we ended the night by checking out a dive karaoke bar in what felt like the other side of town. It was a great way to close a pretty fun day.
 
-![A group of Lullabot employees posing outdoors after an evening of games and karaoke.](../../images/fldc23-lullabots.jpg 'The Lullabot crew after games and karaoke. We clearly enjoyed ourselves.')
+![A group of Lullabot employees posing outdoors after an evening of games and karaoke.](./images/fldc23-lullabots.jpg 'The Lullabot crew after games and karaoke. We clearly enjoyed ourselves.')
 
 ## Sunday: Contribution day
 On Sunday morning I got up, checked out of the hotel, and made my way to the venue. I spent the majority of the day participating in the [CSS Modernization Initiative](https://www.drupal.org/project/drupal/issues/3254529), updating Drupal’s 10’s CSS to be more modern after dropping IE11 support. Now we can use CSS custom properties, logical properties, and even nesting with the magic of PostCSS! I was super jazzed to be refactoring code and using some of the techniques I had discussed the previous day.
 
-![A group of people seated around tables with computers, attending Florida DrupalCamp contribution day.](../../images/fldc23-contribution.jpg)
+![A group of people seated around tables with computers, attending Florida DrupalCamp contribution day.](./images/fldc23-contribution.jpg)
 
 After a long, fun day of coding, chatting, and eating pizza, I flew home, returning to a harsh New England winter after a few days in sunny Florida. I’m so glad I finally attended Florida DrupalCamp and I hope to attend (and speak!) again next year!

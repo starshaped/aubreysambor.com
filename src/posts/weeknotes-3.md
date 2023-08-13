@@ -6,7 +6,7 @@ tags:
   - weeknotes
 ---
 
-![A hand holding up the toe of a hand knit sock.](../../images/fun-sock.jpg 'Started some bright fun socks for Adam this week. I am enjoying knitting these!')
+![A hand holding up the toe of a hand knit sock.](./images/fun-sock.jpg 'Started some bright fun socks for Adam this week. I am enjoying knitting these!')
 
 Greetings on a hot Sunday morning here in New England! We're staying nice and cool in our air-conditioned apartment, feeling grateful we can stay comfortable while temperatures soar to the upper 90s (close to 36 C). Let's review my week!
 

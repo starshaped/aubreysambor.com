@@ -5,7 +5,7 @@ tags:
 - conferences
 - drupal
 ---
-![Drupal Design Camp Boston 2009 group photo.](../../images/d4d2009.jpg "Drupal Design Camp Boston 2009 group photo.")
+![Drupal Design Camp Boston 2009 group photo.](./images/d4d2009.jpg "Drupal Design Camp Boston 2009 group photo.")
 
 This weekend I attended my first ~~nerd~~ Drupal camp; [Drupal Design Camp Boston](http://boston.design4drupal.org)! When I first heard of this event I figured only locals from the New England area would make the trek to Cambridge, but as more and more people signed up, I found that people and companies from all over the country (and world!) were willing to make the trip to this area to meet up with fellow Drupal geeks. This made me think about just how community oriented this framework really is...
 

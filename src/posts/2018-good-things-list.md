@@ -5,7 +5,7 @@ tags:
   - good things list
 ---
 
-![A beautifully arranged plate of sushi from Japan.](../../images/japan-sushi.jpg 'I ate sushi in Japan this year. Naturally, it was fantastic.')
+![A beautifully arranged plate of sushi from Japan.](./images/japan-sushi.jpg 'I ate sushi in Japan this year. Naturally, it was fantastic.')
 
 Last year, I started compiling a list of [good things that happened throughout the year](/2017-good-things-list). I enjoyed coming up with good things last year, so I'm doing it again for 2018. Here are some good things from the year:
 

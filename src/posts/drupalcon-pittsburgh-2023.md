@@ -6,7 +6,7 @@ tags:
   - conferences
   - drupal
 ---
-![DrupalCon Pittsburgh 2023 group photo](../../images/pittsburgh-2023.jpg "Photo by <a href='https://www.flickr.com/photos/17259862@N02'>helioha</a> on Flickr")
+![DrupalCon Pittsburgh 2023 group photo](./images/pittsburgh-2023.jpg "Photo by <a href='https://www.flickr.com/photos/17259862@N02'>helioha</a> on Flickr")
 
 A couple weeks ago I attended DrupalCon Pittsburgh, a conference I look forward to every year. I had never been to Pittsburgh before this conference and I dug the bridges and rivers and hills! I only wish I had explored the city more than I did.
 

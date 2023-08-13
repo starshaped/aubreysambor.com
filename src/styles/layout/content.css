@@ -16,13 +16,8 @@
   }
 }
 
-/* todo: fix this? */
-.content > * + * {
-  margin-top: var(--flow-space, 1em);
-}
-
 .content__meta {
-  --flow-space: 1em;
+  margin-top: .75em;
 }
 
 .content__date {
@@ -31,6 +26,8 @@
 }
 
 .content__text {
+    margin-top: 1.5em;
+
   & h2 {
     margin-top: 2.5em;
   }

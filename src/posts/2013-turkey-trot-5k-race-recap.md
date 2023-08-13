@@ -8,7 +8,7 @@ Last year, I started a new Thanksgiving tradition - running a Turkey Trot on Tha
 
 I woke up a little later than I wanted and immediately ate my typical pre-race breakfast of oatmeal with mixed berries and chocolate chips. I downed lots of water to make up for the beer I drank the previous evening. Yeah, like *that's* going to help. I put on my running clothes - three layers of shirts, two socks on each foot, and my hat and mittens - and walked my way to the start. Yep, it was *cold*.
 
-![Turkey Trot 2013 scenery.](../../images/tt-scenery.jpg "Cold, November morning scenery.")
+![Turkey Trot 2013 scenery.](./images/tt-scenery.jpg "Cold, November morning scenery.")
 
 After picking up my bib, I walked to the start line. About **2500** people ran this race, big enough for the organizers to provide pace signs for people to line up with. I lined up with the 9:00 - 10:00 minute mile sign, thinking about how much faster I am now than I was last year when I ran this race. I kept myself warm and listened to the conversations around me, mainly about the frigid temperatures and how they earned their dinners after running this race!
 
@@ -20,7 +20,7 @@ Around **mile 2** I started feeling really, really bad. My chest ached and I alm
 
 As I crossed the finish I looked at my watch - **31:17**. Not my best, but *certainly* not my worst. Others didn't have such a great race either, judging by the vomit I observed right after the finish line. I don't think I've ever seen so much vomit after a race!
 
-![Me after the race.](../../images/tt-aubpink.jpg "Me after the race.")
+![Me after the race.](./images/tt-aubpink.jpg "Me after the race.")
 
 Even though my race didn't go as hoped, I'm not too upset over it. I'm happy that I once again woke up at the crack of dawn to run a race at 8:30am in November, and I'm happy I finished with a decent time. And, well, I PRed *just* 5 days prior to this race, so I wasn't looking to beat my time again. I **am** looking to run sub 30-minute 5ks more consistently, but that will come with time. Right now, I'm happy with how my race went and look forward to getting faster in the future!
 

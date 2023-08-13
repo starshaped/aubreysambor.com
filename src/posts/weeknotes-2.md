@@ -6,7 +6,7 @@ tags:
   - weeknotes
 ---
 
-![A cat in a chair being pet by a woman with colorful bracelets on her arm.](../../images/cats-and-bracelets.jpg 'Cats and bracelets: two of my favorite things.')
+![A cat in a chair being pet by a woman with colorful bracelets on her arm.](./images/cats-and-bracelets.jpg 'Cats and bracelets: two of my favorite things.')
 
 Well, I'm writing this on Monday night instead of Sunday night as I planned to do, but I'm not going to be hard on myself for missing the date this time. I have a good excuse! This will be short, but I hope to write more next week.
 

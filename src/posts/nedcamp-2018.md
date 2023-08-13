@@ -6,7 +6,7 @@ excerpt: "Last month, I attended NEDCamp, one of my favorite local Drupal camps,
 featuredImageAlt: "A group of people pose for the NEDCamp group photo."
 featuredImage: "./nedcamp2018.jpg"
 ---
-![A group of people pose for the NEDCamp group photo.](../../images/nedcamp2018.jpg "NEDCamp 2018 group photo! Can you spot my blue-haired self?")
+![A group of people pose for the NEDCamp group photo.](./images/nedcamp2018.jpg "NEDCamp 2018 group photo! Can you spot my blue-haired self?")
 
 Last month I attended [NEDCamp](https://nedcamp.org), one of my favorite local Drupal camps, and I had a fantastic time! I look forward to this conference every year so I can catch up with all my Drupal-ey friends and to learn new things. I'm fortunate to be in close proximity to such a great camp.
 
@@ -22,7 +22,7 @@ I attended so many great sessions at NEDCamp this year. I know to expect great t
 
 I met Jason at either Design for Drupal Boston or Drupal Camp Western Mass back in 2011, and I've been following his talks about typography and variable fonts for years. It's been awesome to see the progression of variable fonts through the years, from when they were just a twinkle in the browser's eye, to now, when they can actually be used! Jason even used 'live' variable fonts in his slides, and the capabilities continue to blow my mind. 
 
-![Jason Pamental gives his talk on variable fonts at NEDCamp 2018.](../../images/variable-fonts.jpg "Jason rocking his variable fonts talk!")
+![Jason Pamental gives his talk on variable fonts at NEDCamp 2018.](./images/variable-fonts.jpg "Jason rocking his variable fonts talk!")
 
 ### Configuration Management: A True Life Story by John Picozzi and Nathan Dentzau
 
@@ -36,7 +36,7 @@ Obviously, I love static site generators, and Gatsby is my absolute favorite. Of
 
 Out of all the sessions I attended at NEDCamp, this was the session that excited me the most. I'm starting to enter the world of decoupled Drupal applications and the world of React, and Chris explained how he and his team at Redfin Solutions integrated a React app into a Drupal 8 site. This is the area of Drupal I want to explore more thoroughly because I love JavaScript and want to integrate that love into my other love, Drupal. It's a match made in heaven.
 
-![Chris Wells' session slides at NEDCamp 2018.](../../images/react-drupal.jpg "This talk rocked the house.")
+![Chris Wells' session slides at NEDCamp 2018.](./images/react-drupal.jpg "This talk rocked the house.")
 
 ### Nobody wants a website. They want results! by Dwayne McDaniel
 

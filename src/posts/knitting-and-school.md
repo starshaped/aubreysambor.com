@@ -6,7 +6,7 @@ tags:
 ---
 Want to see why I haven't been writing in this blog recently?
 
-![A knitting project on top of some homework.](../../images/shawl-and-homework.jpg)
+![A knitting project on top of some homework.](./images/shawl-and-homework.jpg)
 
 Yes, knitting and school. My final exam is tomorrow and I'm hoping the studying I did yesterday and today will suffice! I'm excited to be done with this class.
 

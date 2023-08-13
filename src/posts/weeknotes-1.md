@@ -6,7 +6,7 @@ tags:
   - weeknotes
 ---
 
-![A bobbin of partially spun mint green yarn.](../../images/bobbin-mint.jpg 'Pretty happy with this yarn I started spinning this week!')
+![A bobbin of partially spun mint green yarn.](./images/bobbin-mint.jpg 'Pretty happy with this yarn I started spinning this week!')
 
 Last year, I attempted to write a post on Sundays recapping my week, but I didn't keep up with it. So, here I go again, giving this another try! I'm hoping to keep this a mix of crafting, coding, and other little bits about my week that I enjoyed or inspired me.
 

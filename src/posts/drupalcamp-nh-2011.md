@@ -5,7 +5,7 @@ tags:
 - conferences
 - drupal
 ---
-![DrupalCamp NH 2011 group photo.](../../images/drupalcamp-nh-2011-group-photo.jpg)
+![DrupalCamp NH 2011 group photo.](./images/drupalcamp-nh-2011-group-photo.jpg)
 
 I've been in and out of the [Drupal](https://drupal.org) community for the past couple years. I worked extensively with the CMS from mid 2009 to mid 2010 when I changed jobs, and since that point, I've been playing with it here and there. I haven't been focusing on it as much as I should; I keep on seeing new technologies and think 'ooh, shiny!' However, every time I attend a DrupalCamp, I'm reminded how much I love the CMS, the community, and the awesomeness, and this time, I really want to make my way back to the community I love.
 

@@ -6,7 +6,7 @@ tags:
 ---
 So, I [ran a 5k](https://www.runnersalley.com/redhook.html) yesterday!
 
-![Me before running my first 5k.](../../images/aub-5k.jpg "My first 5k!")
+![Me before running my first 5k.](./images/aub-5k.jpg "My first 5k!")
 
 Words can't describe how great I feel after the race yesterday. Crossing that finish line was one of the best feelings *ever*, and I'm proud of myself for being able to run 3.1 miles without giving up. Seriously, today's race has me PUMPED and ready for more!
 
@@ -26,6 +26,6 @@ So, not the fastest run ever, but still. It's **MY** fastest run ever. A few mon
 
 After we finished, we partook in the goodness that is free beer (after pounding a whole lot of water, of course). Oh, yes. We definitely earned this beer today.
 
-![Me enjoying a beer after my 5k.](../../images/aub-beer.jpg "Beer after my first 5k, of course!")
+![Me enjoying a beer after my 5k.](./images/aub-beer.jpg "Beer after my first 5k, of course!")
 
 I am SO EXCITED about running. I want to go and sign up for ALL THE RACES now. Seriously. I'm looking forward to running many more 5Ks this summer and hopefully sign up for a 10K this fall! I'm very happy with how I did and look forward to doing even better in the future!

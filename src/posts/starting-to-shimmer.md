@@ -12,6 +12,6 @@ That very afternoon I started searching online for stores that may carry the yar
 
 Beehive Wool gained more points in my book yesterday when my yarn arrived in the mail! I did not expect it to arrive so soon; I had been hoping to recieve it at the end of the week at the earliest, and to have it arrive on a Tuesday afternoon made me so much happier. I eagerly opened the package to take a look at the yarn, and as I thought, it looks and feels *exactly* like Glitterspun.
 
-![Patons Brilliant in Radiant Red](../../images/redpatons.jpg "Patons Brilliant in Radiant Red")
+![Patons Brilliant in Radiant Red](./images/redpatons.jpg "Patons Brilliant in Radiant Red")
 
 Eee! I’ve started on *Shimmer*, but I have yet to take a picture of it that I like. I need to learn more about taking indoor pictures in an area with a limited amount of lighting.

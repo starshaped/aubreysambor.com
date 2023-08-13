@@ -5,7 +5,7 @@ tags:
   - good things list
 ---
 
-![The Louvre.](../../images/louvre.jpg 'Yes, I went to Paris!')
+![The Louvre.](./images/louvre.jpg 'Yes, I went to Paris!')
 
 So, 2017's almost over. The year's been a huge shitshow, politically, but this has been one of the best years of my life, personally. After many years of near constant suckitude, I'm so happy to have enjoyed a year full of personal growth and progress. Here are some of the good things that have happened to me this year:
 

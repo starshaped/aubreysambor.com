@@ -5,7 +5,7 @@ tags:
 - knitting
 - spinning
 ---
-![Michigan Fiber Fest stash.](../../images/ff-stash.jpg "My haul from the Michigan Fiber Fest!")
+![Michigan Fiber Fest stash.](./images/ff-stash.jpg "My haul from the Michigan Fiber Fest!")
 
 Yeah, yeah, I know I’m two WEEKS late in posting about [Michigan Fiber Fest](http://www.michiganfiberfestival.org), but hey, I’m getting around to it, at least! I’ve been too busy playing Everquest II with Scott, knitting and spinning up a storm, and spending more time off the computer to sit down and write a post about buying lots of yarn and fiber. I’d rather play with my new stuff than write about it!
 

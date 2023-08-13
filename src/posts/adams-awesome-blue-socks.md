@@ -9,7 +9,7 @@ Since I've learned that [Adam loves wearing handknit socks](/posts/blueberry-soc
 
 I cast on these socks at the end of December, right before we flew to Canada to visit his parents for a week. I wanted an easy project to work on while I relaxed and enjoyed the cold Canadian winter, and these socks brought a bit of cheer to my evenings.
 
-![Blue hand-knit socks on the feet of the author's boyfriend.](../../images/blue-socks.jpg)
+![Blue hand-knit socks on the feet of the author's boyfriend.](./images/blue-socks.jpg)
 
 The first sock knit up so quickly that it practically jumped out of my hands, but progress faltered on sock number two. As soon as the calendar flipped to 2019, I started thinking of all the other projects I wanted to knit in the new year, so Adam's socks stayed in the corner as I cast on new and exciting things. (Maybe you'll see those here sometime soon!) Nevertheless, I finished the socks a couple days ago and gave them to him at work the next day, and he proudly wore them around the office. I love that he loves handknits.
 

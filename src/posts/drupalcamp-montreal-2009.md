@@ -6,7 +6,7 @@ tags:
   - drupal
 ---
 
-![DrupalCamp Montreal 2009 group photo.](../../images/drupalcampmtl.jpg 'DrupalCamp Montréal 2009 group photo.')
+![DrupalCamp Montreal 2009 group photo.](./images/drupalcampmtl.jpg 'DrupalCamp Montréal 2009 group photo.')
 
 This past weekend, I, along with a few cohorts at [Commonplaces](http://commonplaces.com) (@sethcohn, @himerus, @bymiche, and @ebeyrent), traveled by van up to the faraway land of Canada to attend [DrupalCamp Montréal](https://drupalcampmontreal.com)! My coworkers each presented at least one session over the two day camp, and I was there to cheer them on from the sidelines.
 

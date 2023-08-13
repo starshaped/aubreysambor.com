@@ -1,6 +1,9 @@
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 
+const markdownIt = require('markdown-it');
+const markdownItEleventyImg = require("markdown-it-eleventy-img");
+
 // PostCSS goodness!
 const postcss = require('postcss');
 const cssnano = require('cssnano');
@@ -22,6 +25,27 @@ const { DateTime } = require("luxon");
 const site = require('./src/_data/site.json');
 
 module.exports = function (config) {
+
+  config.setLibrary('md', markdownIt ({
+    html: true,
+    breaks: true,
+    linkify: true
+  })
+  .use(markdownItEleventyImg, {
+    imgOptions: {
+      formats: ["webp", "jpeg"],
+      widths: [1024, 500, 300],
+      urlPath: "/images/",
+      outputDir: "./src/images/",
+    },
+      globalAttributes: {
+    // class: "markdown-image",
+    // decoding: "async",
+    // If you use multiple widths,
+    // don't forget to add a `sizes` attribute.
+    sizes: "100vw"
+  }
+  }));
 
   config.addTemplateFormats('css');
 
@@ -93,9 +117,7 @@ module.exports = function (config) {
   config.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  config.addPassthroughCopy({ 'src/_includes/assets/styles': 'styles' });
-  config.addPassthroughCopy({ 'src/_includes/assets/fonts': 'fonts' });
-  config.addPassthroughCopy({ 'src/_includes/assets/images': 'images' });
+  config.addPassthroughCopy({ 'src/images': 'images' });
 
   config.addCollection('feed', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();

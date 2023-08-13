@@ -6,11 +6,11 @@ tags:
 ---
 Look what I've been making!
 
-![Snapdragon flip top mitts on my hand.](../../images/snapdragon-on-hand.jpg)
+![Snapdragon flip top mitts on my hand.](./images/snapdragon-on-hand.jpg)
 
 I'm knitting a pair of [Snapdragon flip-top mitts](https://www.ravelry.com/patterns/library/snapdragon-flip-tops) by [Ysolda Teague](https://ysolda.com/) to replace the ones I knit a few years ago. Yeah, I didn't knit them that long ago, but tragedy struck last March when I moved, and I LOST one of the mitts I knit. I spent an entire year looking for the lost mitt, but I must have dropped it somewhere that isn't in the apartment. Cue sadness.
 
-![Close up view of snapdragon flip top mitts.](../../images/snapdragon-close-up.jpg)
+![Close up view of snapdragon flip top mitts.](./images/snapdragon-close-up.jpg)
 
 This time around, I'm knitting them in a lighter, pinker, funner yarn. I'm still using [madelinetosh tosh dk](https://madelinetosh.com/store/index.php/yarns/tosh-dk.html), but in a punchy bright pink that makes winter almost tolerable! I'm in love with them, I think. (Don't worry, I won't tell Ted.)
 

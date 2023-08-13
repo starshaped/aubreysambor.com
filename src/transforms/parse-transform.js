@@ -14,27 +14,27 @@ module.exports = function (value, outputPath) {
     ];
 
     // Image manipulations
-    if (articleImages.length) {
-      articleImages.forEach((image) => {
-        image.setAttribute('loading', 'lazy');
+    // if (articleImages.length) {
+    //   articleImages.forEach((image) => {
+    //     image.setAttribute('loading', 'lazy');
 
-        // If an image has a title it means that the user added a caption
-        // so replace the image with a figure containing that image and a caption
-        if (image.hasAttribute('title')) {
-          const figure = document.createElement('figure');
-          const figCaption = document.createElement('figcaption');
+    //     // If an image has a title it means that the user added a caption
+    //     // so replace the image with a figure containing that image and a caption
+    //     if (image.hasAttribute('title')) {
+    //       const figure = document.createElement('figure');
+    //       const figCaption = document.createElement('figcaption');
 
-          figCaption.innerHTML = image.getAttribute('title');
+    //       figCaption.innerHTML = image.getAttribute('title');
 
-          image.removeAttribute('title');
+    //       image.removeAttribute('title');
 
-          figure.appendChild(image.cloneNode(true));
-          figure.appendChild(figCaption);
+    //       figure.appendChild(image.cloneNode(true));
+    //       figure.appendChild(figCaption);
 
-          image.replaceWith(figure);
-        }
-      });
-    }
+    //       image.replaceWith(figure);
+    //     }
+    //   });
+    // }
 
     // Heading manipulations
     // if (articleHeadings.length) {

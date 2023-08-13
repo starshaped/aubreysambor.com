@@ -10,10 +10,10 @@ I've needed a new purse for a long time; I wanted to craft my own instead of buy
 
 It holds much more than my old one but is not bulky or too big, and I can use it either as an everyday bag or as one to bring out for a night on the town. I'm very pleased.
 
-![A sewn purse.](../../images/my-newly-sewn-purse.jpg "Who doesn't love black glitteriness?")
+![A sewn purse.](./images/my-newly-sewn-purse.jpg "Who doesn't love black glitteriness?")
 
-![Closeup of a sewn purse.](../../images/purse-closeup.jpg "A closeup of the fancy trim.")
+![Closeup of a sewn purse.](./images/purse-closeup.jpg "A closeup of the fancy trim.")
 
-![The interior of a sewn purse.](../../images/purse-inside.jpg "I love the pink interior fabric we picked.")
+![The interior of a sewn purse.](./images/purse-inside.jpg "I love the pink interior fabric we picked.")
 
 I'm loving this thing so far, and I love knowing that I'll be able to fully make my own the next time I need a new purse!

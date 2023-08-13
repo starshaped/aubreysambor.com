@@ -6,7 +6,7 @@ tags:
   - weeknotes
 ---
 
-![A box containing seven rolls of washi tape.](../../images/washi.jpg "I've been using this washi tape to decorate my journal. It's so much fun!")
+![A box containing seven rolls of washi tape.](./images/washi.jpg "I've been using this washi tape to decorate my journal. It's so much fun!")
 
 It's been, uhh... two weeks since my last post. Yes. I'm posting this a week late but wait! I have an excuse!
 

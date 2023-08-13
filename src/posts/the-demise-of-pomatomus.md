@@ -6,15 +6,15 @@ tags:
 ---
 Today, my beautiful [Pomatomus socks](http://www.knitty.com/ISSUEwinter05/PATTpomatomus.html) went from this -
 
-![A knit sock outside.](../../images/pomatomus-outside.jpg)
+![A knit sock outside.](./images/pomatomus-outside.jpg)
 
 to this -
 
-![A bunch of yarn in a pile.](../../images/pomatomus-remains.jpg)
+![A bunch of yarn in a pile.](./images/pomatomus-remains.jpg)
 
 all because of this -
 
-![A knit sock with a hole in it.](../../images/sock_hole.jpg)
+![A knit sock with a hole in it.](./images/sock_hole.jpg)
 
 and now I am sad. I knit these socks last summer while camping in Missouri with Scott's family; I don't believe the temperatures dipped below 95F so I spent the weekend in the shade or in the water, trying my hardest to stay cool.
 

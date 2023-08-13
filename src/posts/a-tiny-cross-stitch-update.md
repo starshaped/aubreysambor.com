@@ -8,7 +8,7 @@ Happy Tuesday, everyone! I kind of dropped off the face of the earth last week. 
 
 That changes right now.
 
-![Harry Potter cross-stitch progress.](../../images/hp-cross-stitch.jpg "Harry Potter cross-stitch sampler progress!")
+![Harry Potter cross-stitch progress.](./images/hp-cross-stitch.jpg "Harry Potter cross-stitch sampler progress!")
 
 I started the cross-stitch I received in a swap package a few weeks ago and it is so much FUN. I've been on a huge Harry Potter kick recently, so this sampler's been super up my alley. However, I forgot how slow going working on a cross stitch project can be, especially a cross-stitch project with a ton of colors. I also haven't worked on a cross-stitch project for about 8-9 years, so I'm needing to get back into the groove. I'm working on it.
 

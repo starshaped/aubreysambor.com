@@ -18,7 +18,7 @@ colors, so what's not to love?
 
 Behold.
 
-![Hand knit socks on a pair of feet.](../../images/blueberry-socks.jpg)
+![Hand knit socks on a pair of feet.](./images/blueberry-socks.jpg)
 
 The knitty-gritty (see what I did there?) details, for those of you who are 
 knitters and want to know more:

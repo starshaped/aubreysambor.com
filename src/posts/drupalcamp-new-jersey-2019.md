@@ -19,7 +19,7 @@ It wouldn't be a camp without attending a couple sessions! I ended up attending 
 
 ### What’s new in WCAG 2.1 by Kara Gaulrapp
 
-![A woman speaking in front of a group of people.](../../images/a11y.jpg)
+![A woman speaking in front of a group of people.](./images/a11y.jpg)
 
 I want to learn more about ensuring the sites I work on are accessible, so this session on new things coming to WCAG 2.1 was right up my alley. Kara went over 17 new rules, including **orientation**, which means sites must be usable in both portrait and landscape, **reflow**, which means a website must be responsive without loss of content, and, my favorite, **content on hover or focus**, which means if a user triggers content, ensure that the content should be dismissed. A very excellent and informative session!
 
@@ -29,13 +29,13 @@ This session was also very informative and I loved the speaker's badass pink hai
 
 ### Drupal Coffee Exchange
 
-![Coffee bags on a table in a conference room.](../../images/coffee-exchange.jpg)
+![Coffee bags on a table in a conference room.](./images/coffee-exchange.jpg)
 
 I belong to a little community called the Drupal Coffee Exchange, in which I'm paired with someone else and we send each other local coffee. At some conferences, real life coffee exchanges occur as well, and this camp was no exception. Sadly, I forgot to bring coffee to exchange, but Adam Bergstein (better known as [nerdstein](https://www.drupal.org/u/nerdstein)) bought a box of coffee from a local NJ coffeeshop to share with the participants. It was very tasty!
 
 ### How to keep Drupal relevant in the Git-based and API-driven CMS era by Jesus Manuel Olivas
 
-![A man speaking in front of a group of people.](../../images/drupal-relevant-git.jpg)
+![A man speaking in front of a group of people.](./images/drupal-relevant-git.jpg)
 
 I'm always a sucker for sessions that talk about Gatsby, so of course I attended this one! Jesus discussed using [Boina](https://github.com/weknowinc/drupal-boina), a Drupal 8 distribution that makes Drupal and Gatsby work together with very little effort. It looked pretty cool and if I ever wanted to play around with decoupled Drupal, I may reach for this.
 

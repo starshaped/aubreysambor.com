@@ -17,6 +17,8 @@
     "eslint-plugin-prettier": "^5.0.0",
     "get-google-fonts": "^1.2.2",
     "jsdom": "^21.0.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-eleventy-img": "^0.10.1",
     "postcss": "^8.4.27",
     "postcss-custom-media": "^10.0.0",
     "postcss-import": "^15.1.0",

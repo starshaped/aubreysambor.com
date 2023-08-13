@@ -4,13 +4,13 @@ date: 2008-03-10
 tags:
 - knitting
 ---
-![A knit cardigan in progress with the Heroes DVD.](../../images/arasaigheroes.jpg)
+![A knit cardigan in progress with the Heroes DVD.](./images/arasaigheroes.jpg)
 
 I spent the majority of this past weekend knitting one of the front panels of the [Arisaig cardigan](http://knitty.com/ISSUEfall05/PATTarisaig.html) and watching Season 1 of Heroes, which I borrowed from a friend months ago. (Yes, Josh, I'm *finally* watching the series. Finally.) We didn't do much this weekend, but we enjoyed ourselves and I felt pretty productive.
 
 I've been working on Arisaig now for over a year. I started back in January 2007 after I bought soft purple yarn from [WEBS](href="http://yarn.com) when I visited my parents for Christmas. I love the pattern; I love the lace and I love the stretchiness of the fabric I've made. What I don't love is knitting lots and lots of ribbing on size 1 US needles. Thankfully, finally, I finished all the ribbing on the last part that needs it last night, so hopefully the last panel and the two sleeves will go quickly. I want to finish this cardigan before spring is over.
 
-![A knit cardigan tangled up in a computer chair.](../../images/arasaig_tangled.jpg)
+![A knit cardigan tangled up in a computer chair.](./images/arasaig_tangled.jpg)
 
 Let me tell you a story. Last week, somehow, one of my cats managed to tangle my yarn *around* my computer chair arm. Not on it, or under it; *around* it. I still don't understand. It took me all day to untangle, wind, and rewind the ball to look halfway useable, and now I've learned my lesson. No leaving knitting projects on my desk.
 

@@ -5,7 +5,7 @@ tags:
 - conferences
 - drupal
 ---
-![Drupal Design Camp Boston 2011 group photo.](../../images/d4d2011.jpg "Drupal Design Camp Boston 2011 group photo.")
+![Drupal Design Camp Boston 2011 group photo.](./images/d4d2011.jpg "Drupal Design Camp Boston 2011 group photo.")
 
 Last Saturday, I attended [Drupal Design Camp Boston](http://boston2011.design4drupal.org), an event I've been going to for the past few years. Throughout the years, I've participated, both as an attendee and as a [speaker](http://boston2010.design4drupal.org/sessions/theming-search-results-how-make-your-search-results-rock)! This is the first Drupal event I ever attended, so it holds a special place in my heart.
 

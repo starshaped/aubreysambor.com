@@ -7,7 +7,7 @@ tags:
 ---
 Look what I finally finished!
 
-![Close-up of a skein of handspun yarn.](../../images/closeup01.jpg "Pumpkin Candy yarn.")
+![Close-up of a skein of handspun yarn.](./images/closeup01.jpg "Pumpkin Candy yarn.")
 
 I’ve decided to call this bundle of yarn love Pumpkin Candy, because it reminds me of candy corn and those little pumpkin candies that seem to never disappear around Halloween. (Unless, of course, I’m eating them.)
 

@@ -6,7 +6,7 @@ tags:
   - good things list
 ---
 
-![The Grand Canyon.](../../images/grand-canyon.jpg 'I FINALLY went to the Grand Canyon and it was amazing.')
+![The Grand Canyon.](./images/grand-canyon.jpg 'I FINALLY went to the Grand Canyon and it was amazing.')
 
 2019, for lack of a better term, _sucked_. It was a hard year full of loss and grief, plus I dealt with my anxiety a lot and that certainly wasn't easy. I spent some of this year in tears, feeling down about myself and the world in general, but I'm trying to stay positive. I'm trying to remember the good things that _did_ happen this year, and a lot of good things _did_ occur. Here are some of those things!
 
