@@ -6,7 +6,6 @@ npm-debug.*
 .sass-cache
 node_modules
 dist 
-/images/
 
 # Local Netlify folder
 .netlify
