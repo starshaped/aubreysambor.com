@@ -38,13 +38,9 @@ module.exports = function (config) {
       urlPath: "/images/",
       outputDir: "./src/images/",
     },
-      globalAttributes: {
-    // class: "markdown-image",
-    // decoding: "async",
-    // If you use multiple widths,
-    // don't forget to add a `sizes` attribute.
-    sizes: "100vw"
-  }
+    globalAttributes: {
+      sizes: "100vw"
+    }
   }));
 
   config.addTemplateFormats('css');

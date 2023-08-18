@@ -57,8 +57,6 @@ li {
 
 ul,
 ol {
-  padding-left: 16px;
-
   & > * + * {
     margin-top: var(--flow-space);
   }
@@ -66,10 +64,12 @@ ol {
 
 ol {
   list-style-type: decimal;
+  padding-left: 24px;
 }
 
 ul {
   list-style-type: square;
+  padding-left: 16px;
 }
 
 figcaption {
