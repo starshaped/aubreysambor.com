@@ -114,6 +114,7 @@ module.exports = function (config) {
 
   // Passthrough copy
   config.addPassthroughCopy({ 'src/images': 'images' });
+  config.addPassthroughCopy('src/robots.txt');
 
   config.addCollection('feed', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
