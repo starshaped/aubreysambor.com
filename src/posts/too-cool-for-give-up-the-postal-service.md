@@ -5,7 +5,7 @@ summary: ''
 tags:
   - I'm too cool for this album
 ---
-I have never really liked The Postal Service, based solely on the fact that I did not like "Such Great Heights" when it came out 20 years ago. I don’t know why—I love electronic music plus, cringe, I did like a couple Owl City songs, who everyone compared to the Postal Service. Since I’m on a kick of revisiting albums I ignored in the 90s and early 00s, plus I’m actually *seeing* The Postal Service and Death Cab For Cutie back to back playing Give Up and Transatlanticism live in their entirety, I figured I should listen to Give Up. (And yes, Transantlanticism will be the subject of a future post!)
+I have never really liked The Postal Service, based solely on the fact that I did not like “Such Great Heights” when it came out 20 years ago. I don’t know why—I love electronic music plus, cringe, I did like a couple Owl City songs, who everyone compared to the Postal Service. Since I’m on a kick of revisiting albums I ignored in the 90s and early 00s, plus I’m actually *seeing* The Postal Service and Death Cab For Cutie back to back playing Give Up and Transatlanticism live in their entirety, I figured I should listen to Give Up. (And yes, Transantlanticism will be the subject of a future post!)
 
 A caveat: While I listened to the deluxe version of Give Up for this post, my review will focus on the original album. In general, none of the songs on the second disc stood out to me. (Except the cover of “Against All Odds”. I never thought I’d praise Phil Collins, but here I am, admitting that his version is better than The Postal Service’s. 19 year old me would be horrified.)
 

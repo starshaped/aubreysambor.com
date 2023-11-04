@@ -99,7 +99,7 @@ module.exports = function (config) {
       return array.slice(0, max).join(' ') + ellipsis;
     };
 
-    const newValue = value.replace(/(<([^>]+)>)/gi, "");
+    const newValue = value.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, "");
     return truncate(newValue);
   });
 
