@@ -1,7 +1,7 @@
 ---
 title: NEDCamp 2018
 tags: ["conferences", "drupal"]
-date: "2018-12-23"
+date: 2018-12-23
 excerpt: "Last month, I attended NEDCamp, one of my favorite local Drupal camps, and I had a fantastic time! I look forward to this conference every year."
 featuredImageAlt: "A group of people pose for the NEDCamp group photo."
 featuredImage: "./nedcamp2018.jpg"

@@ -6,7 +6,7 @@
   list-style-type: none;
 
   &:not(:last-child) {
-    margin-bottom: calc(var(--flow-space) * 1.75);
+    margin-bottom: calc(var(--flow-space) * 3.5);
   }
 }
 
