@@ -4,7 +4,7 @@ summary: Another year, another NEDCamp in the books! This has been one of my fav
 tags: ['conferences', 'drupal']
 date: 2023-11-27
 ---
-Another year, another NEDCamp in the books! This has been one of my favorite camps and not only because it’s local, but also because of the quality sessions. I’ve been attending this camp since 2016 and have even written a [couple](/nedcamp-2018) [posts](/nedcamp-2019) about previous camps. It was a whirlwind trip for me as I spent only a little over 24 hours in Providence, but I had such a good time.
+Another year, another New England Drupal Camp (better known as [NEDCamp](https://nedcamp.org/)) in the books! This has been one of my favorite camps and not only because it’s local, but also because of the quality sessions. I’ve been attending this camp since 2016 and have even written a [couple](/nedcamp-2018) [posts](/nedcamp-2019) about previous camps. It was a whirlwind trip for me as I spent only a little over 24 hours in Providence, but I had such a good time.
 
 ## Pre-camp
 I drove to Providence on Friday afternoon. I thought leaving at 2:30 would help me avoid any dreaded Mass Pike traffic that always seems to materialize on a Friday afternoon, but alas, the hour and a half drive to Rhode Island took me 3 hours. Thankfully the weather wasn’t bad, at least! 
