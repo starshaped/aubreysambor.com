@@ -9,7 +9,6 @@ const postcss = require('postcss');
 const cssnano = require('cssnano');
 const postcssCustomMedia = require('postcss-custom-media');
 const postcssImport = require('postcss-import');
-const postcssNesting = require('postcss-nesting');
 const pxtorem = require('postcss-pxtorem');
 
 // Import transforms
@@ -59,7 +58,6 @@ module.exports = function (config) {
           }),
           postcssImport,
           postcssCustomMedia,
-          postcssNesting,
           cssnano,
         ]).process(content, {
           from: path,

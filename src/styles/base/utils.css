@@ -31,7 +31,7 @@
   white-space: nowrap;
 }
 
-img[src$='about-aubrey.jpg'] {
+picture {
   max-width: 300px;
 
   @media (--medium) {
