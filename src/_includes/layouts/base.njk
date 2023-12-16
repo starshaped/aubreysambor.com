@@ -12,7 +12,7 @@
 
   {% block head %}{% endblock %}
 </head>
-<body>
+<body class="{{ page.url | slugify }}">
 <div class="layout-container">
   {% include "components/header.njk" %}
   <main tabindex="-1" id="main-content">

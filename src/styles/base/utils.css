@@ -31,7 +31,7 @@
   white-space: nowrap;
 }
 
-picture {
+.about picture {
   max-width: 300px;
 
   @media (--medium) {
