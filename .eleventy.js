@@ -118,13 +118,14 @@ module.exports = function (config) {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
 
-  config.setUseGitIgnore(false);
+  // config.setUseGitIgnore(false);
 
   return {
     dir: {
       input: 'src',
       output: 'dist',
-      layouts: '_includes/layouts',
+      includes: '_includes',
+      layouts: '_layouts',
     },
   };
 };

@@ -1,4 +1,4 @@
-{% extends 'layouts/base.njk' %}
+{% extends './base.njk' %}
 
 {% set postListItems = pagination.items %}
 
@@ -30,6 +30,6 @@
     </article>
   {%- endfor -%}
 
-  {% include "components/pagination.njk" %}
+  {% include "pagination.njk" %}
 
 {% endblock %}

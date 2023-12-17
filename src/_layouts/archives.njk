@@ -1,10 +1,10 @@
-{% extends 'layouts/base.njk' %}
+{% extends './base.njk' %}
 
 {% set postListItems = collections.feed %}
 
 {% block content %}
   <article class="content">
     <h1 class="content__title">Archives</h1>
-    {% include "components/post-list.njk" %}
+    {% include "post-list.njk" %}
   </article>
 {% endblock %}

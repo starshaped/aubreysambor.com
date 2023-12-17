@@ -16,7 +16,7 @@ pagination:
 permalink: /tags/{{ tag | slug }}/
 eleventyExcludeFromCollections: true
 ---
-{% extends 'layouts/base.njk' %}
+{% extends './base.njk' %}
 
 {% set contentHeading = "Posts tagged with “" ~ tag ~ "”" %}
 {% set postListItems = collections[tag] | reverse %}
@@ -24,6 +24,6 @@ eleventyExcludeFromCollections: true
 {% block content %}
   <article class="content">
     <h1 class="content__title">{{ contentHeading }}</h1>
-    {% include "components/post-list.njk" %}
+    {% include "post-list.njk" %}
   </article>
 {% endblock %}
