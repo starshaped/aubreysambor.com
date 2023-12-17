@@ -1,8 +1,12 @@
 // Import @11ty plugins
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
-
 const markdownIt = require('markdown-it');
 const markdownItEleventyImg = require("markdown-it-eleventy-img");
+
+const { DateTime } = require("luxon");
+
+// Import site information
+const site = require('./src/_data/site.json');
 
 // PostCSS goodness!
 const postcss = require('postcss');
@@ -16,12 +20,6 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 
 // Import utils
 const addFonts = require('./src/utils/add-fonts.js');
-
-const slugify = require("slugify");
-const { DateTime } = require("luxon");
-
-// Import site information
-const site = require('./src/_data/site.json');
 
 module.exports = function (config) {
 
@@ -77,14 +75,6 @@ module.exports = function (config) {
     return dateObject.toISOString();
   });
 
-  config.addFilter("slug", (str) => {
-    return slugify(str, {
-      lower: true,
-      strict: true,
-      remove: /["]/g,
-    });
-  });
-
   config.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_FULL);
   });
@@ -117,8 +107,6 @@ module.exports = function (config) {
   config.addCollection('feed', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
   });
-
-  // config.setUseGitIgnore(false);
 
   return {
     dir: {

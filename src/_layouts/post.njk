@@ -12,7 +12,7 @@
         {% if tags %}
           <p class="tags">Tagged with 
             {% for tag in tags %}
-              <a class="tags__tag-link" href="/tags/{{ tag | slug }}">{{ tag }}</a>
+              <a class="tags__tag-link" href="/tags/{{ tag | slugify }}">{{ tag }}</a>
             {% endfor %}
           </p>
         {% endif %}
