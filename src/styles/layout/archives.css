@@ -1,11 +1,6 @@
 .archives__item {
-margin-bottom: calc(var(--flow-space) / 2);
-
-  @media (--small) {
     display: flex; 
     justify-content: space-between;
-    margin-bottom: 0;
-  }
 }
 
 .archives__date {
