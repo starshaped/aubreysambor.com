@@ -1,6 +1,11 @@
 .archives__item {
-    display: flex; 
+      display: flex; 
     justify-content: space-between;
+margin-bottom: calc(var(--flow-space));
+
+  @media (--small) {
+    margin-bottom: 0;
+  }
 }
 
 .archives__date {
