@@ -76,7 +76,11 @@ module.exports = function (config) {
   });
 
   config.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 6 }).toLocaleString(DateTime.DATE_FULL);
+    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toLocaleString(DateTime.DATE_FULL);
+  });
+
+    config.addFilter("archiveDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toFormat('LLL dd');
   });
 
   config.addFilter('truncatePost', (value) => {

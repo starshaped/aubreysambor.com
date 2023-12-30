@@ -1,0 +1,24 @@
+.archives__item {
+margin-bottom: calc(var(--flow-space) / 2);
+
+  @media (--small) {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+}
+
+.archives__date {
+  line-height: 1.75;
+  font-size: var(--size-body);
+  flex-basis: 150px;
+  text-align: right;
+}
+
+.archives__year {
+  margin-top: calc(var(--flow-space) * 2);
+}
+
+.archives__list {
+  margin-top: var(--flow-space);
+}
