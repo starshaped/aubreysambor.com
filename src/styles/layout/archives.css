@@ -3,9 +3,10 @@
 }
 
 .archives__date {
-  line-height: 2;
+  line-height: 1.75;
   flex-basis: 75px;
   flex-shrink: 0;
+  font-size: var(--size-body);
 }
 
 .archives__year {

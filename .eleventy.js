@@ -80,7 +80,7 @@ module.exports = function (config) {
   });
 
     config.addFilter("archiveDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toFormat('LLL dd');
+    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toFormat('LL.\dd');
   });
 
   config.addFilter('truncatePost', (value) => {
