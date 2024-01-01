@@ -30,13 +30,3 @@
   width: 1px;
   white-space: nowrap;
 }
-
-.about picture {
-  max-width: 300px;
-
-  @media (--medium) {
-    margin-top: 8px;
-    margin-right: 24px;
-    float: left;
-  }
-}

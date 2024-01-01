@@ -31,8 +31,11 @@ h1,
 }
 
 h2 {
+  --flow-space: 2.25em;
+  margin-top: var(--flow-space);
   font-size: var(--size-h2);
   line-height: 1.5;
+  border-bottom: solid 1px #ccc;
 }
 
 h3 {

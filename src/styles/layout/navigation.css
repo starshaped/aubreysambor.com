@@ -1,6 +1,6 @@
 .nav {
-  text-align: center;
   --flow-space: 0;
+  text-align: center;
   margin-top: 16px;
 
   @media (--medium) {
