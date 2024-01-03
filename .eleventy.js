@@ -37,6 +37,18 @@ module.exports = function (config) {
     },
     globalAttributes: {
       sizes: "100vw"
+    },
+
+    renderImage(image, attributes) {
+      const [ Image, options ] = image;
+      const [ src, attrs ] = attributes;
+
+      Image(src, options);
+
+      const metadata = Image.statsSync(src, options);
+      const imageMarkup = Image.generateHTML(metadata, attrs);
+
+      return `<figure>${imageMarkup}${attrs.title ? `<figcaption>${attrs.title}</figcaption>` : ""}</figure>`;
     }
   }));
 

@@ -5,7 +5,7 @@ summary: ''
 tags:
   - life in general
 ---
-![A Joshua Tree at Joshua Tree National Park.](./images/joshua-tree.jpg 'Joshua Tree National Park was amazing.')
+![A Joshua Tree at Joshua Tree National Park.](./images/joshua-tree.jpg 'Joshua Tree National Park was <i>amazing</i>.')
 
 2023 was definitely a *year*, that's for sure, full of ups and downs as I fully embraced my phrase for the year, ["challenge accepted"](/challenge-accepted). I did so many fantastic things in 2023 and hit some of the goals I've made, but it wasn't without its hard parts. Let's dive in!
 
