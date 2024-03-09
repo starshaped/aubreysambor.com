@@ -1,29 +1,16 @@
 ---
-title: Tag Archives
+layout: base.njk
 pagination:
   data: collections
   size: 1
   alias: tag
-  filter:
-    - all
-    - archives
-    - homepagePosts
-    - nav
-    - post
-    - posts
-    - tagList
-  addAllPagesToCollections: true
 permalink: /tags/{{ tag | slugify }}/
-eleventyExcludeFromCollections: true
 ---
-{% extends './base.njk' %}
 
 {% set contentHeading = "Posts tagged with “" ~ tag ~ "”" %}
 {% set postListItems = collections[tag] | reverse %}
 
-{% block content %}
   <article class="content">
     <h1 class="content__title">{{ contentHeading }}</h1>
     {% include "archives-list.njk" %}
   </article>
-{% endblock %}

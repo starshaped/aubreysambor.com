@@ -16,7 +16,9 @@
 <div class="layout-container">
   {% include "header.njk" %}
   <main tabindex="-1" id="main-content">
-    {% block content %}{% endblock content %}
+    {% block content %}
+    {{ content | safe }}
+    {% endblock content %}
   </main>
   {% include "footer.njk" %}
   {% block foot %}{% endblock %}

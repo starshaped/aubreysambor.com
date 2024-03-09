@@ -1,11 +1,11 @@
-{% extends './base.njk' %}
-
+---
+title: Archives
+layout: base.njk
+---
 {% set postListItems = collections.feed %}
 
-{% block content %}
-  <article class="content archives">
-    <h1 class="content__title">Archives</h1>
+<article class="content archives">
+  <h1 class="content__title">{{ title }}</h1>
 
-    {% include "archives-list.njk" %}
-  </article>
-{% endblock %}
+  {% include "archives-list.njk" %}
+</article>

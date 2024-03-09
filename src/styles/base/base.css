@@ -35,7 +35,8 @@ h2 {
   margin-top: var(--flow-space);
   font-size: var(--size-h2);
   line-height: 1.5;
-  border-bottom: solid 1px #ccc;
+  /* todo: use a custom property for #ccc */
+  border-bottom: solid 1px #ccc; 
 }
 
 h3 {
