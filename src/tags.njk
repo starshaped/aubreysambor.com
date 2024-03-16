@@ -5,12 +5,12 @@ pagination:
   size: 1
   alias: tag
 permalink: /tags/{{ tag | slugify }}/
+eleventyComputed:
+  title: Posts tagged with "{{ tag }}"
 ---
-
-{% set contentHeading = "Posts tagged with “" ~ tag ~ "”" %}
 {% set postListItems = collections[tag] | reverse %}
 
   <article class="content">
-    <h1 class="content__title">{{ contentHeading }}</h1>
+    <h1 class="content__title">{{ title }}</h1>
     {% include "archives-list.njk" %}
   </article>

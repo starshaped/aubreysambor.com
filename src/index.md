@@ -3,7 +3,6 @@ layout: 'home.njk'
 title: Home
 postsHeading: Recent posts
 socialImage: ''
-eleventyExcludeFromCollections: true
 pagination:
   data: collections.feed
   size: 5
