@@ -3,6 +3,5 @@
   "description": "A blog about web development, knitting, and other assorted things.",
   "url": "https://www.star-shaped.org",
   "authorHandle": "@starshaped",
-  "authorName": "Aubrey",
-  "maxPostsPerPage": 4
+  "authorName": "Aubrey"
 }
