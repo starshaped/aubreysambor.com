@@ -18,9 +18,6 @@ const pxtorem = require('postcss-pxtorem');
 // Import transforms
 const parseTransform = require('./src/transforms/parse-transform.js');
 
-// Import utils
-const addFonts = require('./src/utils/add-fonts.js');
-
 module.exports = function (config) {
 
   config.setLibrary('md', markdownIt ({
@@ -110,14 +107,12 @@ module.exports = function (config) {
   // Transforms
   config.addTransform('parse', parseTransform);
 
-  // Utils
-  addFonts();
-
   // Shortcodes
   config.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
   config.addPassthroughCopy({ 'src/images': 'images' });
+  config.addPassthroughCopy({ 'src/fonts': 'fonts'});
   config.addPassthroughCopy('src/robots.txt');
 
   config.addCollection('feed', (collection) => {
