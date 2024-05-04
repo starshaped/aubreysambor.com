@@ -4,16 +4,15 @@
     {% if page.url == '/' %}
       <h1 class="header__title">
     {% else %}
-      <span class="header__title">
+      <div class="header__title">
     {% endif %}
       <a href="/" class="header__title-link"{{ 'aria-current=page' if page.url == '/' | safe }}>
-        <span class="visually-hidden">{{ 'Back to homepage' if page.url != '/' else 'Homepage' }}</span>
-        <span aria-hidden="true">{{ site.name }}</span>
+        {{ site.name }}
       </a>
     {% if page.url == '/' %}
       </h1>
     {% else %}
-      </span>
+      </div>
     {% endif %}
     {% include "nav.njk" %}
   </div>

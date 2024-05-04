@@ -2,6 +2,7 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const markdownIt = require('markdown-it');
 const markdownItEleventyImg = require("markdown-it-eleventy-img");
+const path = require('path');
 
 const { DateTime } = require("luxon");
 
@@ -27,10 +28,14 @@ module.exports = function (config) {
   })
   .use(markdownItEleventyImg, {
     imgOptions: {
-      formats: ["webp", "jpeg"],
+      formats: ["webp"],
       widths: [1024, 500, 300],
       urlPath: "/images/",
       outputDir: "./src/images/",
+      filenameFormat: function (id, src, width, format, options) {
+        const { name } = path.parse(src);
+        return `${name}-${width}.${format}`;
+      }
     },
     globalAttributes: {
       sizes: "100vw"

@@ -1,7 +1,9 @@
+{% block meta %}
 {% set pageTitle = title + ' | ' + site.name %}
 {% set pageDesc = site.description %}
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
+{% set featuredImage = post.data.featuredImage %}
 
 {% if summary %}
   {% set pageDesc = summary %}
@@ -20,6 +22,7 @@
 <meta property="og:description" content="{{ pageDesc }}" />
 
 {% if featuredImage %}  
-  <meta property="og:image" content="{{ featuredImage }}" />
+  <meta property="og:image" content="https://star-shaped.org/images/{{ featuredImage }}" />
   <meta property="og:image:alt" content="Page image for {{ site.name }}" />
 {% endif %}
+{% endblock %}

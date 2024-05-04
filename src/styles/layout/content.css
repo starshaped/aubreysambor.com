@@ -13,9 +13,10 @@
 }
 
 .content__title {
-  --flow-space: 2em;
+  --flow-space: 1em;
   border-bottom: 0;
   margin-bottom: var(--flow-space);
+  margin-top: 0;
 }
 
 .content__title--condensed {

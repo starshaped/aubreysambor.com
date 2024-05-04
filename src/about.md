@@ -21,14 +21,18 @@ I registered this domain name in August 2000 as a gift to myself when I finally 
 As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 20(!) years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.dev/">Eleventy</a>. Thanks to [Lea Verou](https://twitter.com/LeaVerou/status/1241619866475474946) for the emoji as favicon idea!
 
 ## Articles
-- *The Drop Times,* [Who You Know Is As Important As What You Know; Aubrey Sambor](https://www.thedroptimes.com/28354/who-you-know-important-what-you-know-aubrey-sambor-fldc)
+### Written/co-written by me
+- *Lullabot blog,* [Do You Still Need Sass?](https://www.lullabot.com/articles/do-you-still-need-sass-2024)
 - *Lullabot blog,* [CSS Features We’re Thankful For and CSS Features We Need](https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need)
+  
+### Written by others
+- *The Drop Times,* [FLDC Featured Speaker Aubrey Sambor on CSS Color Innovations](https://www.thedroptimes.com/interview/37689/fldc-featured-speaker-aubrey-sambor-css-color-innovations)
+- *The Drop Times,* [Who You Know Is As Important As What You Know; Aubrey Sambor](https://www.thedroptimes.com/28354/who-you-know-important-what-you-know-aubrey-sambor-fldc)
 - *Acquia blog,* [The Women of the Drupal Community: starshaped](https://www.acquia.com/blog/women-drupal-community-starshaped)
 
 ## Podcasts
 - _Lullabot podcast_, [Episode 259: Healthy Minds @Lullabot](https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot)
 - _Developing Up podcast_, [Episode 30: Impostor Syndrome](http://www.developingup.com/episodes/30)
-- _Death Prattle podcast_, [Episode 72: Getting the call twice](http://deathprattle.libsyn.com/podcast/episode-72-getting-the-call-twice-with-special-guest-aubrey)
 
 ## Webrings
 
