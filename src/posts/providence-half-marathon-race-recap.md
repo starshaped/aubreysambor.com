@@ -3,6 +3,7 @@ title: Providence Half Marathon race recap!
 date: 2014-05-05
 tags:
 - running
+featuredImage: aub-pose-900.webp
 ---
 Yesterday, I ran the [United Healthcare Providence Half Marathon](https://rhoderaces.com), my very first half marathon. Even though I put in the training and hit all my long runs, I *still* can't believe I did it.
 

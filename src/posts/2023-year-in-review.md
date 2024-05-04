@@ -4,7 +4,7 @@ date: 2024-01-02
 summary: ''
 tags:
   - life in general
-featuredImage: joshua-tree-300.webp
+featuredImage: joshua-tree-500.webp
 ---
 ![A Joshua Tree at Joshua Tree National Park.](./images/joshua-tree.jpg 'Joshua Tree National Park was <i>amazing</i>.')
 
