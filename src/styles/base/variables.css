@@ -13,16 +13,12 @@
 
   /* Colors */
   --primary-link: #bc526e;
-  --primary-link-dark: color-mix(in srgb,
-      var(--primary-link),
-      black 25%);
+  --primary-link-dark: color-mix(in srgb, var(--primary-link), black 25%);
   --secondary-link: #70d7d0;
   --background-color: #f9f9f9;
   --accent-color: #eee;
   --text-color: #333;
-  --text-color-dark: color-mix(in srgb,
-        var(--secondary-link),
-        black 15%);
+  --text-color-dark: color-mix(in srgb, var(--secondary-link), black 15%);
 
   /* Spacing */
   --flow-space: 1.5em;
@@ -31,11 +27,11 @@
   --step--2: clamp(0.65rem, calc(0.58rem + 0.36vw), 0.76rem);
   --step--1: clamp(0.78rem, calc(0.67rem + 0.56vw), 0.95rem);
   --step-0: clamp(0.94rem, calc(0.77rem + 0.83vw), 1.19rem);
-  --step-1: clamp(1.13rem, calc(0.89rem + 1.20vw), 1.48rem);
+  --step-1: clamp(1.13rem, calc(0.89rem + 1.2vw), 1.48rem);
   --step-2: clamp(1.35rem, calc(1.01rem + 1.69vw), 1.86rem);
   --step-3: clamp(1.62rem, calc(1.15rem + 2.33vw), 2.32rem);
-  --step-4: clamp(1.94rem, calc(1.31rem + 3.19vw), 2.90rem);
-  --step-5: clamp(2.33rem, calc(1.47rem + 4.30vw), 3.62rem);
+  --step-4: clamp(1.94rem, calc(1.31rem + 3.19vw), 2.9rem);
+  --step-5: clamp(2.33rem, calc(1.47rem + 4.3vw), 3.62rem);
 
   /* Site specific sizes */
   --size-logo: var(--step-2);

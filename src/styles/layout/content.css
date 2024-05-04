@@ -19,7 +19,7 @@
 }
 
 .content__title--condensed {
-  --flow-space: .25em;
+  --flow-space: 0.25em;
 }
 
 .content__date {
@@ -29,7 +29,7 @@
 
 .content__text {
   --flow-space: 2em;
-    margin-top: var(--flow-space);
+  margin-top: var(--flow-space);
 
   > * + * {
     margin-top: var(--flow-space);

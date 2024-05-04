@@ -1,7 +1,7 @@
 .header {
   background-color: var(--background-color);
   padding: 16px 0;
-  
+
   @media (--small) {
     --content-padding: 32px;
     padding: var(--content-padding) 24px;

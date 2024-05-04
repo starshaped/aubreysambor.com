@@ -17,6 +17,8 @@
     "postcss-custom-media": "^10.0.4",
     "postcss-import": "^16.1.0",
     "postcss-pxtorem": "^6.1.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "stylelint": "^16.5.0",
+    "stylelint-prettier": "^5.0.0"
   }
 }
