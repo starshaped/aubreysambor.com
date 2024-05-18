@@ -1,14 +1,14 @@
 html {
+  color: var(--text-color);
   font-family: var(--base-font-family);
   font-weight: 400;
-  color: var(--text-color);
 }
 
 hr {
+  block-size: 4px;
   border: 0;
-  height: 4px;
-  background-color: var(--accent-color);
   border-radius: 4px;
+  background-color: var(--accent-color);
 }
 
 a {
@@ -32,11 +32,13 @@ h1,
 
 h2 {
   --flow-space: 2.25em;
-  margin-top: var(--flow-space);
+
+  margin-block-start: var(--flow-space);
   font-size: var(--size-h2);
   line-height: 1.5;
+
   /* todo: use a custom property for #ccc */
-  border-bottom: solid 1px #ccc;
+  border-block-end: solid 1px #ccc;
 }
 
 h3 {
@@ -55,8 +57,8 @@ p:empty {
 
 p,
 li {
-  line-height: 1.75;
   font-size: var(--size-body);
+  line-height: 1.75;
 }
 
 li {
@@ -66,29 +68,29 @@ li {
 ul,
 ol {
   & > * + * {
-    margin-top: var(--flow-space);
+    margin-block-start: var(--flow-space);
   }
 }
 
 ol {
+  padding-inline-start: 24px;
   list-style-type: decimal;
-  padding-left: 24px;
 }
 
 ul {
+  padding-inline-start: 16px;
   list-style-type: square;
-  padding-left: 16px;
 }
 
 figcaption {
-  text-align: center;
-  margin-top: 8px;
+  margin-block-start: 8px;
   font-size: var(--size-small);
   line-height: 1.5;
+  text-align: center;
 }
 
 blockquote {
-  margin-left: 50px;
-  padding-left: 15px;
-  border-left: 3px solid var(--text-color);
+  margin-inline-start: 50px;
+  padding-inline-start: 15px;
+  border-inline-start: 3px solid var(--text-color);
 }

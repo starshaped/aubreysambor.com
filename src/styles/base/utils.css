@@ -2,16 +2,16 @@
 .skip-link {
   display: inline-block;
   position: absolute;
-  top: 0;
-  left: 0;
   padding: 20px;
+  transform: translateY(-100%);
   background-color: var(--text-color);
   color: var(--accent-color);
+  font-size: var(--size-body);
+  font-weight: 700;
   line-height: 1;
   text-decoration: none;
-  font-weight: 700;
-  font-size: var(--size-body);
-  transform: translateY(-100%);
+  inset-block-start: 0;
+  inset-inline-start: 0;
 
   &:focus {
     transform: translateY(0%);
@@ -20,13 +20,13 @@
 
 /* General shit that doesn't belong anywhere else. */
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
   position: absolute;
-  width: 1px;
+  block-size: auto;
+  inline-size: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
   white-space: nowrap;
 }

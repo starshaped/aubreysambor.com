@@ -1,3 +1,29 @@
 {
-  "extends": ["stylelint-prettier/recommended"]
+  "plugins": [
+    "stylelint-prettier",
+    "stylelint-use-logical-spec"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-property-sort-order-smacss",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "selector-class-pattern": "^[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
+    "order/properties-alphabetical-order": null,
+    "max-nesting-depth": 4,
+    "no-descending-specificity": null,
+    "custom-property-pattern": null,
+    "function-no-unknown": null,
+    "named-grid-areas-no-invalid": null,
+    "import-notation": null,
+    "annotation-no-unknown": null,
+    "selector-no-qualifying-type": [
+      true,
+      {
+        "ignore": ["attribute"]
+      }
+    ],
+    "liberty/use-logical-spec": ["always", { "direction": "ltr" }]
+  }
 }

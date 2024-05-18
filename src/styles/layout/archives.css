@@ -3,12 +3,12 @@
 }
 
 .archives__date {
-  line-height: 1.75;
   flex-basis: 4em;
   flex-shrink: 0;
   font-size: var(--size-body);
+  line-height: 1.75;
 }
 
 .archives__list {
-  margin-top: var(--flow-space);
+  margin-block-start: var(--flow-space);
 }

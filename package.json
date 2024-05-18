@@ -19,6 +19,10 @@
     "postcss-pxtorem": "^6.1.0",
     "prettier": "^3.2.5",
     "stylelint": "^16.5.0",
-    "stylelint-prettier": "^5.0.0"
+    "stylelint-config-property-sort-order-smacss": "^10.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.0",
+    "stylelint-use-logical-spec": "^5.0.1"
   }
 }

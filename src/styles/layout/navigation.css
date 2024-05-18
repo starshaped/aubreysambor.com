@@ -1,20 +1,21 @@
 .nav {
   --flow-space: 0;
+
+  margin-block-start: 16px;
   text-align: center;
-  margin-top: 16px;
 
   @media (--medium) {
-    margin-top: 0;
+    margin-block-start: 0;
   }
 }
 
 .nav__list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 
   @media (--medium) {
     justify-content: flex-end;
@@ -22,15 +23,15 @@
 }
 
 .nav__list-item {
+  display: inline-block;
   margin: 0;
   padding: 0;
-  display: inline-block;
 
   &:not(:last-child) {
-    margin-right: 24px;
+    margin-inline-end: 24px;
 
     @media (--small) {
-      margin-right: 40px;
+      margin-inline-end: 40px;
     }
   }
 

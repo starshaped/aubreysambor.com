@@ -1,11 +1,11 @@
 .pagination {
-  max-width: var(--content-width);
+  max-inline-size: var(--content-width);
   margin: auto;
-  padding: var(--flow-space) 16px;
+  padding-block: var(--flow-space);
+  padding-inline: 16px;
 
   @media (--small) {
-    padding-left: 0;
-    padding-right: 0;
+    padding-inline: 0;
   }
 }
 
