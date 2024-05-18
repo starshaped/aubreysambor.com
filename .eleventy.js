@@ -28,7 +28,7 @@ module.exports = function (config) {
   })
   .use(markdownItEleventyImg, {
     imgOptions: {
-      formats: ["webp"],
+      formats: ["webp", "jpeg"],
       widths: [1024, 500, 300],
       urlPath: "/images/",
       outputDir: "./src/images/",
