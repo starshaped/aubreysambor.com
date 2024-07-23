@@ -5,7 +5,7 @@ summary: ''
 tags:
   - life in general
 ---
-It’s been over 6 months and I have not written in my blog since January when I posted my [2023 year in review](2023-year-in-review). I blogged a LOT (for me) last year, and I haven’t kept up at all this year. .It’s not that I haven’t wanted to, but I fell out of the habit and it’s hard to get back into it. So, here I am, getting back to it!
+It’s been over 6 months and I have not written in my blog since January when I posted my [2023 year in review](2023-year-in-review). I blogged a LOT (for me) last year, and I haven’t kept up at all this year. It’s not that I haven’t wanted to, but I fell out of the habit and it’s hard to get back into it. So, here I am, getting back to it!
 
 ## What I’ve been up to this year:
 * I’ve given my 2024 talk, “[Color in CSS: using new spaces, functions, and techniques to make your site shine](https://noti.st/starshaped/OqswCh/color-in-css-using-new-spaces-functions-and-techniques-to-make-your-site-shine)” at 3 different conferences this year—[Florida Drupal Camp](https://fldrupal.camp/) in February, [NERD Summit](https://nerdsummit.org) in March, and [Drupal Camp Asheville](https://www.drupalasheville.com/) almost two weeks ago. It’s been a fun talk to give and I’ve enjoyed teaching people about new color spaces, what’s in CSS Color Modules 4 and 5, and much more! 
