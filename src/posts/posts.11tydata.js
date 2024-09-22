@@ -1,12 +1,9 @@
-const { DateTime } = require('luxon');
+import { DateTime } from 'luxon';
 
-module.exports = {
-  eleventyComputed: {
-    year: function (data) {
-      return DateTime.fromJSDate(data.date || data.page.date)
-        .plus({ hours: 6 })
-        .toFormat('yyyy');
-      // return new Date(data.date || data.page.date).getFullYear();
-    },
+export const eleventyComputed = {
+  year: function (data) {
+    return DateTime.fromJSDate(data.date || data.page.date)
+      .plus({ hours: 6 })
+      .toFormat('yyyy');
   },
 };

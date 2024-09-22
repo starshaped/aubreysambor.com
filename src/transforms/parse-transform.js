@@ -1,7 +1,7 @@
-const slugify = require('slugify');
-const { JSDOM } = require('jsdom');
+import slugify from 'slugify';
+import { JSDOM } from 'jsdom';
 
-module.exports = function (value, outputPath) {
+export default function (value, outputPath) {
   if (outputPath.endsWith('.html')) {
     const DOM = new JSDOM(value, {
       resources: 'usable',

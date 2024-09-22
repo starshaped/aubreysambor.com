@@ -1,25 +1,22 @@
 // Import @11ty plugins
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require('markdown-it');
-const markdownItEleventyImg = require("markdown-it-eleventy-img");
-const path = require('path');
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+import markdownIt from 'markdown-it';
+import markdownItEleventyImg from "markdown-it-eleventy-img";
+import { parse } from 'path';
 
-const { DateTime } = require("luxon");
-
-// Import site information
-const site = require('./src/_data/site.json');
+import { DateTime } from "luxon";
 
 // PostCSS goodness!
-const postcss = require('postcss');
-const cssnano = require('cssnano');
-const postcssCustomMedia = require('postcss-custom-media');
-const postcssImport = require('postcss-import');
-const pxtorem = require('postcss-pxtorem');
+import postcss from 'postcss';
+import cssnano from 'cssnano';
+import postcssCustomMedia from 'postcss-custom-media';
+import postcssImport from 'postcss-import';
+import pxtorem from 'postcss-pxtorem';
 
 // Import transforms
-const parseTransform = require('./src/transforms/parse-transform.js');
+import parseTransform from './src/transforms/parse-transform.js';
 
-module.exports = function (config) {
+export default function (config) {
 
   config.setLibrary('md', markdownIt ({
     html: true,
@@ -33,7 +30,7 @@ module.exports = function (config) {
       urlPath: "/images/",
       outputDir: "./src/images/",
       filenameFormat: function (id, src, width, format, options) {
-        const { name } = path.parse(src);
+        const { name } = parse(src);
         return `${name}-${width}.${format}`;
       }
     },
