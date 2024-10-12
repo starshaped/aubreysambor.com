@@ -1,35 +1,8 @@
 ---
 layout: base.njk
 ---
+{% set postListItems = collections.list | reverse %}
+{% set introSummary = content | safe %}
 
-{% set postListItems = pagination.items %}
-
-{%- for post in postListItems -%}
-  {% if loop.first %}
-    <article class="content">
-      <h2 class="h1 content__title content__title--condensed">
-        <a class="content__title-link" href="{{ post.url }}" rel="bookmark">{{ post.data.title }}</a>
-      </h2>
-
-      <div class="content__meta">
-        {% if post.date %}
-          <time datetime="{{ post.date | postDate }}" class="content__date">{{ post.date | postDate }}</time>
-        {% endif %}
-
-        {% if post.data.tags %}
-          <p class="tags">Tagged with 
-            {% for tag in post.data.tags %}
-              <a class="tags__tag-link" href="/tags/{{ tag | slugify }}">{{ tag }}</a>
-            {% endfor %}
-          </p>
-        {% endif %}
-      </div>
-
-      <div class="content__text">
-        {{ post.content | safe }}
-      </div>
-    </article>
-  {% else %}
-    {% include "recent-posts.njk" %}
-  {% endif %}
-{%- endfor -%}
+{% include "intro.njk" %}
+{% include "recent-posts.njk" %}

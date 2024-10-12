@@ -60,3 +60,30 @@
     }
   }
 }
+
+.content__intro p {
+  padding-block-end: var(--flow-space);
+  font-size: var(--step-1);
+}
+
+.recent-posts__list {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-posts__list-item:not(:last-child) {
+  margin-block-end: 48px;
+}
+
+.recent-posts__title {
+  font-size: var(--step-3);
+  --flow-space: 1.5em;
+}
+
+.recent-posts__post-title {
+  display: inline-block;
+}
+
+.recent-posts__date {
+  margin-inline-start: 16px;
+}

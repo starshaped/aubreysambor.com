@@ -1,7 +1,7 @@
 ---
 title: Back to blogging
 date: 2024-07-23
-summary: ''
+summary: I miss blogging and I want to get back into it. Will I keep at it the rest of the year? Only time will tell!
 tags:
   - life in general
 ---

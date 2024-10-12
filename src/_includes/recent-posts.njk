@@ -1,12 +1,14 @@
-{% if loop.index == 2 %}
-  <section class="content__extra recent-posts">
-    <h2>Recent posts</h2>
-    <ul class="content__list recent-posts__list" style="padding-bottom: 32px;">
-{% endif %}
+  <section class="recent-posts">
+    <h2 class="recent-posts__title">Recent posts</h2>
+    <ul class="recent-posts__list" style="padding-bottom: 32px;">
+      {%- for post in postListItems -%}
+      {% if loop.index0 < 5 %}
       <li class="recent-posts__list-item">
-        <a href="{{ post.url }}">{{ post.data.title }}</a> <time class="archives__date" datetime="{{ post.date | htmlDateFilter }}"><i>{{ post.date | postDate }}</i></time></li>
-{% if loop.last %}
+        <h3 class="recent-posts__post-title"><a href="{{ post.url }}">{{ post.data.title }}</a><time class="recent-posts__date" datetime="{{ post.date | htmlDateFilter }}"></h3><i>{{ post.date | postDate }}</i></time>
+        <p>{{ post.data.summary | safe }}</p>
+      </li>
+      {% endif %}
+        {%- endfor -%}
     </ul>
     <p><a href="archives">View all archives</a></p>
   </section>
-{% endif %}

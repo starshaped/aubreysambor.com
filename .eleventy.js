@@ -117,8 +117,8 @@ export default function (config) {
   config.addPassthroughCopy({ 'src/fonts': 'fonts'});
   config.addPassthroughCopy('src/robots.txt');
 
-  config.addCollection('feed', (collection) => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+  config.addCollection('list', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')];
   });
 
   return {

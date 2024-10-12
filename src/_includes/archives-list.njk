@@ -1,7 +1,3 @@
-{% if not postListItems.length %}
-  {% set postListItems = collections.all | reverse %}
-{% endif %}
-
 {% for year, posts in postListItems | groupby("data.year") | dictsort | reverse %}
 
   <div class="archives__year">
