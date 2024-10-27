@@ -1,5 +1,9 @@
 .archives__item {
   display: flex;
+
+  p {
+    margin-block-start: 0;
+  }
 }
 
 .archives__date {

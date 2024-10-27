@@ -24,7 +24,8 @@ main {
   box-shadow: none;
   color: transparent;
 
-  &:hover {
+  &:hover,
+  &:focus {
     box-shadow: none;
     color: var(--secondary-link);
   }

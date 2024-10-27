@@ -12,9 +12,50 @@
   @media (--medium) {
     --content-padding: 48px;
   }
+
+  a {
+    &:hover {
+      color: var(--primary-link-dark);
+    }
+  }
+}
+
+.footer__content {
+  margin-block-start: 0;
 }
 
 .footer__inner {
   max-inline-size: var(--content-width);
   margin: auto;
+
+    @media (--medium) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer-icon {
+  list-style: none;
+  display: flex;
+  margin: 10px 0 0 0;
+  padding: 0;
+
+  @media (--medium) {
+    margin: 0;
+  }
+}
+
+.footer-icon__icon {
+  margin: 0;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-inline-end: 10px;
+  }
+
+  a {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
 }

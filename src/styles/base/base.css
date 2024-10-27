@@ -31,9 +31,6 @@ h1,
 }
 
 h2 {
-  --flow-space: 2.25em;
-
-  margin-block-start: var(--flow-space);
   font-size: var(--size-h2);
   line-height: 1.5;
 
@@ -59,10 +56,6 @@ p,
 li {
   font-size: var(--size-body);
   line-height: 1.75;
-}
-
-li {
-  --flow-space: 1em;
 }
 
 ul,
