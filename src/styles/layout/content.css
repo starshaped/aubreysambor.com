@@ -58,6 +58,10 @@
   }
 }
 
+.content__intro {
+  margin-block-end: calc(var(--flow-space) * 2);
+}
+
 .content__intro p {
   font-size: var(--step-1);
 }
