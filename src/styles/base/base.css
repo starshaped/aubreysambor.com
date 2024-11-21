@@ -76,7 +76,7 @@ ul {
 }
 
 figcaption {
-  margin-block-start: .5rem;
+  margin-block-start: 0.5rem;
   font-size: var(--size-small);
   line-height: 1.5;
   text-align: center;

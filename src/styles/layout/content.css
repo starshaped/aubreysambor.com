@@ -7,14 +7,11 @@
   @media (width >= 30em) {
     padding-block: 48px;
   }
-
-  @media (width>= 48em) {
-  }
 }
 
 .content__title {
   border-block-end: 0;
-  /margin-block-start: 0;
+  margin-block-start: 0;
 }
 
 .content__title--condensed {
@@ -34,7 +31,7 @@
   }
 
   li {
-  --flow-space: 1em;
+    --flow-space: 1em;
   }
 
   picture {
@@ -67,27 +64,25 @@
 }
 
 .recent-posts__list {
-  list-style: none;
   padding: 0;
+  list-style: none;
 }
 
 .recent-posts__list-item {
-
   p {
     margin-block-start: 0;
   }
-
 }
 
 .recent-posts__title {
   font-size: var(--step-3);
-  --flow-space: 1.5em;
 
+  --flow-space: 1.5em;
 }
 
 .recent-posts__post-title {
   display: inline-block;
-    margin-block-start: 0;
+  margin-block-start: 0;
 }
 
 .recent-posts__date {
