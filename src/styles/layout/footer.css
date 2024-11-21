@@ -5,11 +5,11 @@
   padding-inline: 24px;
   background-color: var(--background-color);
 
-  @media (--small) {
+  @media (width >= 30em) {
     --content-padding: 32px;
   }
 
-  @media (--medium) {
+  @media (width>= 48em) {
     --content-padding: 48px;
   }
 
@@ -28,7 +28,7 @@
   max-inline-size: var(--content-width);
   margin: auto;
 
-    @media (--medium) {
+    @media (width>= 48em) {
     display: flex;
     justify-content: space-between;
   }
@@ -40,7 +40,7 @@
   margin: 10px 0 0 0;
   padding: 0;
 
-  @media (--medium) {
+  @media (width>= 48em) {
     margin: 0;
   }
 }

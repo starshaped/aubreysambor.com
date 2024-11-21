@@ -4,11 +4,11 @@
   padding-block: 32px;
   padding-inline: 16px;
 
-  @media (--small) {
+  @media (width >= 30em) {
     padding-block: 48px;
   }
 
-  @media (--medium) {
+  @media (width>= 48em) {
   }
 }
 
@@ -42,13 +42,13 @@
     max-inline-size: none;
     margin-inline: -16px;
 
-    @media (--medium) {
+    @media (width>= 48em) {
       inline-size: auto;
       margin: auto;
     }
 
     .about & {
-      @media (--medium) {
+      @media (width>= 48em) {
         max-inline-size: 300px;
         margin-block-start: 8px;
         margin-inline-end: 24px;

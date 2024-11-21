@@ -6,13 +6,6 @@ import { parse } from 'path';
 
 import { DateTime } from "luxon";
 
-// PostCSS goodness!
-import postcss from 'postcss';
-import cssnano from 'cssnano';
-import postcssCustomMedia from 'postcss-custom-media';
-import postcssImport from 'postcss-import';
-import pxtorem from 'postcss-pxtorem';
-
 // Import transforms
 import parseTransform from './src/transforms/parse-transform.js';
 
@@ -51,34 +44,10 @@ export default function (config) {
     }
   }));
 
-  config.addTemplateFormats('css');
-
-  config.addExtension('css', {
-    outputFileExtension: 'css',
-    compile: async (content, path) => {
-      if (path !== './src/styles/styles.css') {
-        return;
-      }
-
-      return async () => {
-        let output = await postcss([
-          pxtorem({
-            propList: ['*'],
-          }),
-          postcssImport,
-          postcssCustomMedia,
-          cssnano,
-        ]).process(content, {
-          from: path,
-        });
-
-        return output.css;
-      }
-    }
-  });
-
   // Plugins
   config.addPlugin(rssPlugin);
+
+   config.addWatchTarget('./src/styles');
 
   // Filters
   config.addFilter('htmlDateFilter', (value) => {

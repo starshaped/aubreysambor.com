@@ -1,0 +1,22 @@
+---
+permalink: styles/styles.css
+---
+
+{% set css %}
+  {% include "./base/reset.css" %}
+  {% include "./base/variables.css" %}
+  {% include "./base/utils.css" %}
+  {% include "./base/base.css" %}
+  {% include "./layout/main.css" %}
+  {% include "./layout/content.css" %}
+  {% include "./layout/archives.css" %}
+  {% include "./layout/pagination.css" %}
+  {% include "./layout/header.css" %}
+  {% include "./layout/navigation.css" %}
+  {% include "./layout/footer.css" %}
+  {% include "./components/tags.css" %}
+  {% include "./components/post-listing.css" %}
+{% endset %}
+
+
+{{ css | safe }}

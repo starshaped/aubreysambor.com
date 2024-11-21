@@ -5,6 +5,6 @@
   &::before {
     content: '·';
     display: inline-block;
-    margin-inline-end: 4px;
+    margin-inline-end: 0.25rem;
   }
 }

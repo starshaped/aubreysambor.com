@@ -4,7 +4,7 @@
   margin-block-start: 16px;
   text-align: center;
 
-  @media (--medium) {
+  @media (width>= 48em) {
     margin-block-start: 0;
   }
 }
@@ -17,7 +17,7 @@
   padding: 0;
   list-style-type: none;
 
-  @media (--medium) {
+  @media (width>= 48em) {
     justify-content: flex-end;
   }
 }
@@ -30,7 +30,7 @@
   &:not(:last-child) {
     margin-inline-end: 24px;
 
-    @media (--small) {
+    @media (width >= 30em) {
       margin-inline-end: 40px;
     }
   }

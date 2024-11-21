@@ -5,9 +5,9 @@ html {
 }
 
 hr {
-  block-size: 4px;
+  block-size: 0.25rem;
   border: 0;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background-color: var(--accent-color);
 }
 
@@ -15,7 +15,7 @@ a {
   color: var(--primary-link);
   font-weight: bold;
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.125rem;
 }
 
 h1,
@@ -66,24 +66,24 @@ ol {
 }
 
 ol {
-  padding-inline-start: 24px;
+  padding-inline-start: 1.5rem;
   list-style-type: decimal;
 }
 
 ul {
-  padding-inline-start: 16px;
+  padding-inline-start: 1rem;
   list-style-type: square;
 }
 
 figcaption {
-  margin-block-start: 8px;
+  margin-block-start: .5rem;
   font-size: var(--size-small);
   line-height: 1.5;
   text-align: center;
 }
 
 blockquote {
-  margin-inline-start: 50px;
-  padding-inline-start: 15px;
-  border-inline-start: 3px solid var(--text-color);
+  margin-inline-start: 3.125rem;
+  padding-inline-start: 1rem;
+  border-inline-start: 0.25rem solid var(--text-color);
 }

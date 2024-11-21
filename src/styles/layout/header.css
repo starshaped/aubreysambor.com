@@ -3,7 +3,7 @@
   padding-inline: 0;
   background-color: var(--background-color);
 
-  @media (--small) {
+  @media (width >= 30em) {
     --content-padding: 32px;
 
     padding-block: var(--content-padding);
@@ -16,7 +16,7 @@
   margin: auto;
   text-align: center;
 
-  @media (--medium) {
+  @media (width>= 48em) {
     display: flex;
     align-items: center;
     justify-content: space-between;

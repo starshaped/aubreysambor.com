@@ -4,7 +4,7 @@
   padding-block: var(--flow-space);
   padding-inline: 16px;
 
-  @media (--small) {
+  @media (width >= 30em) {
     padding-inline: 0;
   }
 }
