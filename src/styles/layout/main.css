@@ -3,7 +3,7 @@ main {
 
   @media (width >= 30em) {
     padding-block: 0;
-    padding-inline: 24px;
+    padding-inline: 1.5rem;
   }
 
   & a {
@@ -20,7 +20,7 @@ main {
 }
 
 .heading-permalink {
-  margin-inline-start: 10px;
+  margin-inline-start: .75rem;
   box-shadow: none;
   color: transparent;
 

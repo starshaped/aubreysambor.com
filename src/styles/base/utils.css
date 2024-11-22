@@ -2,7 +2,7 @@
 .skip-link {
   display: inline-block;
   position: absolute;
-  padding: 20px;
+  padding: 1.25rem;
   transform: translateY(-100%);
   background-color: var(--text-color);
   color: var(--accent-color);

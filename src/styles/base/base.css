@@ -33,9 +33,7 @@ h1,
 h2 {
   font-size: var(--size-h2);
   line-height: 1.5;
-
-  /* todo: use a custom property for #ccc */
-  border-block-end: solid 1px #ccc;
+  border-block-end: solid 1px var(--border-color);
 }
 
 h3 {

@@ -1,16 +1,16 @@
 .footer {
-  --content-padding: 24px;
+  --content-padding: 1.5rem;
 
   padding-block: var(--content-padding);
-  padding-inline: 24px;
+  padding-inline: var(--content-padding);
   background-color: var(--background-color);
 
   @media (width >= 30em) {
-    --content-padding: 32px;
+    --content-padding: 2rem;
   }
 
   @media (width>= 48em) {
-    --content-padding: 48px;
+    --content-padding: 3rem;
   }
 
   a {
@@ -36,7 +36,7 @@
 
 .footer-icon {
   display: flex;
-  margin-block: 10px 0;
+  margin-block: .75rem 0;
   margin-inline: 0;
   padding: 0;
   list-style: none;
@@ -51,12 +51,12 @@
   padding: 0;
 
   &:not(:last-child) {
-    margin-inline-end: 10px;
+    margin-inline-end: .75rem;
   }
 
   a {
     display: block;
-    block-size: 32px;
-    inline-size: 32px;
+    block-size: 2rem;
+    inline-size: 2rem;
   }
 }

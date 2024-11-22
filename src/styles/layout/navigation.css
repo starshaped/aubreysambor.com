@@ -1,7 +1,7 @@
 .nav {
   --flow-space: 0;
 
-  margin-block-start: 16px;
+  margin-block-start: 1rem;
   text-align: center;
 
   @media (width>= 48em) {
@@ -28,10 +28,10 @@
   padding: 0;
 
   &:not(:last-child) {
-    margin-inline-end: 24px;
+    margin-inline-end: 1.5rem;
 
     @media (width >= 30em) {
-      margin-inline-end: 40px;
+      margin-inline-end: 2.5rem;
     }
   }
 

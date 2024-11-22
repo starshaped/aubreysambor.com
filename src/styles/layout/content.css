@@ -1,11 +1,16 @@
 .layout-container__inner {
   max-inline-size: var(--content-width);
   margin: auto;
-  padding-block: 32px;
-  padding-inline: 16px;
+  padding-block: 2rem;
+  padding-inline: 1rem;
 
-  @media (width >= 30em) {
-    padding-block: 48px;
+  @media (width>= 48em) {
+    padding-block: 3rem;
+  }
+
+  @media (width>= 60em) {
+    padding-inline: 0;
+    padding-block: 4rem;
   }
 }
 
@@ -19,7 +24,7 @@
 }
 
 .content__date {
-  margin-inline-end: 2px;
+  margin-inline-end: .125rem;
   font-size: var(--size-small);
 }
 
@@ -37,7 +42,7 @@
   picture {
     inline-size: calc(100% + 2rem);
     max-inline-size: none;
-    margin-inline: -16px;
+    margin-inline: -1rem;
 
     @media (width>= 48em) {
       inline-size: auto;
@@ -46,9 +51,9 @@
 
     .about & {
       @media (width>= 48em) {
-        max-inline-size: 300px;
-        margin-block-start: 8px;
-        margin-inline-end: 24px;
+        max-inline-size: 18.75rem;
+        margin-block-start: .5rem;
+        margin-inline-end: 1.5rem;
         float: inline-start;
       }
     }
@@ -56,15 +61,20 @@
 }
 
 .content__intro {
-  margin-block-end: calc(var(--flow-space) * 2);
+  margin-block-end: calc(var(--flow-space) * 2.5);
 }
 
 .content__intro p {
   font-size: var(--step-1);
+  max-width: 55ch;
+
+  &:first-child {
+    margin-block-start: 0;
+  }
 }
 
 .recent-posts__list {
-  padding: 0;
+  padding: .5rem 0 1.5rem 0;
   list-style: none;
 }
 
@@ -81,10 +91,5 @@
 }
 
 .recent-posts__post-title {
-  display: inline-block;
   margin-block-start: 0;
-}
-
-.recent-posts__date {
-  margin-inline-start: 16px;
 }
