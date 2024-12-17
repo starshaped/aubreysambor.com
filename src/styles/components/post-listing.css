@@ -6,12 +6,12 @@
   list-style-type: none;
 
   &:not(:last-child) {
-    margin-block-end: calc(var(--flow-space) * 3.5);
+    margin-block-end: var(--space-xl);
   }
 }
 
 .post-listing__date {
   display: inline-block;
-  margin-block-end: calc(var(--flow-space) * 0.25);
+  margin-block-end: calc(var(--space-s) * 0.25);
   font-size: var(--size-small);
 }

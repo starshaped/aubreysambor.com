@@ -59,7 +59,7 @@ li {
 ul,
 ol {
   & > * + * {
-    margin-block-start: var(--flow-space);
+    margin-block-start: var(--space-s);
   }
 }
 

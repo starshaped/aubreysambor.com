@@ -14,5 +14,5 @@
 }
 
 .archives__list {
-  margin-block-start: var(--flow-space);
+  margin-block-start: var(--space-m);
 }

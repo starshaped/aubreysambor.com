@@ -36,7 +36,7 @@
 
 .footer-icon {
   display: flex;
-  margin-block: .75rem 0;
+  margin-block: 0.75rem 0;
   margin-inline: 0;
   padding: 0;
   list-style: none;
@@ -51,7 +51,7 @@
   padding: 0;
 
   &:not(:last-child) {
-    margin-inline-end: .75rem;
+    margin-inline-end: 0.75rem;
   }
 
   a {

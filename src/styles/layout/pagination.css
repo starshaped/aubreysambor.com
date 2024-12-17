@@ -1,7 +1,7 @@
 .pagination {
   max-inline-size: var(--content-width);
   margin: auto;
-  padding-block: var(--flow-space);
+  padding-block: var(--space-s);
   padding-inline: 1rem;
 
   @media (width >= 30em) {
