@@ -84,3 +84,16 @@
 .recent-posts__post-title {
   margin-block-start: 0;
 }
+
+.uses {
+
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
