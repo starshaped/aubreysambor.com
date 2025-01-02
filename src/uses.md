@@ -8,18 +8,18 @@ Here's a list of all the hardware, software, and fun non-software things I use o
 _Updated: January 2nd, 2025_
 
 ## Hardware
-* 16” M1 Max Macbook Pro, silver, with 64GB of RAM and a 1TB hard drive
-* 27” Dell S2722QC 4K monitor
-* Logitech Brio 4K webcam
-* Logitech MX keyboard in white
-* Logitech MX Anywhere mouse, also in white
-* Uplift standing desk
-* Some desk chair I bought from Staples in 2014 that I still have because I haven’t bought a new one yet
-* iPhone 14 Pro, deep purple
-* iPad Air, 4th generation, silver
-* Apple Watch Series 6, rose gold
-* AirPods, 3rd generation
-* Bose QuietComfort noise cancelling headphones
+* 👩‍💻 16” M1 Max Macbook Pro, silver, with 64GB of RAM and a 1TB hard drive
+* 🖥 27” Dell S2722QC 4K monitor
+* 📸 Logitech Brio 4K webcam
+* ⌨️ Logitech MX keyboard in white
+* 🐭 Logitech MX Anywhere mouse, also in white
+* 🗄️ Uplift standing desk
+* 💺 Some desk chair I bought from Staples in 2014 that I still have because I haven’t bought a new one yet
+* 📱 iPhone 14 Pro, deep purple
+* 🗒️ iPad Air, 4th generation, silver
+* ⌚ Apple Watch Series 6, rose gold
+* 🎧 AirPods, 3rd generation
+* 🎧 Bose QuietComfort noise cancelling headphones
 
 ## Software
 * 🔘 IDE: [VSCodium](https://vscodium.com/)
