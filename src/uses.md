@@ -1,5 +1,5 @@
 ---
-title: '/Uses'
+title: 'Uses'
 layout: 'page.njk'
 eleventyExcludeFromCollections: true
 ---
