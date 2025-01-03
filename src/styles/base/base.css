@@ -73,6 +73,10 @@ ul {
   list-style-type: square;
 }
 
+figure {
+  margin-inline: 0;
+}
+
 figcaption {
   margin-block-start: 0.5rem;
   font-size: var(--size-small);

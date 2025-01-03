@@ -84,6 +84,7 @@ export default function (config) {
   // Passthrough copy
   config.addPassthroughCopy({ 'src/images': 'images' });
   config.addPassthroughCopy({ 'src/fonts': 'fonts'});
+  config.addPassthroughCopy('src/js/scripts.js');
   config.addPassthroughCopy('src/robots.txt');
 
   config.addCollection('list', (collection) => {
