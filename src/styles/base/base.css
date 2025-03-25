@@ -12,7 +12,7 @@ hr {
 }
 
 a {
-  color: var(--primary-link);
+  color: var(--primary-link-dark);
   font-weight: bold;
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 0.125rem;
