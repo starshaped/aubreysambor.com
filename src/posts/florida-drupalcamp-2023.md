@@ -6,7 +6,7 @@ tags:
   - conferences
   - drupal
 ---
-A couple weeks ago I finally attended [Florida DrupalCamp](https://fldrupal.camp/), a camp I had wanted to attend for years! Not only was it the first time I attended, but it was my first time speaking at this conference and my first time speaking at *any* conference since [New England Drupal Camp in 2019](https://www.star-shaped.org/nedcamp-2019/)! It was such a fun camp and I got to see some of my favorite people in the Drupal community.
+A couple weeks ago I finally attended [Florida DrupalCamp](https://fldrupal.camp/), a camp I had wanted to attend for years! Not only was it the first time I attended, but it was my first time speaking at this conference and my first time speaking at *any* conference since [New England Drupal Camp in 2019](/nedcamp-2019)! It was such a fun camp and I got to see some of my favorite people in the Drupal community.
 
 ## Thursday: Arrival
 I flew in on Thursday afternoon and immediately got drinks to kick off the camp—it was great to catch up with some people and enjoy a tasty Florida beer in a low key environment! After a couple other coworkers arrived, we all made our way to a Korean BBQ place and we enjoyed so much delicious food and sushi. I ended the evening by going to the same ‘low-key’ bar I had gone to when I first arrived, but it turned into a college student drink haven at night! We shouted at each other over music too loud for this old lady and got back to the hotel at a reasonable hour.

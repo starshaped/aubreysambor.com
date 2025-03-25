@@ -1,2 +1,2 @@
 # starshaped-blog
-My blog, star-shaped.org.
+My blog, aubreysambor.com.
