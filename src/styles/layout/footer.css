@@ -1,16 +1,10 @@
 .footer {
-  --content-padding: 1.5rem;
-
   padding-block: var(--content-padding);
-  padding-inline: var(--content-padding);
+  padding-inline: 1.5rem;
   background-color: var(--background-color);
 
   @media (width >= 30em) {
     --content-padding: 2rem;
-  }
-
-  @media (width>= 48em) {
-    --content-padding: 3rem;
   }
 
   a {
@@ -21,16 +15,19 @@
 }
 
 .footer__content {
-  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .footer__inner {
   max-inline-size: var(--content-width);
-  margin: auto;
 
   @media (width>= 48em) {
     display: flex;
     justify-content: space-between;
+  }
+
+  @media (width >= 60em) {
+    margin: auto;
   }
 }
 

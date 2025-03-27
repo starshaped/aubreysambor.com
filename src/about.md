@@ -4,9 +4,7 @@ layout: 'page.njk'
 eleventyExcludeFromCollections: true
 ---
 
-![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpg)
-
-Hi, I&lsquo;m **Aubrey**, a knitter and web developer living in western Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
+Hi, I&lsquo;m **Aubrey**, a front end developer and knitter living in Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
 
 I've been making websites professionally since 2006 and personally since 1998, so I've seen a _lot_. ([Remember including standards-compliant CSS on your site with an @import because Netscape 4 didn't support it?](http://www.ericmeyeroncss.com/bonus/trick-hide.html) I certainly do!)
 
@@ -18,21 +16,7 @@ I've been cross-stitching since the early 90s, knitting since 2002, spinning my 
 
 I registered this domain name in August 2000 as a gift to myself when I finally received my driver&lsquo;s license. Initially I used it to post updates about my now defunct online journal (who remembers _those_ days?), but in December 2000, I started this blog.
 
-As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 20(!) years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.dev/">Eleventy</a>. Thanks to [Lea Verou](https://twitter.com/LeaVerou/status/1241619866475474946) for the emoji as favicon idea!
-
-## Articles
-### Written/co-written by me
-- *Lullabot blog,* [Do You Still Need Sass?](https://www.lullabot.com/articles/do-you-still-need-sass-2024)
-- *Lullabot blog,* [CSS Features We’re Thankful For and CSS Features We Need](https://www.lullabot.com/articles/css-features-were-thankful-and-css-features-we-need)
-  
-### Written by others
-- *The Drop Times,* [FLDC Featured Speaker Aubrey Sambor on CSS Color Innovations](https://www.thedroptimes.com/interview/37689/fldc-featured-speaker-aubrey-sambor-css-color-innovations)
-- *The Drop Times,* [Who You Know Is As Important As What You Know; Aubrey Sambor](https://www.thedroptimes.com/28354/who-you-know-important-what-you-know-aubrey-sambor-fldc)
-- *Acquia blog,* [The Women of the Drupal Community: starshaped](https://www.acquia.com/blog/women-drupal-community-starshaped)
-
-## Podcasts
-- _Lullabot podcast_, [Episode 259: Healthy Minds @Lullabot](https://www.lullabot.com/podcasts/lullabot-podcast/healthy-minds-lullabot)
-- _Developing Up podcast_, [Episode 30: Impostor Syndrome](http://www.developingup.com/episodes/30)
+As blogging became more popular, I started writing in this blog more than the online journal, and now I&lsquo;ve been writing on here for over 20(!) years. This blog has been powered by Blogger, Greymatter, b2, Moveable Type, Wordpress, Jekyll, Drupal, and Gatsby, and is currently powered by <a href="https://www.11ty.dev/">11ty</a>.
 
 ## Webrings
 

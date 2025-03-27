@@ -1,18 +1,30 @@
-.archives__item {
+.archives-list__list {
+  margin-block-end: var(--space-m);
+  padding-inline-start: 0;
+}
+
+.archives-list__item {
   display: flex;
+  margin-block-end: 0;
+
 
   p {
-    margin-block-start: 0;
+    margin-block-end: 0;
   }
 }
 
-.archives__date {
-  flex-basis: 4em;
-  flex-shrink: 0;
-  font-size: var(--size-body);
-  line-height: 1.75;
+.archives-list__date {
+  flex: 0 0 5rem;
 }
 
-.archives__list {
-  margin-block-start: var(--space-m);
+.archives-tags {
+  margin: 0 0 var(--space-m) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.archives-tags__item {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  padding: 0;
 }

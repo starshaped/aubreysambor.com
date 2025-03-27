@@ -7,11 +7,13 @@ pagination:
   alias: tag
 permalink: /tags/{{ tag | slugify }}/
 eleventyComputed:
-  title: Posts tagged with "{{ tag }}"
+  title: Posts tagged with "{{ tag | safe }}"
 ---
 {% set postListItems = collections[tag] | reverse %}
 
-  <article class="content">
-    <h1 class="content__title">{{ title }}</h1>
+<article class="content">
+  <h1 class="content__title">{{ title }}</h1>
+  <div class="content__text">
     {% include "archives-list.njk" %}
-  </article>
+  </div>
+</article>

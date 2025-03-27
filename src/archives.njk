@@ -4,8 +4,16 @@ layout: base.njk
 ---
 {% set postListItems = collections.list | reverse %}
 
-<article class="content archives">
+<article class="content">
   <h1 class="content__title">{{ title }}</h1>
+    <div class="content__text">
 
-  {% include "archives-list.njk" %}
+    <ul class="archives-tags">
+      {% for tag in collections.tagsList %}
+        <li class="archives-tags__item"><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+
+    {% include "archives-list.njk" %}
+  </div>
 </article>

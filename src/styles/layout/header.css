@@ -1,25 +1,26 @@
 .header {
-  padding-block: 1rem;
-  padding-inline: 0;
+  padding-block: var(--content-padding);
   background-color: var(--background-color);
 
   @media (width >= 30em) {
     --content-padding: 2rem;
 
-    padding-block: var(--content-padding);
     padding-inline: 1.5rem;
   }
 }
 
 .header__inner {
   max-inline-size: var(--content-width);
-  margin: auto;
   text-align: center;
 
   @media (width>= 48em) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  @media (width >= 60em) {
+    margin: auto;
   }
 }
 

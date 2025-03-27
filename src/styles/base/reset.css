@@ -11,6 +11,12 @@ h1 {
   margin: 0;
 }
 
+/* h1 uniform font style, see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#specifying_a_uniform_font_size_for_h1 */
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
 h2,
 h3,
 h4,
@@ -22,7 +28,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */

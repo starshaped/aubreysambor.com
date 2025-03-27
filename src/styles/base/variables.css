@@ -5,10 +5,10 @@
 
   /* Basic site settings */
   --content-width: 55rem; /* 880px */
-  --content-padding: 0;
+  --content-padding: 1rem;
 
   /* Colors */
-  --primary-link: #bc526e;
+  --primary-link: #a94a63;
   --primary-link-dark: color-mix(in srgb, var(--primary-link), black 25%);
   --secondary-link: #70d7d0;
   --background-color: #f9f9f9;
@@ -32,15 +32,15 @@
 
   /* Default sizes */
 
-  /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,880,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-  --step--2: clamp(0.6944rem, 0.6341rem + 0.3016vw, 0.8rem);
-  --step--1: clamp(0.8333rem, 0.7381rem + 0.4762vw, 1rem);
+  /* @link https://utopia.fyi/type/calculator?c=320,16,1.125,880,20,1.125,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --step--2: clamp(0.7901rem, 0.6772rem + 0.5644vw, 0.9877rem);
+  --step--1: clamp(0.8889rem, 0.7619rem + 0.6349vw, 1.1111rem);
   --step-0: clamp(1rem, 0.8571rem + 0.7143vw, 1.25rem);
-  --step-1: clamp(1.2rem, 0.9929rem + 1.0357vw, 1.5625rem);
-  --step-2: clamp(1.44rem, 1.1468rem + 1.4661vw, 1.9531rem);
-  --step-3: clamp(1.728rem, 1.3203rem + 2.0383vw, 2.4414rem);
-  --step-4: clamp(2.0736rem, 1.5147rem + 2.7947vw, 3.0518rem);
-  --step-5: clamp(2.4883rem, 1.7304rem + 3.7896vw, 3.8147rem);
+  --step-1: clamp(1.125rem, 0.9643rem + 0.8036vw, 1.4063rem);
+  --step-2: clamp(1.2656rem, 1.0848rem + 0.904vw, 1.582rem);
+  --step-3: clamp(1.4238rem, 1.2204rem + 1.017vw, 1.7798rem);
+  --step-4: clamp(1.6018rem, 1.373rem + 1.1441vw, 2.0023rem);
+  --step-5: clamp(1.802rem, 1.5446rem + 1.2872vw, 2.2525rem);
 
   /* Site specific sizes */
   --size-logo: var(--step-2);

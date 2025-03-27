@@ -12,7 +12,7 @@ hr {
 }
 
 a {
-  color: var(--primary-link-dark);
+  color: var(--primary-link);
   font-weight: bold;
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 0.125rem;
@@ -54,13 +54,17 @@ p,
 li {
   font-size: var(--size-body);
   line-height: 1.75;
+  margin-block-end: var(--space-m);
+}
+
+figure,
+hr {
+  margin-block-end: var(--space-m);
 }
 
 ul,
 ol {
-  & > * + * {
-    margin-block-start: var(--space-s);
-  }
+  margin-block-end: var(--space-m);
 }
 
 ol {
@@ -78,7 +82,7 @@ figure {
 }
 
 figcaption {
-  margin-block-start: 0.5rem;
+  margin-block-end: 0.5rem;
   font-size: var(--size-small);
   line-height: 1.5;
   text-align: center;

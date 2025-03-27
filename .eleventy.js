@@ -47,19 +47,18 @@ export default function (config) {
   // Plugins
   config.addPlugin(rssPlugin);
 
-   config.addWatchTarget('./src/styles');
+  config.addWatchTarget('./src/styles');
 
   // Filters
-  config.addFilter('htmlDateFilter', (value) => {
-    const dateObject = new Date(value);
-    return dateObject.toISOString();
+  config.addFilter('htmlDateFilter', (dateObj) => {
+    return DateTime.fromJSDate(dateObj).plus({ hours: 8 });
   });
 
   config.addFilter("postDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toLocaleString(DateTime.DATE_FULL);
   });
 
-    config.addFilter("archiveDate", (dateObj) => {
+  config.addFilter("archiveDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toFormat('LL.\dd');
   });
 
@@ -72,7 +71,7 @@ export default function (config) {
     };
 
     const newValue = value.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, "");
-    return truncate(newValue);
+      return truncate(newValue);
   });
 
   // Transforms
@@ -89,6 +88,16 @@ export default function (config) {
 
   config.addCollection('list', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')];
+  });
+
+  config.addCollection('tagsList', (collection) => {
+    const tagsList = new Set();
+    collection.getAll().map( item => {
+      if (item.data.tags) {
+        item.data.tags.map( tagItem => tagsList.add(tagItem))
+      }
+    });
+     return [...tagsList].sort((a, b) => a.localeCompare(b))
   });
 
   return {
