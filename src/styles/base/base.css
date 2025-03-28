@@ -53,18 +53,18 @@ p:empty {
 p,
 li {
   font-size: var(--size-body);
-  line-height: 1.55;
-  margin-block-end: var(--space-m);
+  line-height: 1.5;
+  margin-block-end: var(--space-l);
 }
 
 figure,
 hr {
-  margin-block-end: var(--space-m);
+  margin-block-end: var(--space-l);
 }
 
 ul,
 ol {
-  margin-block-end: var(--space-m);
+  margin-block-end: var(--space-l);
 }
 
 ol {
