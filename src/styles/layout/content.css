@@ -1,7 +1,7 @@
 .layout-container__inner {
   max-inline-size: var(--content-width);
   padding-block: 2rem;
-  padding-inline: 1rem;
+  padding-inline: 1.25rem;
 
   @media (width>= 48em) {
     padding-block: 3rem;
@@ -36,9 +36,9 @@
   margin-trim: block-end;
 
   picture {
-    inline-size: calc(100% + 2rem);
+    inline-size: calc(100% + 2.5rem);
     max-inline-size: none;
-    margin-inline: -1rem;
+    margin-inline: -1.25rem;
 
     @media (width>= 48em) {
       inline-size: auto;

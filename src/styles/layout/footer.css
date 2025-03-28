@@ -1,6 +1,6 @@
 .footer {
   padding-block: var(--content-padding);
-  padding-inline: 1rem;
+  padding-inline: 1.25rem;
   background-color: var(--background-color);
 
   @media (width >= 30em) {
