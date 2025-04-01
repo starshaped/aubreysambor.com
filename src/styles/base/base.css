@@ -53,7 +53,7 @@ p:empty {
 p,
 li {
   font-size: var(--size-body);
-  line-height: 1.5;
+  line-height: 1.6;
   margin-block-end: var(--space-l);
 }
 

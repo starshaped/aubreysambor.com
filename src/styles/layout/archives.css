@@ -1,5 +1,5 @@
 .archives-list__list {
-  margin-block-end: var(--space-m);
+  margin-block-end: var(--space-l);
   padding-inline-start: 0;
 }
 
@@ -14,11 +14,11 @@
 }
 
 .archives-list__date {
-  flex: 0 0 5rem;
+  flex: 0 0 4.5rem;
 }
 
 .archives-tags {
-  margin: 0 0 var(--space-m) 0;
+  margin: 0 0 var(--space-l) 0;
   padding: 0;
   list-style: none;
 }

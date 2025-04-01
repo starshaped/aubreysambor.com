@@ -8,7 +8,6 @@ export default function (value, outputPath) {
     });
 
     const document = DOM.window.document;
-    const articleImages = [...document.querySelectorAll('main article img')];
     const articleHeadings = [
       ...document.querySelectorAll('main article h2, main article h3'),
     ];
@@ -17,7 +16,7 @@ export default function (value, outputPath) {
     if (articleHeadings.length) {
       // Loop each heading and add a little anchor and an ID to each one
       articleHeadings.forEach((heading) => {
-        if (!heading.classList.contains('post-listing__title')) {
+        if (!heading.classList.contains('archives-list__title')) {
           const headingSlug = slugify(heading.textContent.toLowerCase(), {
             remove: /[*+~.()'"!:@]/g,
           });
