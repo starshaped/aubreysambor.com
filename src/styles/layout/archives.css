@@ -14,7 +14,7 @@
 }
 
 .archives-list__date {
-  flex: 0 0 4.5rem;
+  flex: 0 0 var(--space-2xl);
 }
 
 .archives-tags {
@@ -25,6 +25,6 @@
 
 .archives-tags__item {
   display: inline-block;
-  margin: 0 1rem 0 0;
+  margin: 0 var(--space-s) 0 0;
   padding: 0;
 }

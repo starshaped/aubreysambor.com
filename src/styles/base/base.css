@@ -5,9 +5,9 @@ html {
 }
 
 hr {
-  block-size: 0.25rem;
+  block-size: var(--space-3xs);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: var(--space-3xs);
   background-color: var(--accent-color);
 }
 
@@ -15,7 +15,7 @@ a {
   color: var(--primary-link);
   font-weight: bold;
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: 0.125rem;
+  text-decoration-thickness: var(--space-4xs);
 }
 
 h1,
@@ -68,12 +68,12 @@ ol {
 }
 
 ol {
-  padding-inline-start: 1.5rem;
+  padding-inline-start: var(--space-m);
   list-style-type: decimal;
 }
 
 ul {
-  padding-inline-start: 1rem;
+  padding-inline-start: var(--space-s);
   list-style-type: square;
 }
 
@@ -82,14 +82,15 @@ figure {
 }
 
 figcaption {
-  margin-block-end: 0.5rem;
   font-size: var(--size-small);
   line-height: 1.5;
   text-align: center;
 }
 
 blockquote {
-  margin-inline-start: 3.125rem;
-  padding-inline-start: 1rem;
-  border-inline-start: 0.25rem solid var(--text-color);
+  margin-inline-start: var(--space-l);
+  padding-inline-start: var(--space-s);
+  border-inline-start: var(--space-3xs) solid var(--text-color);
+  font-style: italic;
+  border-color: var(--border-color);
 }

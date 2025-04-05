@@ -1,17 +1,17 @@
 .layout-container__inner {
   max-inline-size: var(--content-width);
-  padding-block: 2rem;
-  padding-inline: 1.25rem;
+  padding-block: var(--space-l);
+  padding-inline: var(--space-s);
 
   @media (width>= 48em) {
-    padding-block: 3rem;
-    padding-inline: 1.5rem;
+    padding-block: var(--space-xl);
+    padding-inline: var(--space-m);
+    margin: auto;
   }
 
   @media (width>= 60em) {
-    padding-block: 4rem;
+    padding-block: var(--space-2xl);
     padding-inline: 0;
-    margin: auto;
   }
 }
 
@@ -28,7 +28,7 @@
 }
 
 .content__date {
-  margin-inline-end: 0.125rem;
+  margin-inline-end: var(--space-4xs);
   font-size: var(--size-small);
 }
 
@@ -36,9 +36,9 @@
   margin-trim: block-end;
 
   picture {
-    inline-size: calc(100% + 2.5rem);
+    inline-size: calc(100% + var(--space-l));
     max-inline-size: none;
-    margin-inline: -1.25rem;
+    margin-inline: calc(-1 * var(--space-s));
 
     @media (width>= 48em) {
       inline-size: auto;
@@ -62,8 +62,6 @@
 
 .recent-posts__list {
   padding: 0;
-  margin: 0.5rem 1.5rem 0.25rem 1.5rem;
-  margin-inline: 0;
   list-style: none;
 }
 

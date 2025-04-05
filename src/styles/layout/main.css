@@ -15,7 +15,7 @@ main {
 }
 
 .heading-permalink {
-  margin-inline-start: 0.75rem;
+  margin-inline-start: var(--space-2xs);
   box-shadow: none;
   color: transparent;
 

@@ -3,9 +3,9 @@
   background-color: var(--background-color);
 
   @media (width >= 30em) {
-    --content-padding: 2rem;
+    --content-padding: var(--space-l);
 
-    padding-inline: 1.5rem;
+    padding-inline: var(--space-m);
   }
 }
 
