@@ -52,9 +52,9 @@ p:empty {
 
 p,
 li {
+  margin-block-end: var(--space-l);
   font-size: var(--size-body);
   line-height: 1.6;
-  margin-block-end: var(--space-l);
 }
 
 figure,
@@ -90,7 +90,7 @@ figcaption {
 blockquote {
   margin-inline-start: var(--space-l);
   padding-inline-start: var(--space-s);
-  border-inline-start: var(--space-3xs) solid var(--text-color);
-  font-style: italic;
   border-color: var(--border-color);
+  font-style: italic;
+  border-inline-start: var(--space-3xs) solid var(--text-color);
 }

@@ -8,8 +8,8 @@
   }
 
   @media (width>= 48em) {
-    padding-inline: var(--space-m);
     margin: auto;
+    padding-inline: var(--space-m);
   }
 
   a {

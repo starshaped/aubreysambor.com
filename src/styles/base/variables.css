@@ -19,7 +19,7 @@
 
   /* Spacing */
 
-/* @link https://utopia.fyi/space/calculator?c=320,16,1.2,880,20,1.25,5,2,&s=0.75|0.5|0.25|0.125,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  /* @link https://utopia.fyi/space/calculator?c=320,16,1.2,880,20,1.25,5,2,&s=0.75|0.5|0.25|0.125,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
   --space-4xs: clamp(0.125rem, 0.0893rem + 0.1786vw, 0.1875rem);
   --space-3xs: clamp(0.25rem, 0.2143rem + 0.1786vw, 0.3125rem);
   --space-2xs: clamp(0.5rem, 0.4286rem + 0.3571vw, 0.625rem);

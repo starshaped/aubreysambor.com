@@ -4,9 +4,9 @@
   padding-inline: var(--space-s);
 
   @media (width>= 48em) {
+    margin: auto;
     padding-block: var(--space-xl);
     padding-inline: var(--space-m);
-    margin: auto;
   }
 
   @media (width>= 60em) {
@@ -33,6 +33,7 @@
 }
 
 .content__text {
+  /* stylelint-disable-next-line */
   margin-trim: block-end;
 
   picture {
@@ -83,10 +84,10 @@
   ul {
     padding: 0;
   }
-  
+
   li {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 }
