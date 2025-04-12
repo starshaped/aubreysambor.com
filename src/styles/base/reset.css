@@ -5,6 +5,23 @@
   box-sizing: border-box;
 }
 
+html {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-block-size: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+}
+
 /* Remove default margin */
 body,
 h1 {
@@ -35,18 +52,6 @@ dd {
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  min-block-size: 100vh;
-  line-height: 1.5;
-  text-rendering: optimizespeed;
 }
 
 /* A elements that don't have a class get default styles */

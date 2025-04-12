@@ -15,7 +15,7 @@ a {
   color: var(--primary-link);
   font-weight: bold;
   text-decoration-skip-ink: auto;
-  text-decoration-thickness: var(--space-4xs);
+  text-decoration-thickness: 2px;
 }
 
 h1,

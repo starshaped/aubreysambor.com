@@ -5,7 +5,7 @@ eleventyExcludeFromCollections: true
 ---
 Here's a list of all the hardware, software, and fun non-software things I use on a (nearly) day to day basis. 
 
-_Updated: January 2nd, 2025_
+_Updated: April 12th, 2025_
 
 ## Hardware
 * 👩‍💻 16” M1 Max Macbook Pro, silver, with 64GB of RAM and a 1TB hard drive
@@ -24,7 +24,7 @@ _Updated: January 2nd, 2025_
 ## Software
 * 🔘 IDE: [VSCodium](https://vscodium.com/)
 * 💻 Terminal: [iTerm2](https://iterm2.com/)
-* 🌐 Browser: Firefox
+* 🌐 Browser: [Vivaldi](https://vivaldi.com)
 * 📆 Calendar: [Fantastical](https://flexibits.com/fantastical)
 * 📨 Mail client: [Proton Mail](https://proton.me/mail) 
 * 💅🏻 VPN: [Proton VPN](https://protonvpn.com/)
@@ -32,7 +32,7 @@ _Updated: January 2nd, 2025_
 * 💬 Chat: Slack, Discord, Messages, and Signal
 * 🐘 Mastodon client: [Ivory](https://tapbots.com/ivory/)
 * 📖 RSS: [Feedbin](https://feedbin.com/)
-* 📒 Notes: [Bear](https://bear.app/)
+* 📒 Notes: [Obsidian](https://obsidian.md)
 * 📝 Blog: [11ty](https://www.11ty.dev/)
 * 🍴 Meal Planning: [Paprika](https://www.paprikaapp.com/)
 * 🎵 Music: Spotify

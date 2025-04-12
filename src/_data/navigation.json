@@ -11,11 +11,6 @@
       "external": false
     },
     {
-      "text": "Archives",
-      "url": "/archives/",
-      "external": false
-    },
-    {
       "text": "RSS",
       "url": "/feed.xml",
       "external": false

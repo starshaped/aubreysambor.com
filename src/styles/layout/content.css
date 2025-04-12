@@ -45,6 +45,21 @@
       inline-size: auto;
       margin: auto;
     }
+
+    .about & {
+      @media (width>= 48em) {
+        max-inline-size: 22rem;
+        margin-block-start: 0.5rem;
+        margin-inline-end: 1.5rem;
+        float: inline-start;
+      }
+    }
+  }
+
+  img {
+    .about & {
+      border-radius: 10px;
+    }
   }
 }
 

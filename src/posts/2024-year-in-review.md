@@ -6,7 +6,7 @@ tags:
   - life in general
 featuredImage: alaska-glacier-500.webp
 ---
-![A Joshua Tree at Joshua Tree National Park.](./images/alaska-glacier.jpg)
+![A small glacier in Glacier Bay National Park in Alaska.](./images/alaska-glacier.jpg)
 
 2024 was a year full of ups and downs for me. I traveled a lot, spoke at some conferences, and made a bunch of things. I also dealt with the worst bout of mental health issues I’ve ever had in my life, and that made the last part of the year really, really hard. I already gave an update on the first part of the year [in my last blog post](/back-to-blogging), but here's an overview of the good and not so good things that happened in the second half.
 
