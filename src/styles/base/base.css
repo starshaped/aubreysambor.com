@@ -4,6 +4,10 @@ html {
   font-weight: 400;
 }
 
+body {
+  background-color: #fefefe;
+}
+
 hr {
   block-size: var(--space-3xs);
   border: 0;
