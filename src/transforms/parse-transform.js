@@ -9,7 +9,7 @@ export default function (value, outputPath) {
 
     const document = DOM.window.document;
     const articleHeadings = [
-      ...document.querySelectorAll('main article h2, main article h3'),
+      ...document.querySelectorAll('main article h2'),
     ];
 
     // Heading manipulations

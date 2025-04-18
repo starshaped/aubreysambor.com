@@ -3,7 +3,7 @@
 {% block content %}
   <article class="content">
     <h1 class="content__title">{{ title }}</h1>
-    <div class="content__text">
+    <div class="content__text content__text--{{ page.url | slugify }}">
       {{ content | safe }}
     </div>
   </article>
