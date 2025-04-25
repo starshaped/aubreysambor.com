@@ -1,9 +1,15 @@
 // Import @11ty plugins
 import rssPlugin from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import markdownIt from 'markdown-it';
+
+// PostCSS goodness!
+import postcss from 'postcss';
+import postcssCustomMedia from 'postcss-custom-media';
+import postcssImport from 'postcss-import';
+
 import markdownItEleventyImg from "markdown-it-eleventy-img";
 import { parse } from 'path';
-
 import { DateTime } from "luxon";
 
 // Import transforms
@@ -46,8 +52,29 @@ export default function (config) {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(syntaxHighlight);
 
   config.addWatchTarget('./src/styles');
+  config.addTemplateFormats('css');
+
+  config.addExtension('css', {
+    outputFileExtension: 'css',
+    compile: async (content, path) => {
+      if (path !== './src/styles/styles.css') {
+        return;
+      }
+
+      return async () => {
+        let output = await postcss([
+          postcssImport,
+          postcssCustomMedia,
+        ]).process(content, {
+          from: path,
+        });
+        return output.css;
+      }
+    }
+  });
 
   // Filters
   config.addFilter('htmlDateFilter', (dateObj) => {

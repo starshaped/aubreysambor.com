@@ -3,11 +3,11 @@
   padding-inline: var(--space-s);
   background-color: var(--background-color);
 
-  @media (width >= 30em) {
+  @media (--small) {
     --content-padding: var(--space-l);
   }
 
-  @media (width>= 48em) {
+  @media (--medium) {
     margin: auto;
     padding-inline: var(--space-m);
   }
@@ -27,12 +27,12 @@
 .footer__inner {
   max-inline-size: var(--content-width);
 
-  @media (width>= 48em) {
+  @media (--medium) {
     display: flex;
     justify-content: space-between;
   }
 
-  @media (width >= 60em) {
+  @media (--large) {
     margin: auto;
   }
 }
@@ -44,7 +44,7 @@
   padding: 0;
   list-style: none;
 
-  @media (width>= 48em) {
+  @media (--medium) {
     margin: 0;
   }
 }

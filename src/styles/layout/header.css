@@ -2,7 +2,7 @@
   padding-block: var(--content-padding);
   background-color: var(--background-color);
 
-  @media (width >= 30em) {
+  @media (--small) {
     --content-padding: var(--space-l);
 
     padding-inline: var(--space-m);
@@ -13,13 +13,13 @@
   max-inline-size: var(--content-width);
   text-align: center;
 
-  @media (width>= 48em) {
+  @media (--medium) {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
-  @media (width >= 60em) {
+  @media (--large) {
     margin: auto;
   }
 }
