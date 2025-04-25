@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="/styles/styles.css?{{ assetHash }}" onload="this.media='all'" />
     <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
 
-
-<script src="/js/scripts.js"></script>
     {% block head %}{% endblock %}
   </head>
 
@@ -26,5 +24,6 @@
       {% include "footer.njk" %}
       {% block foot %}{% endblock %}
     </div>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>

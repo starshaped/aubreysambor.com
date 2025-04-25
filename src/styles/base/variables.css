@@ -13,6 +13,7 @@
   /* Colors */
   --primary-link: #a94a63;
   --primary-link-dark: color-mix(in srgb, var(--primary-link), black 25%);
+  --primary-link-light: color-mix(in srgb, var(--primary-link), white 45%);
   --secondary-link: #70d7d0;
   --background-color: #f9f9f9;
   --color-light: #efefef;
