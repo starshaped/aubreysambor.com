@@ -1,11 +1,14 @@
 .header {
-  padding-block: var(--content-padding);
+  padding-block: var(--space-xs);
   background-color: var(--background-color);
 
   @media (--small) {
-    --content-padding: var(--space-l);
-
+    padding-block: var(--space-m);
     padding-inline: var(--space-m);
+  }
+
+  @media (--medium) {
+    padding-block: var(--space-l);
   }
 }
 

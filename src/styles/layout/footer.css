@@ -1,15 +1,16 @@
 .footer {
-  padding-block: var(--content-padding);
+  padding-block: var(--space-xs);
   padding-inline: var(--space-s);
   background-color: var(--background-color);
 
   @media (--small) {
-    --content-padding: var(--space-l);
+    padding-block: var(--space-m);
   }
 
   @media (--medium) {
     margin: auto;
     padding-inline: var(--space-m);
+    padding-block: var(--space-l);
   }
 
   a {
