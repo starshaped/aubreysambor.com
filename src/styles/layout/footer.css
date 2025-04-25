@@ -9,8 +9,8 @@
 
   @media (--medium) {
     margin: auto;
-    padding-inline: var(--space-m);
     padding-block: var(--space-l);
+    padding-inline: var(--space-m);
   }
 
   a {
