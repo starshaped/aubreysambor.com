@@ -120,12 +120,13 @@
 .content__text--speaking {
   ul {
     display: grid;
-    gap: var(--space-l);
+    gap: var(--space-s);
     padding-inline-start: 0;
     list-style: none;
 
     @media (--medium) {
       grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-l);
     }
   }
 
