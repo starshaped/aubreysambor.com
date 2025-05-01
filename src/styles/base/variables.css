@@ -31,15 +31,6 @@
   --accent-color: #eee;
   --border-color: #ccc;
   --text-color: var(--dark);
-  --text-color-dark: color-mix(in srgb, var(--secondary-link), black 15%);
-  --orange: #ad563f;
-  --yellow: #9a6b21;
-  --yellow-green: #75801f;
-  --green: #359046;
-  --purple: #714e7b;
-  --red-purple: #904b74;
-  --navy: #3a4d6a;
-  --dark: #2f4858;
 
   /* Spacing */
 

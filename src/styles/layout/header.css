@@ -49,29 +49,10 @@
   bottom: 0;
   content: "";
   display: block;
-  height: 4px;
+  height: 3px;
   left: 0;
   position: absolute;
-  /* Gradient from https://www.joshwcomeau.com/gradient-generator/ */
-  background-image: linear-gradient(
-    90deg,
-    hsl(324deg 73% 75%) 0%,
-    hsl(310deg 58% 75%) 16%,
-    hsl(289deg 56% 76%) 24%,
-    hsl(269deg 69% 79%) 30%,
-    hsl(249deg 82% 82%) 35%,
-    hsl(231deg 95% 82%) 40%,
-    hsl(219deg 100% 79%) 45%,
-    hsl(211deg 100% 76%) 50%,
-    hsl(205deg 99% 72%) 55%,
-    hsl(200deg 94% 69%) 60%,
-    hsl(195deg 87% 66%) 65%,
-    hsl(191deg 80% 64%) 70%,
-    hsl(187deg 71% 63%) 76%,
-    hsl(182deg 61% 62%) 84%,
-    hsl(176deg 56% 64%) 100%
-  );
-  /* background-color: var(--purple); */
+  background-color: var(--red-purple);
   transition: width .5s ease 0s, left .5s ease 0s;
   width: 0;
 }

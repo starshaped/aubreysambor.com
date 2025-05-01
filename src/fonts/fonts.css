@@ -24,7 +24,7 @@
 @font-face {
   font-family: Lato;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 800;
   src:
     url('./lato-heavy-webfont.woff2') format('woff2'),
     url('./lato-heavy-webfont.woff') format('woff');
