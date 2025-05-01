@@ -15,4 +15,4 @@ I've been cross-stitching since the early 90s, knitting since 2002, spinning my 
 
 ## Webrings
 
-<p><a href="https://webri.ng/webring/cssjoy/previous?via=https://www.star-shaped.org/"><span aria-hidden="true">←</span> <span class="visually-hidden">Previous Site</span></a> · <a href="https://cs.sjoy.lol/">CS.Sjoy.lol</a> · <a href="https://webri.ng/webring/cssjoy/next?via=https://www.star-shaped.org/"><span class="visually-hidden">Next Site</span> <span aria-hidden="true">→</span></a></p>
+<p><a href="https://webri.ng/webring/cssjoy/previous?via=https://aubreysambor.com/"><span aria-hidden="true">←</span> <span class="visually-hidden">Previous Site</span></a> · <a href="https://cs.sjoy.lol/">CS.Sjoy.lol</a> · <a href="https://webri.ng/webring/cssjoy/next?via=https://aubreysambor.com/"><span class="visually-hidden">Next Site</span> <span aria-hidden="true">→</span></a></p>

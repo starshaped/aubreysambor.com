@@ -79,8 +79,14 @@
   h2 {
     margin-block-start: 0;
     font-size: var(--step-4);
-    font-family: var(--header-heavy);
+    font-family: var(--header-font-family);
     border-block-end: 0;
+    font-weight: 800;
+
+    strong:nth-of-type(1) {
+      color: var(--purple);
+      font-weight: inherit;
+    }
   }
 
   strong:nth-of-type(1) {
@@ -94,9 +100,9 @@
   strong:nth-of-type(3) {
     color: var(--yellow-green);
   }
-  
+
   strong:nth-of-type(4) {
-    color: var(--purple);
+    color: var(--navy);
   }
 }
 

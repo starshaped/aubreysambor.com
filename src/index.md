@@ -5,7 +5,7 @@ postsHeading: Recent posts
 socialImage: ''
 ---
 
-## Hi, I'm Aubrey.
+## Hi, I'm **Aubrey**.
 
 I'm a lead front end developer who loves **CSS**, **knitting**, **beer**, and **coffee**.
 
