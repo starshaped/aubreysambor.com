@@ -20,6 +20,17 @@
   font-display: swap;
 }
 
+/* Lato heavy */
+@font-face {
+  font-family: LatoWebHeavy;
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url('./lato-heavy-webfont.woff2') format('woff2'),
+    url('./lato-heavy-webfont.woff') format('woff');
+  font-display: swap;
+}
+
 /* Roboto regular */
 @font-face {
   font-family: Roboto;

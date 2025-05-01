@@ -6,11 +6,23 @@
   /* Font families */
   --base-font-family: 'Roboto', sans-serif;
   --header-font-family: 'Lato', sans-serif;
+  --header-heavy: 'LatoWebHeavy', sans-serif;
 
   /* Basic site settings */
   --content-width: 55rem; /* 880px */
 
   /* Colors */
+  --pink:  #a94a63;
+  --orange: #ad563f;
+  --yellow: #9a6b21;
+  --yellow-green: #75801f;
+  --green: #359046;
+  --blue: #70d7d0;
+  --purple: #714e7b;
+  --red-purple: #904b74;
+  --navy: #3a4d6a;
+  --dark: #2f4858;
+
   --primary-link: #a94a63;
   --primary-link-dark: color-mix(in srgb, var(--primary-link), black 25%);
   --primary-link-light: color-mix(in srgb, var(--primary-link), white 45%);
@@ -19,8 +31,16 @@
   --color-light: #efefef;
   --accent-color: #eee;
   --border-color: #ccc;
-  --text-color: #333;
+  --text-color: var(--dark);
   --text-color-dark: color-mix(in srgb, var(--secondary-link), black 15%);
+  --orange: #ad563f;
+  --yellow: #9a6b21;
+  --yellow-green: #75801f;
+  --green: #359046;
+  --purple: #714e7b;
+  --red-purple: #904b74;
+  --navy: #3a4d6a;
+  --dark: #2f4858;
 
   /* Spacing */
 
