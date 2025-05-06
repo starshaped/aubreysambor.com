@@ -10,6 +10,7 @@ main {
 
     &:hover {
       box-shadow: inset 0 -2em 0 0 var(--secondary-link);
+      color: inherit;
     }
   }
 }

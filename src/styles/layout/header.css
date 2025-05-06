@@ -35,25 +35,29 @@
 }
 
 .header__title-link {
+  position: relative;
   color: var(--text-color);
   text-decoration: none;
-  position: relative;
+
+  &:hover {
+    color: inherit;
+  }
 
   &:hover::after {
-  width: 100%;
-  right: 0;
-}
+    inline-size: 100%;
+  }
 
-&::after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 3px;
-  left: 0;
-  position: absolute;
-  background-color: var(--red-purple);
-  transition: width .5s ease 0s, left .5s ease 0s;
-  width: 0;
-}
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    block-size: 3px;
+    inline-size: 0;
+    transition:
+      inline-size 0.5s ease 0s,
+      inset-inline-start 0.5s ease 0s;
+    background-color: var(--red-purple);
+    inset-block-end: 0;
+    inset-inline-start: 0;
+  }
 }

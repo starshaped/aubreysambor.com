@@ -14,7 +14,7 @@ Here's a list of the talks I've given in the past few years:
 
   <small>February 21–23, 2025</small>
   
-  [Watch recording<span class="visually-hidden"> from Florida Drupal Camp 2025</span>](https://www.youtube.com/watch?v=QYYIbTUWpyM)
+  [View recording and slides<span class="visually-hidden"> from Florida Drupal Camp 2025</span>](https://noti.st/starshaped/U42A0j/what-a-front-of-the-front-end-developer-brings-to-your-team)
 
 ## 2024
 
@@ -23,7 +23,7 @@ Here's a list of the talks I've given in the past few years:
 
   <small>February 23–25, 2024</small>
 
-  [Watch recording<span class="visually-hidden"> from Florida Drupal Camp 2024</span>](https://www.youtube.com/watch?v=6oa-6i3AztQ)
+  [View recording and slides<span class="visually-hidden"> from Florida Drupal Camp 2024</span>](https://noti.st/starshaped/OqswCh/color-in-css-using-new-spaces-functions-and-techniques-to-make-your-site-shine)
 
 * ### Nerd Summit
   *Color in CSS: Using New Spaces, Functions, and Techniques to Make Your Site Shine*

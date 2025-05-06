@@ -77,18 +77,6 @@ export default function (config) {
   });
 
   // Filters
-  config.addFilter('htmlDateFilter', (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 8 });
-  });
-
-  config.addFilter("postDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toLocaleString(DateTime.DATE_FULL);
-  });
-
-  config.addFilter("archiveDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj).plus({ hours: 8 }).toFormat('LL.\dd');
-  });
-
   config.addFilter('truncatePost', (value) => {
     const truncate = (str, max = 40) => {
       const array = str.trim().split(' ');

@@ -1,9 +1,8 @@
 import { DateTime } from 'luxon';
 
 export const eleventyComputed = {
-  year: function (data) {
-    return DateTime.fromJSDate(data.date || data.page.date)
-      .plus({ hours: 6 })
-      .toFormat('yyyy');
-  },
+  yearString: ({page}) => DateTime.fromJSDate(page.date, {zone: 'utc'}).toFormat('yyyy'),
+  dateString: ({page}) => DateTime.fromJSDate(page.date, {zone: 'utc'}),
+  postDateString: ({page}) => DateTime.fromJSDate(page.date, {zone: 'utc'}).toLocaleString(DateTime.DATE_FULL),
+  archiveDateString: ({page}) => DateTime.fromJSDate(page.date, {zone: 'utc'}).toFormat('LL.\dd')
 };

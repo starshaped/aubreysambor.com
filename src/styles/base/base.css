@@ -5,14 +5,13 @@ html {
 }
 
 body {
-  background-color: #fefefe;
+  background-color: var(--color-light);
 }
 
 hr {
-  block-size: var(--space-3xs);
+  block-size: 1px;
   border: 0;
-  border-radius: var(--space-3xs);
-  background-color: var(--accent-color);
+  background-color: #ddd;
 }
 
 a {
@@ -20,6 +19,10 @@ a {
   font-weight: bold;
   text-decoration-skip-ink: auto;
   text-decoration-thickness: 2px;
+
+  &:hover {
+    color: var(--primary-link-dark);
+  }
 }
 
 h1,
@@ -37,7 +40,7 @@ h1,
 h2 {
   font-size: var(--size-h2);
   line-height: 1.5;
-  border-block-end: solid 1px var(--border-color);
+  border-block-end: solid 1px var(--accent-color);
 }
 
 h3 {
@@ -94,7 +97,7 @@ figcaption {
 blockquote {
   margin-inline-start: var(--space-l);
   padding-inline-start: var(--space-s);
-  border-color: var(--border-color);
+  border-color: var(--accent-color);
   font-style: italic;
   border-inline-start: var(--space-3xs) solid var(--text-color);
 }

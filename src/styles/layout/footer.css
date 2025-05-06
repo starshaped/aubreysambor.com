@@ -12,12 +12,6 @@
     padding-block: var(--space-l);
     padding-inline: var(--space-m);
   }
-
-  a {
-    &:hover {
-      color: var(--primary-link-dark);
-    }
-  }
 }
 
 .footer__content {
