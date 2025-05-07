@@ -10,14 +10,13 @@ import postcssImport from 'postcss-import';
 
 import markdownItEleventyImg from "markdown-it-eleventy-img";
 import { parse } from 'path';
-import { DateTime } from "luxon";
 
 // Import transforms
 import parseTransform from './src/transforms/parse-transform.js';
 
-export default function (config) {
+export default async function (eleventyConfig) {
 
-  config.setLibrary('md', markdownIt ({
+  eleventyConfig.setLibrary('md', markdownIt ({
     html: true,
     breaks: true,
     linkify: true
@@ -51,13 +50,13 @@ export default function (config) {
   }));
 
   // Plugins
-  config.addPlugin(rssPlugin);
-  config.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(syntaxHighlight);
 
-  config.addWatchTarget('./src/styles');
-  config.addTemplateFormats('css');
+  eleventyConfig.addWatchTarget('./src/styles');
+  eleventyConfig.addTemplateFormats('css');
 
-  config.addExtension('css', {
+  eleventyConfig.addExtension('css', {
     outputFileExtension: 'css',
     compile: async (content, path) => {
       if (path !== './src/styles/styles.css') {
@@ -77,7 +76,7 @@ export default function (config) {
   });
 
   // Filters
-  config.addFilter('truncatePost', (value) => {
+  eleventyConfig.addFilter('truncatePost', (value) => {
     const truncate = (str, max = 40) => {
       const array = str.trim().split(' ');
       const ellipsis = array.length > max ? '...' : '';
@@ -90,22 +89,22 @@ export default function (config) {
   });
 
   // Transforms
-  config.addTransform('parse', parseTransform);
+  eleventyConfig.addTransform('parse', parseTransform);
 
   // Shortcodes
-  config.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  config.addPassthroughCopy({ 'src/images': 'images' });
-  config.addPassthroughCopy({ 'src/fonts': 'fonts'});
-  config.addPassthroughCopy('src/js/scripts.js');
-  config.addPassthroughCopy('src/robots.txt');
+  eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
+  eleventyConfig.addPassthroughCopy({ 'src/fonts': 'fonts'});
+  eleventyConfig.addPassthroughCopy('src/js/scripts.js');
+  eleventyConfig.addPassthroughCopy('src/robots.txt');
 
-  config.addCollection('list', (collection) => {
+  eleventyConfig.addCollection('list', (collection) => {
     return [...collection.getFilteredByGlob('./src/posts/*.md')];
   });
 
-  config.addCollection('tagsList', (collection) => {
+  eleventyConfig.addCollection('tagsList', (collection) => {
     const tagsList = new Set();
     collection.getAll().map( item => {
       if (item.data.tags) {
@@ -114,13 +113,13 @@ export default function (config) {
     });
      return [...tagsList].sort((a, b) => a.localeCompare(b))
   });
+};
 
-  return {
-    dir: {
-      input: 'src',
-      output: 'dist',
-      includes: '_includes',
-      layouts: '_layouts',
-    },
-  };
+export const config = {
+  dir: {
+    input: 'src',
+    output: 'dist',
+    includes: '_includes',
+    layouts: '_layouts',
+  },
 };
