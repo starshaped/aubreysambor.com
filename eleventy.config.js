@@ -5,6 +5,7 @@ import markdownIt from 'markdown-it';
 
 // PostCSS goodness!
 import postcss from 'postcss';
+import cssnano from 'cssnano';
 import postcssCustomMedia from 'postcss-custom-media';
 import postcssImport from 'postcss-import';
 
@@ -67,6 +68,7 @@ export default async function (eleventyConfig) {
         let output = await postcss([
           postcssImport,
           postcssCustomMedia,
+          cssnano,
         ]).process(content, {
           from: path,
         });
