@@ -63,7 +63,7 @@
     }
   }
 
-  figure {
+  picture {
     .content__text--about & {
       @media (--medium) {
         margin-block-end: 0;
