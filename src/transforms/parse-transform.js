@@ -23,7 +23,7 @@ export default function (value, outputPath) {
           const anchor = document.createElement('a');
 
           anchor.setAttribute('href', `#heading-${headingSlug}`);
-          anchor.classList.add('heading-permalink');
+          anchor.classList.add('content__heading-permalink');
           anchor.innerHTML = '#';
 
           heading.setAttribute('id', `heading-${headingSlug}`);
