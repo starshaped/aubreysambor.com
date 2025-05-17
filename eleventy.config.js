@@ -76,8 +76,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
-  eleventyConfig.addPassthroughCopy({ 'src/fonts': 'fonts'});
+  eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/fonts');
   eleventyConfig.addPassthroughCopy('src/js/scripts.js');
   eleventyConfig.addPassthroughCopy('src/robots.txt');
 

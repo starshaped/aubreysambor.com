@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
-    {% include "meta.njk" %}
-    <link rel="stylesheet" href="/styles/styles.css" />
-
-    {% block head %}{% endblock %}
-  </head>
-
+  {% include "meta.njk" %}
   <body>
     <div class="layout-container">
       {% include "header.njk" %}
@@ -20,7 +10,6 @@
         {% endblock content %}
       </main>
       {% include "footer.njk" %}
-      {% block foot %}{% endblock %}
     </div>
     <script src="/js/scripts.js"></script>
     <script data-goatcounter="https://aubreysambor.goatcounter.com/count"
