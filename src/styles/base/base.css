@@ -1,3 +1,7 @@
+@view-transition {
+  navigation: auto;
+}
+
 html {
   color: var(--text-color);
   font-family: var(--base-font-family);
