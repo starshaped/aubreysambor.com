@@ -1,7 +1,7 @@
 .footer {
   padding-block: var(--space-xs);
   padding-inline: var(--space-s);
-  background-color: var(--background-color);
+  background-color: var(--background-color-secondary);
 
   @media (--small) {
     padding-block: var(--space-m);

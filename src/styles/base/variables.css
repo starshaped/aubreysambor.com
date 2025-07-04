@@ -3,6 +3,8 @@
 @custom-media --large (min-width: 60em);
 
 :root {
+  color-scheme: light dark;
+
   /* Font families */
   --base-font-family: 'Roboto', sans-serif;
   --header-font-family: 'Lato', sans-serif;
@@ -12,27 +14,53 @@
 
   /* Colors */
 
-  --gray-1: #fefefe;
-  --gray-2: #f9f9f9;
-  --gray-3: #ddd;
-  --pink: #a94a63;
-  --orange: #ad563f;
-  --yellow: #9a6b21;
-  --yellow-green: #75801f;
+  /* 
   --green: #359046;
-  --blue: #70d7d0;
-  --purple: #714e7b;
-  --red-purple: #904b74;
-  --navy: #3a4d6a;
-  --dark: #2f4858;
-  --primary-link: var(--pink);
-  --primary-link-dark: color-mix(in srgb, var(--primary-link), black 25%);
-  --primary-link-light: color-mix(in srgb, var(--primary-link), white 45%);
-  --secondary-link: var(--blue);
-  --background-color: #f9f9f9;
-  --color-light: #fefefe;
-  --accent-color: #ddd;
-  --text-color: var(--dark);
+  --red-purple: #904b74; 
+  */
+
+  --gray-99: oklch(99% 0 0);
+  --gray-97: oklch(97% 0 0);
+  --gray-90: oklch(90% 0 0);
+
+  --pink-80: oklch(80% 0.15 5.87);
+  --pink-70: oklch(70% 0.15 5.87);
+  --pink-50: oklch(50% 0.15 5.87);
+  --pink-40: oklch(40% 0.15 5.87);
+
+  --orange-65: oklch(65% 0.15 35.82);
+  --orange-55: oklch(55% 0.15 35.82);
+
+  --yellow-65: oklch(65% 0.15 74.1);
+  --yellow-55: oklch(55% 0.15 74.1);
+
+  --yellow-green-65: oklch(65% 0.15 115.94);
+  --yellow-green-55: oklch(55% 0.15 115.94);
+
+  --blue-80: oklch(80% 0.11 213.3);
+  --blue-60: oklch(60% 0.11 213.3);
+
+  --purple-65: oklch(65% 0.11 318.57);
+  --purple-50: oklch(50% 0.11 318.57);
+
+  --indigo-65: oklch(65% 0.05 258.66);
+  --indigo-40: oklch(40% 0.05 258.66);
+
+  --navy-40: oklch(40% 0.05 237.32);
+  --navy-30: oklch(30% 0.05 237.32);
+
+  --primary-link: light-dark(var(--pink-50), var(--pink-70));
+  --primary-link-hover: light-dark(var(--pink-40), var(--pink-80));
+  --secondary-link: light-dark(var(--blue-80), var(--blue-60));
+  --background-color: light-dark(var(--gray-99), var(--navy-40));
+  --background-color-secondary: light-dark(var(--gray-97), var(--navy-30));
+  --accent-color: light-dark(var(--gray-90), var(--gray-90));
+  --text-color: light-dark(var(--navy-40), var(--gray-97));
+  --text-highlight-1: light-dark(var(--orange-55), var(--orange-65));
+  --text-highlight-2: light-dark(var(--yellow-55), var(--yellow-65));
+  --text-highlight-3: light-dark(var(--yellow-green-55), var(--yellow-green-65));
+  --text-highlight-4: light-dark(var(--indigo-40), var(--indigo-65));
+  --text-highlight-5: light-dark(var(--purple-50), var(--purple-65));
 
   /* Spacing */
 

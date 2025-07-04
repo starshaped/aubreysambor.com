@@ -120,7 +120,7 @@ main {
     margin-block-end: 0;
     padding: var(--space-m);
     border-radius: 16px;
-    background: var(--background-color);
+    background: var(--background-color-secondary);
 
     a:focus-within {
       outline: none;
@@ -129,7 +129,7 @@ main {
 
     &:hover:has(a),
     &:focus-within:has(a) {
-      outline: solid 5px var(--primary-link-light);
+      outline: solid 5px var(--primary-link);
     }
   }
 

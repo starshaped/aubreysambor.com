@@ -9,7 +9,7 @@
     font-weight: 800;
 
     strong:nth-of-type(1) {
-      color: var(--purple);
+      color: var(--text-highlight-5);
       font-weight: inherit;
     }
   }
@@ -20,18 +20,18 @@
   }
 
   strong:nth-of-type(1) {
-    color: var(--orange);
+    color: var(--text-highlight-1);
   }
 
   strong:nth-of-type(2) {
-    color: var(--yellow);
+    color: var(--text-highlight-2);
   }
 
   strong:nth-of-type(3) {
-    color: var(--yellow-green);
+    color: var(--text-highlight-3);
   }
 
   strong:nth-of-type(4) {
-    color: var(--navy);
+    color: var(--text-highlight-4);
   }
 }

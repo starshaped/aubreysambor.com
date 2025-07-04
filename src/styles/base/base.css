@@ -9,13 +9,13 @@ html {
 }
 
 body {
-  background-color: var(--color-light);
+  background-color: var(--background-color);
 }
 
 hr {
   block-size: 1px;
   border: 0;
-  background-color: #ddd;
+  background-color: var(--accent-color);
 }
 
 a {
@@ -25,7 +25,7 @@ a {
   text-decoration-thickness: 2px;
 
   &:hover {
-    color: var(--primary-link-dark);
+    color: var(--primary-link-hover);
   }
 }
 
