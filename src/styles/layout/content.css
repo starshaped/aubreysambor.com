@@ -65,8 +65,8 @@ main {
 
       @media (--medium) {
         max-inline-size: 22rem;
-        margin-inline-end: 1.5rem;
         margin-block-end: 0;
+        margin-inline-end: 1.5rem;
         float: inline-start;
       }
     }

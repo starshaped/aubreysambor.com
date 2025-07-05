@@ -3,9 +3,20 @@
 }
 
 html {
+  color-scheme: light dark;
   color: var(--text-color);
   font-family: var(--base-font-family);
   font-weight: 400;
+}
+
+/* Light theme override */
+[data-theme='light'] {
+  color-scheme: light;
+}
+
+/* Dark theme override */
+[data-theme='dark'] {
+  color-scheme: dark;
 }
 
 body {

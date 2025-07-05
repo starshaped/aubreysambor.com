@@ -3,7 +3,7 @@
 @custom-media --large (min-width: 60em);
 
 :root {
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
 
   /* Font families */
   --base-font-family: 'Roboto', sans-serif;
@@ -11,6 +11,8 @@
 
   /* Basic site settings */
   --content-width: 55rem; /* 880px */
+  --icon-size-small: 1.55rem;
+  --icon-size-large: 1.75rem;
 
   /* Colors */
 
@@ -19,36 +21,27 @@
   --red-purple: #904b74; 
   */
 
-  --gray-99: oklch(99% 0 0);
-  --gray-97: oklch(97% 0 0);
-  --gray-90: oklch(90% 0 0);
-
-  --pink-80: oklch(80% 0.15 5.87);
-  --pink-70: oklch(70% 0.15 5.87);
-  --pink-50: oklch(50% 0.15 5.87);
-  --pink-40: oklch(40% 0.15 5.87);
-
-  --orange-65: oklch(65% 0.15 35.82);
-  --orange-55: oklch(55% 0.15 35.82);
-
-  --yellow-65: oklch(65% 0.15 74.1);
-  --yellow-55: oklch(55% 0.15 74.1);
-
-  --yellow-green-65: oklch(65% 0.15 115.94);
-  --yellow-green-55: oklch(55% 0.15 115.94);
-
-  --blue-80: oklch(80% 0.11 200);
-  --blue-60: oklch(60% 0.11 200);
-
-  --purple-65: oklch(65% 0.11 318.57);
-  --purple-50: oklch(50% 0.11 318.57);
-
-  --indigo-65: oklch(65% 0.05 258.66);
-  --indigo-40: oklch(40% 0.05 258.66);
-
-  --navy-40: oklch(40% 0.05 237.32);
-  --navy-30: oklch(30% 0.05 237.32);
-
+  --gray-99: oklch(99% 0 0deg);
+  --gray-97: oklch(97% 0 0deg);
+  --gray-90: oklch(90% 0 0deg);
+  --pink-80: oklch(80% 0.15 5.87deg);
+  --pink-70: oklch(70% 0.15 5.87deg);
+  --pink-50: oklch(50% 0.15 5.87deg);
+  --pink-40: oklch(40% 0.15 5.87deg);
+  --orange-65: oklch(65% 0.15 35.82deg);
+  --orange-55: oklch(55% 0.15 35.82deg);
+  --yellow-65: oklch(65% 0.15 74.1deg);
+  --yellow-55: oklch(55% 0.15 74.1deg);
+  --yellow-green-65: oklch(65% 0.15 115.94deg);
+  --yellow-green-55: oklch(55% 0.15 115.94deg);
+  --blue-80: oklch(80% 0.11 200deg);
+  --blue-60: oklch(60% 0.11 200deg);
+  --purple-65: oklch(65% 0.11 318.57deg);
+  --purple-50: oklch(50% 0.11 318.57deg);
+  --indigo-65: oklch(65% 0.05 258.66deg);
+  --indigo-40: oklch(40% 0.05 258.66deg);
+  --navy-40: oklch(40% 0.05 237.32deg);
+  --navy-30: oklch(30% 0.05 237.32deg);
   --primary-link: light-dark(var(--pink-50), var(--pink-70));
   --primary-link-hover: light-dark(var(--pink-40), var(--pink-80));
   --secondary-link: light-dark(var(--blue-80), var(--blue-60));
@@ -58,7 +51,10 @@
   --text-color: light-dark(var(--navy-40), var(--gray-97));
   --text-highlight-1: light-dark(var(--orange-55), var(--orange-65));
   --text-highlight-2: light-dark(var(--yellow-55), var(--yellow-65));
-  --text-highlight-3: light-dark(var(--yellow-green-55), var(--yellow-green-65));
+  --text-highlight-3: light-dark(
+    var(--yellow-green-55),
+    var(--yellow-green-65)
+  );
   --text-highlight-4: light-dark(var(--indigo-40), var(--indigo-65));
   --text-highlight-5: light-dark(var(--purple-50), var(--purple-65));
 
