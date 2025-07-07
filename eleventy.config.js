@@ -27,6 +27,9 @@ export default async function (eleventyConfig) {
       sizes: '100vw',
       decoding: 'async',
     },
+    filenameFormat: function (id, src, width, format, options) {
+      return `${id}-${width}.${format}`;
+    },
   });
 
   // Plugins
@@ -76,7 +79,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy('src/images');
+  // eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addPassthroughCopy('src/fonts');
   eleventyConfig.addPassthroughCopy('src/js/scripts.js');
   eleventyConfig.addPassthroughCopy('src/robots.txt');
