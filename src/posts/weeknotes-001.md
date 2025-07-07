@@ -6,6 +6,8 @@ tags:
 - weeknotes
 featuredImage:
 ---
+**June 30 - July 6**
+
 At long last, I'm sitting down and writing some week notes after spending a couple weeks starting them and never finishing it before the next week began. This time, I'm committed to posting them on Mondays, so here's my first post!
 
 ## Making
@@ -13,23 +15,28 @@ At long last, I'm sitting down and writing some week notes after spending a coup
 
   ![The toe of a handknit sock held up in front of a bookcase.](./images/ankle-sock.jpg "These ankle socks are the best.")
 * **Spinning**:  [Tour de Fleece](https://spinoffmagazine.com/tour-de-fleece-coming-ready/) started on Saturday, so I'm working on finishing up some yarn I started spinning last year. 
+
 ## Watching
 * **Finished**: Survivor season 11: Guatemala
 * **Watched**: Survivor season 12: Panama and season 13: Cook Islands
 * **Started**: Survivor season 14: Fiji
 
 Can you tell I'm on a Survivor kick?
+
 ## Reading
 * **Finished**: [Wind and Truth](https://app.thestorygraph.com/books/b67a3e79-d844-4032-86a3-a120cfe2115a) by Brandon Sanderson
 * **Started**: [Not My Father's Son](https://app.thestorygraph.com/books/230332fc-5eb2-4be9-92bc-c7f441af94a8) by Alan Cumming
+
 ## Listening
 I haven't listened to any music this week--I'm catching up on podcasts instead.
+
 ## Fitness
 * **Run**: 2x, 4.13 mi
 * **Walk**: 4x, 6.66 mi
 * **Yoga**: 4x
 
 Glad to be sticking with 5-6 days a week of exercise, alternating between yoga/walk on one day and run on the other. So far it's working out nicely.
+
 ## Blogging / Site stuff
 * I wrote one post last week about [A Small Web July](/a-small-web-july). Thanks again, [small cypress](https://smallcypress.bearblog.dev/a-small-web-july/), for starting this!
 

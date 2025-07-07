@@ -80,7 +80,7 @@ li {
 }
 
 li {
-  margin-block-end: var(--space-s);
+  margin-block-end: var(--space-2xs);
 }
 
 figure,
