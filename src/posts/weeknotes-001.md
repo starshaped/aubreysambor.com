@@ -13,7 +13,7 @@ At long last, I'm sitting down and writing some week notes after spending a coup
 ## Making
 * **Knitting**: Yet another pair of ankle socks. This is pretty much all I've been knitting all year, but I'm ready to change it up.
 
-  ![The toe of a handknit sock held up in front of a bookcase.](./images/ankle-sock.jpg "These ankle socks are the best.")
+  ![The toe of a handknit sock held up in front of a bookcase.](../images/ankle-sock.jpg)
 * **Spinning**:  [Tour de Fleece](https://spinoffmagazine.com/tour-de-fleece-coming-ready/) started on Saturday, so I'm working on finishing up some yarn I started spinning last year. 
 
 ## Watching

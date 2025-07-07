@@ -1,29 +1,37 @@
----
-permalink: /feed.xml
-eleventyExcludeFromCollections: true
+---json
+{
+  "permalink": "feed.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "Aubrey Sambor",
+    "description": "test",
+    "language": "en",
+    "base": "https://aubreysambor.com",
+    "author": {
+      "name": "Aubrey Sambor"
+    }
+  }
+}
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.name }}</title>
-	<subtitle>{{ site.description }}</subtitle>
-	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
-	<link href="{{ site.url }}/"/>
-	<updated>{{ collections.list | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-	<id>{{ site.url }}/</id>
-	<author>
-    <name>{{ site.authorName }}</name>
-	</author>
-  
-	{% for post in collections.list | reverse %}
-    {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
-    <entry>
-      <title>{{ post.data.title }}</title>
-      <link href="{{ absolutePostUrl }}"/>
-      <updated>{{ post.date | dateToRfc3339 }}</updated>
-      <id>{{ absolutePostUrl }}</id>
-      <content type="html"><![CDATA[
-        {{ post.content | safe }}
-      ]]></content>
-    </entry>
-	{% endfor %}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" />
+  <link href="{{ metadata.base | addPathPrefixToFullUrl }}" />
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.base | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- for post in collections.list | reverse %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content>
+  </entry>
+  {%- endfor %}
 </feed>
