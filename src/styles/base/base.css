@@ -79,10 +79,6 @@ li {
   line-height: 1.6;
 }
 
-li {
-  margin-block-end: var(--space-xs);
-}
-
 figure,
 hr {
   margin-block-end: var(--space-l);

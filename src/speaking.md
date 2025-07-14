@@ -16,6 +16,13 @@ Here's a list of the talks I've given in the past few years:
   
   [View recording and slides<span class="visually-hidden"> from Florida Drupal Camp 2025</span>](https://noti.st/starshaped/U42A0j/what-a-front-of-the-front-end-developer-brings-to-your-team)
 
+* ### Midwest Drupal Camp
+  *What a Front of the Front End Developer Brings to Your Team*
+
+  <small>May 20–22, 2025</small>
+  
+  [View recording and slides<span class="visually-hidden"> from Midwest Drupal Camp 2025</span>](https://noti.st/starshaped/fGKx6i/what-a-front-of-the-front-end-developer-brings-to-your-team)
+
 ## 2024
 
 * ### Florida Drupal Camp
