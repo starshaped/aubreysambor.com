@@ -34,7 +34,7 @@ hr {
 a {
   color: var(--primary-link);
   font-weight: bold;
-  text-decoration-thickness: 0.3ex;
+  text-decoration-thickness: 0.25ex;
   text-underline-offset: 0.2ex;
 
   &:hover {
