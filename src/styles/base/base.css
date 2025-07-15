@@ -4,9 +4,6 @@
 
 html {
   color-scheme: light dark;
-  color: var(--text-color);
-  font-family: var(--base-font-family);
-  font-weight: 400;
 }
 
 /* Light theme override */
@@ -21,6 +18,11 @@ html {
 
 body {
   background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--base-font-family);
+  font-size: var(--size-body);
+  font-weight: 400;
+  line-height: 1.7;
 }
 
 hr {
@@ -32,8 +34,8 @@ hr {
 a {
   color: var(--primary-link);
   font-weight: bold;
-  text-decoration-skip-ink: auto;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 0.3ex;
+  text-underline-offset: 0.2ex;
 
   &:hover {
     color: var(--primary-link-hover);
@@ -44,18 +46,22 @@ h1,
 h2,
 h3 {
   font-family: var(--header-font-family);
+  line-height: 1.3;
+}
+
+h2,
+h3 {
+  max-inline-size: 48ch;
 }
 
 h1,
 .h1 {
+  max-inline-size: 40ch;
   font-size: var(--size-h1);
-  line-height: 1.3;
 }
 
 h2 {
   font-size: var(--size-h2);
-  line-height: 1.5;
-  border-block-end: solid 1px var(--accent-color);
 }
 
 h3 {
@@ -72,51 +78,38 @@ p:empty {
   display: none;
 }
 
-p,
-li {
-  margin-block-end: var(--space-l);
-  font-size: var(--size-body);
-  line-height: 1.6;
-}
-
-li {
-  margin-block-end: var(--space-xs);
-}
-
-figure,
-hr {
-  margin-block-end: var(--space-l);
+main {
+  max-inline-size: 75ch;
+  margin-inline: auto;
 }
 
 ul,
 ol {
-  margin-block-end: var(--space-l);
-}
-
-ol {
-  padding-inline-start: var(--space-m);
-  list-style-type: decimal;
-}
-
-ul {
-  padding-inline-start: var(--space-s);
-  list-style-type: square;
-}
-
-figure {
-  margin-inline: 0;
-}
-
-figcaption {
-  font-size: var(--size-small);
-  line-height: 1.5;
-  text-align: center;
+  padding-inline-start: 1em;
 }
 
 blockquote {
-  margin-inline-start: var(--space-l);
+  max-inline-size: 60ch;
   padding-inline-start: var(--space-s);
   border-color: var(--accent-color);
+  font-size: var(--size-body);
   font-style: italic;
   border-inline-start: var(--space-3xs) solid var(--text-color);
+}
+
+picture {
+  inline-size: calc(100% + var(--space-l));
+  max-inline-size: none;
+  margin-inline: calc(-1 * var(--space-s));
+
+  @media (--medium) {
+    inline-size: auto;
+    margin: auto;
+  }
+}
+
+img {
+  @media (--medium) {
+    border-radius: 10px;
+  }
 }

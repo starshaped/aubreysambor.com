@@ -1,6 +1,5 @@
 {% for year, posts in postListItems | groupby("data.yearString") | dictsort | reverse %}
 
-  <section class="archives-list">
     <h2 class="archives-list__title">{{ year }} </h2>
       <ul class="archives-list__list">
       {% for post in posts %}
@@ -10,5 +9,4 @@
         </li>
       {% endfor %}
     </ul>
-  </section>
 {% endfor %}

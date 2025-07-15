@@ -1,10 +1,8 @@
 {% extends './base.njk' %}
 
 {% block content %}
-  <article class="content">
+  <article class="content content--{{ page.url | slugify }}">
     <h1 class="content__title">{{ title }}</h1>
-    <div class="content__text content__text--{{ page.url | slugify }}">
       {{ content | safe }}
-    </div>
   </article>
 {% endblock %}
