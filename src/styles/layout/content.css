@@ -37,11 +37,11 @@ main {
   }
 
   :is(h1, h2, h3) + * {
-    --flow-space: 0.5em;
+    --flow-space: 0.75em;
   }
 
   > * + * {
-    margin-block-start: var(--flow-space, 1em);
+    margin-block-start: var(--flow-space, 1.25em);
   }
 }
 
@@ -82,7 +82,7 @@ main {
 }
 
 .content--speaking {
-  ul {
+  /* ul {
     display: grid;
     gap: var(--space-s);
     padding-inline-start: 0;
@@ -107,5 +107,11 @@ main {
 
   h3 {
     margin-block-end: var(--space-2xs);
+  } */
+}
+
+.content--resume {
+  h3 + p {
+    --flow-space: 0.5em;
   }
 }

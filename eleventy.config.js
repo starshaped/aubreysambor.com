@@ -1,6 +1,7 @@
 // Import @11ty plugins
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import markdownIt from 'markdown-it';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 
 // PostCSS goodness!
@@ -13,6 +14,12 @@ import postcssImport from 'postcss-import';
 import parseTransform from './src/transforms/parse-transform.js';
 
 export default async function (eleventyConfig) {
+
+    eleventyConfig.setLibrary('md', markdownIt ({
+    html: true,
+    breaks: true,
+    linkify: true
+  }));
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process

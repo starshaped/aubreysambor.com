@@ -22,7 +22,7 @@ body {
   font-family: var(--base-font-family);
   font-size: var(--size-body);
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 hr {
@@ -95,6 +95,18 @@ main {
 ul,
 ol {
   padding-inline-start: 1em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li {
+  margin-block-start: var(--space-2xs);
+
+  &::marker {
+    color: var(--secondary-link);
+  }
 }
 
 blockquote {
