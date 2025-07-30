@@ -3,7 +3,7 @@ layout: page.njk
 eleventyExcludeFromCollections: true
 title: Speaking
 ---
-Since 2019, I've been speaking at various conferences throughout the US and have appeared on a couple podcasts. I speak mainly about front end development and CSS in particular, but I'm looking to expand my talks to other front end areas and other parts of the world. If you'd like me to speak at your conference or have me as a guest on your podcast, please reach out!
+Since 2019, I've been speaking at various conferences throughout the US and have appeared on podcasts. I speak mainly about front end development and CSS in particular, but I'm looking to expand my talks to other front end areas and other parts of the world. If you'd like me to speak at your conference or have me as a guest on your podcast, please reach out!
 
 * **[What a Front of the Front End Developer Brings to Your Team](https://noti.st/starshaped/JgiESL/what-a-front-of-the-front-end-developer-brings-to-your-team)**
   *Drupal Camp Asheville 2025*

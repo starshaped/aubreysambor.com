@@ -18,7 +18,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.setLibrary('md', markdownIt ({
     html: true,
     breaks: true,
-    linkify: true
+    linkify: false
   }));
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
