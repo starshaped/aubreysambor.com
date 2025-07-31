@@ -1,0 +1,19 @@
+input,
+textarea {
+  appearance: none;
+  border: solid 1px var(--accent-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 700;
+}
+
+button {
+  font-weight: 700;
+}
+
+form > * + * {
+    margin-block-start: var(--flow-space, 1.25em);
+  }

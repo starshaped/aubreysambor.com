@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: page.njk
 eleventyExcludeFromCollections: true
 pagination:
   data: collections
@@ -11,7 +11,4 @@ eleventyComputed:
 ---
 {% set postListItems = collections[tag] | reverse %}
 
-<article class="content">
-  <h1 class="content__title">{{ title }}</h1>
-    {% include "archives-list.njk" %}
-</article>
+{% include "archives-list.njk" %}

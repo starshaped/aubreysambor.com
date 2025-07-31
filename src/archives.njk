@@ -1,21 +1,17 @@
 ---
 title: Archives
-layout: base.njk
+layout: page.njk
 ---
 {% set postListItems = collections.list | reverse %}
 
-<article class="content">
-  <h1 class="content__title">{{ title }}</h1>
+<p>I've been blogging since the year 2000, but over the years I've pared down my posts to focus on the below categories.</p>
 
-  <p>I've been blogging since the year 2000, but over the years I've pared down my posts to focus on the below categories.</p>
+<ul class="archives-tags">
+  {% for tag in collections.tagsList %}
+    <li class="archives-tags__item"><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+  {% endfor %}
+</ul>
 
-  <ul class="archives-tags">
-    {% for tag in collections.tagsList %}
-      <li class="archives-tags__item"><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
-    {% endfor %}
-  </ul>
+<p>If you'd rather view my posts by year, here's a list of all posts since 2003.</p>
 
-  <p>If you'd rather view my posts by year, here's a list of all posts since 2003.</p>
-  
-  {% include "archives-list.njk" %}
-</article>
+{% include "archives-list.njk" %}
