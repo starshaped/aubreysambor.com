@@ -3,7 +3,7 @@ title: 'About Me'
 layout: 'page.njk'
 eleventyExcludeFromCollections: true
 ---
-![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpeg)
+![A headshot of Aubrey, the author of this blog.](./images/headshot.jpg)
 
 Hi, I&lsquo;m **Aubrey**, a front end developer and accessibility advocate living in Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
 

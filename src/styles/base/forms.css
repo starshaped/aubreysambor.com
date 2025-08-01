@@ -12,6 +12,11 @@ label {
 
 button {
   font-weight: 700;
+  padding: 1rem 3rem;
+  /* background-color: white; */
+  color: inherit;
+  /* border: solid 1px var(--accent-color); */
+  cursor: pointer;
 }
 
 form > * + * {
