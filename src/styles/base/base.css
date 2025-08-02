@@ -71,7 +71,7 @@ h3 {
 }
 
 h4 {
-  font-family: (--base-font-family);
+  font-family: var(--base-font-family);
   font-size: var(--size-h4);
   font-style: italic;
   font-weight: 400;

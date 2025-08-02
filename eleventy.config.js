@@ -2,6 +2,7 @@
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import markdownIt from 'markdown-it';
+import markdownItContainer from 'markdown-it-container';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 
 // PostCSS goodness!
@@ -15,11 +16,14 @@ import parseTransform from './src/transforms/parse-transform.js';
 
 export default async function (eleventyConfig) {
 
-    eleventyConfig.setLibrary('md', markdownIt ({
+  eleventyConfig.setLibrary('md', markdownIt ({
     html: true,
     breaks: true,
     linkify: false
   }));
+
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItContainer, 'container'));
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItContainer, 'container-inner'));
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process

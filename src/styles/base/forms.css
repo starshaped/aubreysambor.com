@@ -1,9 +1,10 @@
 input,
 textarea {
-  appearance: none;
-  border: solid 1px var(--accent-color);
+  inline-size: 100%;
   padding: 1rem;
-  width: 100%;
+  padding: var(--space-xs);
+  border: solid 1px var(--accent-color);
+  appearance: none;
 }
 
 label {
@@ -11,14 +12,13 @@ label {
 }
 
 button {
-  font-weight: 700;
-  padding: 1rem 3rem;
-  /* background-color: white; */
+  padding-block: var(--space-xs);
+  padding-inline: var(--space-xl);
   color: inherit;
-  /* border: solid 1px var(--accent-color); */
+  font-weight: 700;
   cursor: pointer;
 }
 
 form > * + * {
-    margin-block-start: var(--flow-space, 1.25em);
-  }
+  margin-block-start: var(--flow-space, 1.25em);
+}

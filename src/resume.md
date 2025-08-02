@@ -6,7 +6,29 @@ eleventyExcludeFromCollections: true
 **Senior front end developer** specializing in writing clean and accessible CSS, HTML, and JavaScript, implementing design systems, and leading and mentoring development teams.
 
 ## Skills
-CSS · Sass · PostCSS · HTML · JavaScript · React · Vue.js · Web components · Design systems · Component libraries · Accessibility · Storybook · 11ty · Static site generators · PHP · Drupal · Responsive design · User experience · Front end architecture · Mentoring · [Public speaking](/speaking)
+
+:::: container
+::: container-inner
+* CSS, Sass, PostCSS
+* HTML, Responsive design
+* Accessibility
+* JavaScript, React, Vue.js, Web Components
+* JS testing using Jest, Mocha, Chai
+* Design systems
+* Component libraries
+* Front end architecture
+:::
+::: container-inner
+* Static site generators, 11ty
+* Storybook
+* PHP, Drupal, Wordpress
+* Git, GitHub, GitLab
+* MySQL
+* User experience
+* Mentoring and leadership
+* [Public speaking](/speaking)
+:::
+::::
 
 ## Work Experience
 ### Organizer, A11yTalks

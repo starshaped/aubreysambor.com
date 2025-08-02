@@ -90,3 +90,17 @@ main {
     --flow-space: 0.5em;
   }
 }
+
+.container {
+  @media (--small) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-m);
+  }
+}
+
+.container-inner {
+  ul {
+    margin: 0;
+  }
+}
