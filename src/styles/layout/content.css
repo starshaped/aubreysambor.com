@@ -89,6 +89,10 @@ main {
   h3 + p {
     --flow-space: 0.5em;
   }
+
+  p:first-of-type {
+    font-size: var(--size-large);
+  }
 }
 
 .container {
