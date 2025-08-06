@@ -56,6 +56,10 @@ main {
   }
 }
 
+.content__title + .content__meta {
+  --flow-space: .25em;
+}
+
 .content--about {
   picture {
     inline-size: auto;
