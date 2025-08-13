@@ -57,7 +57,7 @@ main {
 }
 
 .content__title + .content__meta {
-  --flow-space: .25em;
+  --flow-space: 0.25em;
 }
 
 .content--about {
