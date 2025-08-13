@@ -1,5 +1,5 @@
 .content__intro {
-  margin-block-end: var(--space-xl);
+  margin-block-end: var(--space-2xl);
 
   > * + * {
     margin-block-start: var(--flow-space, 1em);

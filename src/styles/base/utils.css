@@ -1,4 +1,3 @@
-/* Accessibility fun! */
 .skip-link {
   display: inline-block;
   position: absolute;
@@ -18,7 +17,6 @@
   }
 }
 
-/* General shit that doesn't belong anywhere else. */
 .visually-hidden {
   position: absolute;
   block-size: auto;
