@@ -83,6 +83,10 @@ export default async function (eleventyConfig) {
       return truncate(newValue);
   });
 
+  eleventyConfig.addFilter("uriencode", function(value) {
+    return encodeURIComponent(value);
+  });
+
   // Transforms
   eleventyConfig.addTransform('parse', parseTransform);
 

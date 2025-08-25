@@ -1,0 +1,66 @@
+---
+layout: false
+pagination:
+  data: collections.list
+  size: 1
+  alias: post
+permalink: /og-images{{ post.url }}
+eleventyComputed:
+  title: "{{ post.data.title }}"
+---
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Lato bold */
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('../../fonts/lato-bold-webfont.woff2') format('woff2'),
+    url('../../fonts/lato-bold-webfont.woff') format('woff');
+  font-display: swap;
+}
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: oklch(99% 0 0deg);
+        color: oklch(40% 0.05 237.32deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Lato, sans-serif;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+      }
+
+      .site-name {
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: lowercase;
+        padding-block-end: 24px;
+      }
+
+      .title {
+        font-size: 3.5rem;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="site-name">{{ site.name }}</div>
+      <h1 class="title">{{ title }}</h1>
+      </div>
+  </body>
+</html>
