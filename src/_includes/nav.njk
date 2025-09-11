@@ -1,27 +1,22 @@
 {% if navigation.items %}
+
   <nav class="nav">
     <ul class="nav__list">
       {% for item in navigation.items %}
-        {% set externalAttribute = '' %}
-        {% set currentAttribute = '' %}
         {% set navigationAttributes = '' %}
 
         {% if item.attributes %}
           {% for key, attribute in item.attributes %}
-            {% set navigationAttributes = " " ~ key ~ " = " ~ attribute %}
+            {% set navigationAttributes = navigationAttributes.concat(" " ~ key ~ " = " ~ attribute) %}
           {% endfor %}
         {% endif %}
 
-        {% if item.external %}
-          {% set externalAttribute = ' rel="external"' %}
-        {% endif %}
-
         {% if page.url == item.url %}
-          {% set currentAttribute = ' aria-current="page"' %}
+          {% set navigationAttributes = navigationAttributes.concat(' aria-current="page"') %}
         {% endif %}
 
         <li class="nav__list-item">
-          <a href="{{ item.url }}"{{ externalAttribute | safe }}{{ currentAttribute | safe }}{{ navigationAttributes | safe }}>{{ item.text }}</a>
+          <a href="{{ item.url }}"{{ navigationAttributes | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
     </ul>

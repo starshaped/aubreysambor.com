@@ -3,9 +3,9 @@ title: 'About Me'
 layout: 'page.njk'
 eleventyExcludeFromCollections: true
 ---
-![A headshot of Aubrey, the author of this blog.](./images/headshot.jpg)
+![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpeg)
 
-Hi, I&lsquo;m **Aubrey**, a front end developer and accessibility advocate living in Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
+Hi, I&lsquo;m **Aubrey**, a lead front end developer living in Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
 
 I've been making websites professionally since 2006 and personally since 1998, so I've seen a _lot_. ([Remember including standards-compliant CSS on your site with an @import because Netscape 4 didn't support it?](http://www.ericmeyeroncss.com/bonus/trick-hide.html) I certainly do!)
 

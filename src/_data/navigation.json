@@ -2,18 +2,15 @@
   "items": [
     {
       "text": "About",
-      "url": "/about/",
-      "external": false
+      "url": "/about/"
     },
     {
       "text": "Speaking",
-      "url": "/speaking/",
-      "external": false
+      "url": "/speaking/"
     },
     {
       "text": "Uses",
-      "url": "/uses/",
-      "external": false
+      "url": "/uses/"
     }
   ]
 }
