@@ -1,16 +1,37 @@
 {
-  "items": [
+  "main": [
     {
       "text": "About",
-      "url": "/about/"
+      "url": "/about"
     },
     {
       "text": "Speaking",
-      "url": "/speaking/"
+      "url": "/speaking"
     },
     {
       "text": "Uses",
-      "url": "/uses/"
+      "url": "/uses"
+    }
+  ],
+  "footer": [
+    {
+      "text": "Mastodon",
+      "url": "https://labyrinth.social/@starshaped",
+      "attributes": {
+        "rel": "me"
+      }
+    },
+    {
+      "text": "Bluesky",
+      "url": "https://bsky.app/profile/aubreysambor.com"
+    },
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aubreysambor"
+    },
+    {
+      "text": "RSS",
+      "url": "/feed.xml"
     }
   ]
 }

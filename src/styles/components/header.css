@@ -1,4 +1,4 @@
-.header {
+header {
   padding-block: var(--space-xs);
   background-color: var(--background-color-secondary);
 
@@ -10,54 +10,67 @@
   @media (--medium) {
     padding-block: var(--space-l);
   }
+
+  .inner {
+    max-inline-size: var(--content-width);
+    text-align: center;
+
+    @media (--medium) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    @media (--large) {
+      margin: auto;
+    }
+  }
 }
 
-.header__inner {
-  max-inline-size: var(--content-width);
-  text-align: center;
-
-  @media (--medium) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  @media (--large) {
-    margin: auto;
-  }
-}
-
-.header__title {
+.logo {
   font-family: var(--header-font-family);
   font-size: var(--size-logo);
   line-height: 1.3;
   text-transform: lowercase;
+
+  a {
+    position: relative;
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: inherit;
+    }
+
+    &:hover::after {
+      inline-size: 100%;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      block-size: 3px;
+      inline-size: 0;
+      transition:
+        inline-size 0.5s ease 0s,
+        inset-inline-start 0.5s ease 0s;
+      background-color: var(--primary-link-hover);
+      inset-block-end: 0;
+      inset-inline-start: 0;
+    }
+  }
 }
 
-.header__title-link {
-  position: relative;
-  color: var(--text-color);
-  text-decoration: none;
+.header-secondary {
+  display: flex;
+  align-items: center;
+  margin-block-start: var(--space-xs);
+  justify-content: center;
+  text-align: center;
 
-  &:hover {
-    color: inherit;
-  }
-
-  &:hover::after {
-    inline-size: 100%;
-  }
-
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    block-size: 3px;
-    inline-size: 0;
-    transition:
-      inline-size 0.5s ease 0s,
-      inset-inline-start 0.5s ease 0s;
-    background-color: var(--primary-link-hover);
-    inset-block-end: 0;
-    inset-inline-start: 0;
+  @media (--medium) {
+    margin-block-start: 0;
+    justify-content: flex-end;
   }
 }

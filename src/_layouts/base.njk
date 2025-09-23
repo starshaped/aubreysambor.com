@@ -2,15 +2,13 @@
 <html lang="en">
   {% include "meta.njk" %}
   <body>
-    <div class="layout-container">
-      {% include "header.njk" %}
-      <main id="main-content" class="layout-container__inner">
-        {% block content %}
-          {{ content | safe }}
-        {% endblock content %}
-      </main>
-      {% include "footer.njk" %}
-    </div>
+    {% include "header.njk" %}
+    <main id="main-content">
+      {% block content %}
+        {{ content | safe }}
+      {% endblock content %}
+    </main>
+    {% include "footer.njk" %}
     <script src="/js/scripts.js"></script>
     <script data-goatcounter="https://aubreysambor.goatcounter.com/count"
         async src="https://gc.zgo.at/count.js"></script>

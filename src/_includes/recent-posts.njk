@@ -1,5 +1,5 @@
-  <section class="recent-posts">
-    <h2 class="recent-posts__title">Recent posts</h2>
+  <section class="recent-posts" aria-labelledby="recent-posts">
+    <h2 class="recent-posts__title" id="recent-posts">Recent posts</h2>
     <ul class="recent-posts__list">
       {%- for post in postListItems -%}
       {% if loop.index0 < 5 %}

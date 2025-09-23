@@ -11,9 +11,6 @@ import cssnano from 'cssnano';
 import postcssCustomMedia from 'postcss-custom-media';
 import postcssImport from 'postcss-import';
 
-// Import transforms
-import parseTransform from './src/transforms/parse-transform.js';
-
 export default async function (eleventyConfig) {
 
   eleventyConfig.setLibrary('md', markdownIt ({
@@ -86,9 +83,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.addFilter("uriencode", function(value) {
     return encodeURIComponent(value);
   });
-
-  // Transforms
-  eleventyConfig.addTransform('parse', parseTransform);
 
   // Shortcodes
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);

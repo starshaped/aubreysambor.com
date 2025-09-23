@@ -1,22 +1,27 @@
-<footer class="footer">
-  <div class="footer__inner">
-    <p class="footer__content">
+{% set navType = nav.navFooter %}
+
+<footer>
+  <div>
+    <p>
       <strong>&copy; 2000–{% year %} {{ site.name }}.</strong> Powered by <a href="https://www.11ty.dev/">11ty</a>.
     </p>
-    <ul class="footer__links">
-      <li class="footer__link">
-        <a href="https://labyrinth.social/@starshaped" rel="me">Mastodon</a>
-      </li>
-      <li class="footer__link">
-        <a href="https://bsky.app/profile/aubreysambor.com">Bluesky</a>
-      </li>
-      <li class="footer__link">
-        <a href="https://www.linkedin.com/in/aubreysambor">LinkedIn</a>
-      </li>
-      <li class="footer__link">
-        <a href="/feed.xml">RSS</a>
-      </li>
-    </ul>
+    {# <nav aria-labelledby="nav-footer">
+      <span id="nav-footer" class="visually-hidden">Footer</span>
+      <ul>
+        <li>
+          <a href="https://labyrinth.social/@starshaped" rel="me">Mastodon</a>
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/aubreysambor.com">Bluesky</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/aubreysambor">LinkedIn</a>
+        </li>
+        <li>
+          <a href="/feed.xml">RSS</a>
+        </li>
+      </ul>
+    </nav> #}
+    {% include "nav.njk" %}
   </div>
 </footer>
-
