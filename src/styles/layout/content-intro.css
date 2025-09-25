@@ -5,14 +5,9 @@
     margin-block-start: var(--flow-space, 1em);
   }
 
-  h2 {
-    font-family: var(--header-font-family);
-    font-size: var(--step-4);
-    font-weight: 800;
-
+  h1 {
     strong:nth-of-type(1) {
       color: var(--text-highlight-5);
-      font-weight: inherit;
     }
   }
 
