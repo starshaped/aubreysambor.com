@@ -1,4 +1,4 @@
 {
-  "layout": "post.njk",
-  "permalink": "/{{ title | slugify }}/"
+  "layout": "post.vto",
+  "permalink": "/{{ title |> slugify }}/"
 }

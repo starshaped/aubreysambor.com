@@ -1,6 +1,6 @@
 ---
 title: 'Now'
-layout: 'page.njk'
+layout: 'page.vto'
 eleventyExcludeFromCollections: true
 ---
 **Last updated:** October 12th, 2024

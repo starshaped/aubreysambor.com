@@ -1,0 +1,20 @@
+  {{> let loopIndex = 0 }}
+  {{> let loopLength = Array.isArray(postListItems) ? postListItems.length : Object.keys(postListItems).length }}
+  
+  <section class="recent-posts" aria-labelledby="recent-posts">
+    <h2 class="recent-posts__title" id="recent-posts">Recent posts</h2>
+    <ul class="recent-posts__list">
+      {{ for post of postListItems }}
+        {{ if loopIndex < 5 }}
+          <li class="recent-posts__list-item">
+            <h3 class="recent-posts__post-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+            <time class="recent-posts__date" datetime="{{ post.data.dateString }}">
+              <i>{{ post.data.postDateString }}</i>
+            </time>
+          </li>
+        {{ /if }}
+        {{> loopIndex++ }}
+      {{ /for }}
+    </ul>
+    <p><a href="archives">View all archives</a></p>
+  </section>

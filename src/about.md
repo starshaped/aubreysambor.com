@@ -1,6 +1,6 @@
 ---
 title: 'About Me'
-layout: 'page.njk'
+layout: 'page.vto'
 eleventyExcludeFromCollections: true
 ---
 ![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpeg)

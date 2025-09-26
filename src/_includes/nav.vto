@@ -1,0 +1,22 @@
+<nav aria-labelledby="nav-{{ navType.name }}">
+  <span id="nav-{{ navType.name }}" class="visually-hidden">{{ navType.name|>capitalize }}</span>
+  <ul>
+    {{ for item of navType.items }}
+      {{ set navigationAttributes = '' }}
+
+      {{ if item.attributes }}
+        {{ for key, attribute of item.attributes }}
+          {{ set navigationAttributes = navigationAttributes.concat(`${key}="${attribute}"`) }}
+        {{ /for }}
+      {{ /if }}
+
+      {{ if page.url === item.url }}
+        {{ set navigationAttributes = navigationAttributes.concat(' aria-current="page"') }}
+      {{ /if }}
+
+      <li>
+        <a href="{{ item.url }}"{{ navigationAttributes }}>{{ item.text }}</a>
+      </li>
+    {{ /for }}
+  </ul>
+</nav>

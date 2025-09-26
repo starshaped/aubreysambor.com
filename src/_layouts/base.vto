@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include "meta.njk" %}
+  {{ include "meta.vto" }}
   <body>
-    {% include "header.njk" %}
+    {{ include "header.vto" }}
     <main id="main-content">
-      {% block content %}
-        {{ content | safe }}
-      {% endblock content %}
+      {{ content }}
     </main>
-    {% include "footer.njk" %}
+    {{ include "footer.vto" }}
     <script src="/js/scripts.js"></script>
     <script data-goatcounter="https://aubreysambor.goatcounter.com/count"
         async src="https://gc.zgo.at/count.js"></script>

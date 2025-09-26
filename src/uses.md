@@ -1,6 +1,6 @@
 ---
 title: 'Uses'
-layout: 'page.njk'
+layout: 'page.vto'
 eleventyExcludeFromCollections: true
 ---
 Here's a list of all the hardware, software, and fun non-software things I use on a (nearly) day to day basis. 

@@ -1,6 +1,6 @@
 ---
 title: 'Resume'
-layout: 'page.njk'
+layout: 'page.vto'
 eleventyExcludeFromCollections: true
 ---
 **Senior front end developer** specializing in writing clean and accessible CSS, HTML, and JavaScript, implementing design systems, and leading and mentoring development teams.

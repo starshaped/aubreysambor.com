@@ -1,4 +1,5 @@
 // Import @11ty plugins
+import { VentoPlugin } from 'eleventy-plugin-vento';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import markdownIt from 'markdown-it';
@@ -84,8 +85,35 @@ export default async function (eleventyConfig) {
     return encodeURIComponent(value);
   });
 
+  eleventyConfig.addFilter("getNewestCollectionItemDate", rssPlugin.getNewestCollectionItemDate);
+  eleventyConfig.addFilter("dateToRfc3339", rssPlugin.dateToRfc3339);
+
+  eleventyConfig.addFilter("capitalize", (item) => {
+    return item[0].toUpperCase() + item.slice(1);
+  });
+
+  /** Groups array of objects by a property value (note: array in, object out). */
+  eleventyConfig.addFilter('groupBy', (array, prop) => {
+    if (Array.isArray(array) === false) { throw new Error(`groupBy filter expects an array, was given ${typeof array}`); }
+    if (!prop || typeof prop !== 'string') { throw new Error(`groupBy filter expects a property key (or dot-separated path), was given ${typeof prop}`); }
+    
+    const groups = {};
+
+    for (let item of array) {
+      let groupVal = getDeepProp(item, prop);
+
+      if (groups.hasOwnProperty(groupVal) === false) {
+        groups[groupVal] = [];
+      }
+
+      groups[groupVal].push(item);
+    }
+
+    return groups;
+  });
+
   // Shortcodes
-  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
   // eleventyConfig.addPassthroughCopy('src/images');
@@ -106,9 +134,15 @@ export default async function (eleventyConfig) {
     });
      return [...tagsList].sort((a, b) => a.localeCompare(b))
   });
+
+  eleventyConfig.addPlugin(VentoPlugin, {
+    autotrim: true,
+  });
 };
 
 export const config = {
+  htmlTemplateEngine: "vto",
+  markdownTemplateEngine: "vto",
   dir: {
     input: 'src',
     output: 'dist',
@@ -116,3 +150,18 @@ export const config = {
     layouts: '_layouts',
   },
 };
+
+function getDeepProp(obj, prop = null) {
+	// If there is no property, return the value as-is
+	if (!prop) { return obj; }
+
+	// Create a list of properties to pluck one by one
+	const propChain = prop.split('.');
+	let groupVal = obj; // Start with the original value
+	const chain = propChain.slice();
+	while (chain.length > 0 && groupVal !== null) {
+		const subProp = chain.shift().trim();
+		groupVal = groupVal[subProp] ?? null;
+	}
+	return groupVal;
+}
