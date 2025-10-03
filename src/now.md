@@ -1,7 +1,7 @@
 ---
-title: 'Now'
-layout: 'page.vto'
 eleventyExcludeFromCollections: true
+layout: 'page.vto'
+title: 'Now'
 ---
 **Last updated:** October 12th, 2024
 

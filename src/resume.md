@@ -1,7 +1,7 @@
 ---
-title: 'Resume'
-layout: 'page.vto'
 eleventyExcludeFromCollections: true
+layout: page.vto
+title: Resume
 ---
 **Senior front end developer** specializing in writing clean and accessible CSS, HTML, and JavaScript, implementing design systems, and leading and mentoring development teams.
 

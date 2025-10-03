@@ -65,12 +65,12 @@ header {
 .header-secondary {
   display: flex;
   align-items: center;
-  margin-block-start: var(--space-xs);
   justify-content: center;
+  margin-block-start: var(--space-xs);
   text-align: center;
 
   @media (--medium) {
-    margin-block-start: 0;
     justify-content: flex-end;
+    margin-block-start: 0;
   }
 }

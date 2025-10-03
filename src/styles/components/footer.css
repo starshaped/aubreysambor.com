@@ -32,7 +32,7 @@ footer {
   }
 }
 
-[aria-labelledby="nav-footer"] {
+[aria-labelledby='nav-footer'] {
   ul {
     display: flex;
     margin-block: var(--space-2xs) 0;

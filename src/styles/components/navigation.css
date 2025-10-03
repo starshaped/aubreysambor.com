@@ -1,5 +1,4 @@
-[aria-labelledby="nav-main"] {
-
+[aria-labelledby='nav-main'] {
   ul {
     display: inline-flex;
     align-items: center;

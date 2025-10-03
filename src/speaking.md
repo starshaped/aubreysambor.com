@@ -1,6 +1,6 @@
 ---
-layout: page.vto
 eleventyExcludeFromCollections: true
+layout: page.vto
 title: Speaking
 ---
 Since 2019, I've been speaking at various conferences throughout the US and have appeared on podcasts. I speak mainly about front end development and CSS in particular, but I'm looking to expand my talks to other front end areas and other parts of the world. If you'd like me to speak at your conference or have me as a guest on your podcast, please reach out!

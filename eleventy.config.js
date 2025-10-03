@@ -36,9 +36,6 @@ export default async function (eleventyConfig) {
       sizes: '100vw',
       decoding: 'async',
     },
-    filenameFormat: function (id, src, width, format, options) {
-      return `${id}-${width}.${format}`;
-    },
   });
 
   // Plugins
@@ -69,18 +66,6 @@ export default async function (eleventyConfig) {
   });
 
   // Filters
-  eleventyConfig.addFilter('truncatePost', (value) => {
-    const truncate = (str, max = 40) => {
-      const array = str.trim().split(' ');
-      const ellipsis = array.length > max ? '...' : '';
-
-      return array.slice(0, max).join(' ') + ellipsis;
-    };
-
-    const newValue = value.replace(/<\/?("[^"]*"|'[^']*'|[^>])*(>|$)/g, "");
-      return truncate(newValue);
-  });
-
   eleventyConfig.addFilter("uriencode", function(value) {
     return encodeURIComponent(value);
   });

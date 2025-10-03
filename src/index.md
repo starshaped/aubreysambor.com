@@ -1,8 +1,6 @@
 ---
 layout: home.vto
 title: Home
-postsHeading: Recent posts
-socialImage: ''
 ---
 
 # Hi, I'm **Aubrey**.

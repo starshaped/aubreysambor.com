@@ -1,7 +1,7 @@
 ---
-title: 'About Me'
-layout: 'page.vto'
 eleventyExcludeFromCollections: true
+layout: page.vto
+title: About Me
 ---
 ![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpeg)
 

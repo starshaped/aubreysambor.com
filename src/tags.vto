@@ -1,15 +1,14 @@
 ---
-layout: page.vto
+eleventyComputed:
+  title: Posts tagged with "{{ tag }}"
 eleventyExcludeFromCollections: true
+layout: page.vto
 pagination:
   data: collections.tagsList
   size: 1
   alias: tag
 permalink: /tags/{{ tag |> slugify }}/
-eleventyComputed:
-  title: Posts tagged with "{{ tag }}"
 ---
-
 {{ set postListItems = collections[tag] |> reverse }}
 
 {{ include "archives-list.vto" }}

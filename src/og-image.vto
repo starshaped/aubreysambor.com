@@ -1,12 +1,12 @@
 ---
+eleventyComputed:
+  title: "{{ post.data.title }}"
 layout: false
 pagination:
   data: collections.list
   size: 1
   alias: post
 permalink: /og-images{{ post.url }}
-eleventyComputed:
-  title: "{{ post.data.title }}"
 ---
 <html>
   <head>

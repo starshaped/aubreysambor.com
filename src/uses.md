@@ -1,7 +1,7 @@
 ---
-title: 'Uses'
-layout: 'page.vto'
 eleventyExcludeFromCollections: true
+layout: page.vto
+title: Uses
 ---
 Here's a list of all the hardware, software, and fun non-software things I use on a (nearly) day to day basis. 
 
