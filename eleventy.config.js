@@ -42,13 +42,13 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
 
-  eleventyConfig.addWatchTarget('./src/styles');
+  eleventyConfig.addWatchTarget('./src/assets/styles');
   eleventyConfig.addTemplateFormats('css');
 
   eleventyConfig.addExtension('css', {
     outputFileExtension: 'css',
     compile: async (content, path) => {
-      if (path !== './src/styles/styles.css') {
+      if (path !== './src/assets/styles/styles.css') {
         return;
       }
 
@@ -101,9 +101,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
   // Passthrough copy
-  // eleventyConfig.addPassthroughCopy('src/images');
-  eleventyConfig.addPassthroughCopy('src/fonts');
-  eleventyConfig.addPassthroughCopy('src/js/scripts.js');
+  eleventyConfig.addPassthroughCopy('src/assets/styles/styles.css');
+  eleventyConfig.addPassthroughCopy('src/assets/fonts');
+  eleventyConfig.addPassthroughCopy('src/assets/js/scripts.js');
   eleventyConfig.addPassthroughCopy('src/robots.txt');
 
   eleventyConfig.addCollection('list', (collection) => {
@@ -131,8 +131,8 @@ export const config = {
   dir: {
     input: 'src',
     output: 'dist',
-    includes: '_includes',
-    layouts: '_layouts',
+    includes: 'components',
+    layouts: 'layouts',
   },
 };
 

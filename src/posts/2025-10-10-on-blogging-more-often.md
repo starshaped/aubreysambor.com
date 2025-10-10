@@ -10,4 +10,4 @@ Casual blogging sounds pretty appealing to me right now because it's how I live 
 
 I'll leave you now with a photo of one of my favorite mugs, a Frankensheep mug from [Jennie the Potter](https://www.jenniethepotter.com) that a friend picked up for me at [Rhinebeck](https://sheepandwool.com) a few years ago. I use it only in the fall and usually when October hits, because October's when it finally starts feeling like fall here in New England.
 
-![My Frankensheep mug filled with tasty, tasty Earl Grey tea.](../images/mug.jpg)
+![My Frankensheep mug filled with tasty, tasty Earl Grey tea.](../assets/images/mug.jpg)

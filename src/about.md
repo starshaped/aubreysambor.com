@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 layout: page.vto
 title: About Me
 ---
-![A headshot of Aubrey, the author of this blog.](./images/about-aubrey.jpeg)
+![A headshot of Aubrey, the author of this blog.](./assets/images/about-aubrey.jpeg)
 
 Hi, I&lsquo;m **Aubrey**, a lead front end developer living in Massachusetts. I spend my days creating things, whether it be words with pen and paper, CSS and HTML with a code editor, or socks and sweaters with needles and yarn.
 
