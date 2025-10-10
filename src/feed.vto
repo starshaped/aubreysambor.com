@@ -1,37 +1,26 @@
----json
-{
-  "permalink": "feed.xml",
-  "eleventyExcludeFromCollections": true,
-  "metadata": {
-    "title": "Aubrey Sambor",
-    "description": "A blog about web development, knitting, and other assorted things.",
-    "language": "en",
-    "base": "https://aubreysambor.com",
-    "author": {
-      "name": "Aubrey Sambor"
-    }
-  }
-}
+---
+permalink: feed.xml
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language || page.lang }}">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.description }}</subtitle>
-  <link href="{{ permalink |> htmlBaseUrl(metadata.base) }}" rel="self" />
-  <link href="{{ metadata.base |> addPathPrefixToFullUrl }}" />
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.language || page.lang }}">
+  <title>{{ site.name }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+  <link href="{{ permalink |> htmlBaseUrl(site.url) }}" rel="self" />
+  <link href="{{ site.url |> addPathPrefixToFullUrl }}" />
   <updated>{{ collections.posts |> getNewestCollectionItemDate |> dateToRfc3339 }}</updated>
-  <id>{{ metadata.base |> addPathPrefixToFullUrl }}</id>
+  <id>{{ site.url |> addPathPrefixToFullUrl }}</id>
   <author>
-    <name>{{ metadata.author.name }}</name>
+    <name>{{ site.authorName }}</name>
   </author>
   {{ for post of collections.list |> reverse }}
-  {{ set absolutePostUrl }}{{ post.url |> htmlBaseUrl(metadata.base) }}{{ /set }}
+  {{ set absolutePostUrl }}{{ post.url |> htmlBaseUrl(site.url) }}{{ /set }}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date |> dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html"><![CDATA[{{ post.content |> await renderTransforms(post.data.page, metadata.base) }}]]></content>
+    <content type="html"><![CDATA[{{ post.content |> await renderTransforms(post.data.page, site.url) }}]]></content>
   </entry>
   {{ /for }}
 </feed>
