@@ -127,7 +127,7 @@ export default async function (eleventyConfig) {
 
 export const config = {
   htmlTemplateEngine: "vto",
-  markdownTemplateEngine: "vto",
+  markdownTemplateEngine: false,
   dir: {
     input: 'src',
     output: 'dist',
