@@ -2,15 +2,15 @@
 
 {{ for year of postsByYear |> Object.keys |> sort |> reverse }}
 
-	{{ set posts = postsByYear[year] |> reverse }}
+  {{ set posts = postsByYear[year] |> reverse }}
 
-    <h2 class="archives-list__title">{{ year }}</h2>
-      <ul class="archives-list__list">
-      {{ for post of posts }}
-        <li class="archives-list__item">
-          <time class="archives-list__date" datetime="{{ post.data.dateString }}">{{ post.data.archiveDateString }}</time>
-          <p><a href="{{ post.url }}">{{ post.data.title }}</a></p>
-        </li>
-      {{ /for }}
-    </ul>
+  <h2 class="archives-list__title">{{ year }}</h2>
+  <ul class="archives-list__list">
+    {{ for post of posts }}
+      <li class="archives-list__item">
+        <time class="archives-list__date" datetime="{{ post.data.dateString }}">{{ post.data.archiveDateString }}</time>
+        <p><a href="{{ post.url }}">{{ post.data.title }}</a></p>
+      </li>
+    {{ /for }}
+  </ul>
 {{ /for }}
