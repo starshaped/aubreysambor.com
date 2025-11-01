@@ -2,7 +2,7 @@
 title: Writing about non-tech things
 date: 2025-10-04
 summary:
-tags: blogtober
+tags: blogging
 ---
 Let me tell you something: I haven't been writing in this blog because I feel like my writing isn't sophisticated and grown up enough to post on the internet. (This looks ridiculous even as I'm typing it). I see people my age post well thought out takes on events in the tech world and I'm sitting here wanting to write about my knitting or the tasty food I ate in Boston last weekend or how in the year 2025 I've gotten into reality TV, and that makes me feel like I'm not intelligent. 
 

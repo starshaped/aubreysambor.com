@@ -2,7 +2,7 @@
 title: On blogging more often
 date: 2025-10-10
 tags:
-  - blogtober
+  - blogging
 ---
 Today, B wrote a post called ["Trying to Blog More Often"](https://binarydigit.city/trying-to-blog-more-often/) and I really, really identified with it. I haven't been writing because I feel like I need to have a 'topic' like B says, but I'm trying to write little things that come to mind as well, like the [posts I wrote](/weekend-break-from-social-media/) [last weekend](/writing-about-non-tech-things/). 
 

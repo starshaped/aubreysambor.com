@@ -5,7 +5,7 @@ title: Uses
 ---
 Here's a list of all the hardware, software, and fun non-software things I use on a (nearly) day to day basis. 
 
-_Updated: September 11th, 2025_
+_Updated: November 1st, 2025_
 
 ## Hardware
 * 👩‍💻 16” M1 Max Macbook Pro, silver, with 64GB of RAM and a 1TB hard drive
@@ -35,7 +35,7 @@ _Updated: September 11th, 2025_
 * 📒 Notes: [Obsidian](https://obsidian.md)
 * 📝 Blog: [11ty](https://www.11ty.dev/)
 * 🍴 Meal Planning: [Paprika](https://www.paprikaapp.com/)
-* 🎵 Music: Spotify
+* 🎵 Music: Apple Music
 * 🎤 Podcasts: Overcast
 
 ## Non-software faves
