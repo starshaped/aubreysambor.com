@@ -43,6 +43,12 @@
     inline-size: var(--icon-size-large);
     margin-inline-start: var(--space-m);
   }
+
+  &:focus-visible {
+    border-radius: 2px;
+    outline: solid 3px var(--primary-link);
+    outline-offset: 4px;
+  }
 }
 
 .theme-icon {
@@ -53,6 +59,10 @@
   @media (--small) {
     block-size: var(--icon-size-large);
     inline-size: var(--icon-size-large);
+  }
+
+  &:hover {
+    fill: var(--primary-link-hover);
   }
 }
 

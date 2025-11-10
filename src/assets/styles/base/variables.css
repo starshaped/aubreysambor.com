@@ -24,10 +24,12 @@
   --gray-99: oklch(99% 0 0deg);
   --gray-97: oklch(97% 0 0deg);
   --gray-90: oklch(90% 0 0deg);
+  --pink-95: oklch(95% 0.15 5.87deg);
   --pink-80: oklch(80% 0.15 5.87deg);
   --pink-70: oklch(70% 0.15 5.87deg);
   --pink-50: oklch(50% 0.15 5.87deg);
   --pink-40: oklch(40% 0.15 5.87deg);
+  --pink-20: oklch(20% 0.15 5.87deg);
   --orange-65: oklch(65% 0.15 35.82deg);
   --orange-55: oklch(55% 0.15 35.82deg);
   --yellow-65: oklch(65% 0.15 74.1deg);
@@ -44,7 +46,7 @@
   --navy-40: oklch(40% 0.05 237.32deg);
   --navy-30: oklch(30% 0.05 237.32deg);
   --primary-link: light-dark(var(--pink-50), var(--pink-70));
-  --primary-link-hover: light-dark(var(--pink-40), var(--pink-80));
+  --primary-link-hover: light-dark(var(--pink-20), var(--pink-95));
   --secondary-link: light-dark(var(--blue-80), var(--blue-60));
   --background-color: light-dark(var(--gray-99), var(--navy-40));
   --background-color-secondary: light-dark(var(--gray-97), var(--navy-30));

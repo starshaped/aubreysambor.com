@@ -40,6 +40,12 @@ a {
   &:hover {
     color: var(--primary-link-hover);
   }
+
+  &:focus-visible {
+    border-radius: 2px;
+    outline: solid 3px var(--primary-link);
+    outline-offset: 4px;
+  }
 }
 
 h1,

@@ -20,6 +20,10 @@ main {
       color: inherit;
       text-decoration-color: var(--text-color);
     }
+
+    &:focus-visible {
+      outline-color: var(--secondary-link);
+    }
   }
 }
 
@@ -42,17 +46,6 @@ main {
 
   > * + * {
     margin-block-start: var(--flow-space, 1.25em);
-  }
-}
-
-.content__heading-permalink {
-  margin-inline-start: var(--space-2xs);
-  color: transparent;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: var(--secondary-link);
   }
 }
 

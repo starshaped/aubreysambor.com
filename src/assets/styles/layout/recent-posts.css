@@ -4,7 +4,7 @@
 }
 
 .recent-posts__list-item {
-  margin-block-end: var(--space-s);
+  margin-block-end: var(--space-m);
 
   p {
     margin-block-end: 0;
