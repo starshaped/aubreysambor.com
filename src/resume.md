@@ -7,8 +7,8 @@ title: Resume
 
 ## Skills
 
-:::: container
-::: container-inner
+:::: container-grid
+::: container-grid-inner
 * CSS, Sass, PostCSS
 * HTML, Responsive design
 * Accessibility
@@ -18,7 +18,7 @@ title: Resume
 * Component libraries
 * Front end architecture
 :::
-::: container-inner
+::: container-grid-inner
 * Static site generators, 11ty
 * Storybook
 * PHP, Drupal, Wordpress

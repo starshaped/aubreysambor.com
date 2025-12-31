@@ -1,10 +1,14 @@
 // Import @11ty plugins
 import { VentoPlugin } from 'eleventy-plugin-vento';
 import rssPlugin from '@11ty/eleventy-plugin-rss';
-import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
 import markdownItContainer from 'markdown-it-container';
+import markdownItAttrs from 'markdown-it-attrs';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+// import createDebugMessages from 'debug';
+// const debug = createDebugMessages('starshaped');
+// To debug, DEBUG=*starshaped* npx @11ty/eleventy --dryrun
 
 // PostCSS goodness!
 import postcss from 'postcss';
@@ -13,15 +17,20 @@ import postcssCustomMedia from 'postcss-custom-media';
 import postcssImport from 'postcss-import';
 
 export default async function (eleventyConfig) {
+  eleventyConfig.setLibrary(
+    'md',
+    markdownIt({
+      html: true,
+      breaks: true,
+      linkify: false,
+    }),
+  );
 
-  eleventyConfig.setLibrary('md', markdownIt ({
-    html: true,
-    breaks: true,
-    linkify: false
-  }));
-
-  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItContainer, 'container'));
-  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItContainer, 'container-inner'));
+  eleventyConfig.amendLibrary('md', (mdLib) => {
+    mdLib.use(markdownItContainer, 'container-grid');
+    mdLib.use(markdownItContainer, 'container-grid-inner');
+    mdLib.use(markdownItAttrs);
+  });
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process
@@ -61,27 +70,38 @@ export default async function (eleventyConfig) {
           from: path,
         });
         return output.css;
-      }
-    }
+      };
+    },
   });
 
   // Filters
-  eleventyConfig.addFilter("uriencode", function(value) {
+  eleventyConfig.addFilter('uriencode', function (value) {
     return encodeURIComponent(value);
   });
 
-  eleventyConfig.addFilter("getNewestCollectionItemDate", rssPlugin.getNewestCollectionItemDate);
-  eleventyConfig.addFilter("dateToRfc3339", rssPlugin.dateToRfc3339);
+  eleventyConfig.addFilter(
+    'getNewestCollectionItemDate',
+    rssPlugin.getNewestCollectionItemDate,
+  );
+  eleventyConfig.addFilter('dateToRfc3339', rssPlugin.dateToRfc3339);
 
-  eleventyConfig.addFilter("capitalize", (item) => {
+  eleventyConfig.addFilter('capitalize', (item) => {
     return item[0].toUpperCase() + item.slice(1);
   });
 
   /** Groups array of objects by a property value (note: array in, object out). */
   eleventyConfig.addFilter('groupBy', (array, prop) => {
-    if (Array.isArray(array) === false) { throw new Error(`groupBy filter expects an array, was given ${typeof array}`); }
-    if (!prop || typeof prop !== 'string') { throw new Error(`groupBy filter expects a property key (or dot-separated path), was given ${typeof prop}`); }
-    
+    if (Array.isArray(array) === false) {
+      throw new Error(
+        `groupBy filter expects an array, was given ${typeof array}`,
+      );
+    }
+    if (!prop || typeof prop !== 'string') {
+      throw new Error(
+        `groupBy filter expects a property key (or dot-separated path), was given ${typeof prop}`,
+      );
+    }
+
     const groups = {};
 
     for (let item of array) {
@@ -98,7 +118,10 @@ export default async function (eleventyConfig) {
   });
 
   // Shortcodes
-  eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode(
+    'currentYear',
+    () => `${new Date().getFullYear()}`,
+  );
 
   // Passthrough copy
   eleventyConfig.addPassthroughCopy('src/assets/styles/styles.css');
@@ -112,21 +135,21 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addCollection('tagsList', (collection) => {
     const tagsList = new Set();
-    collection.getAll().map( item => {
+    collection.getAll().map((item) => {
       if (item.data.tags) {
-        item.data.tags.map( tagItem => tagsList.add(tagItem))
+        item.data.tags.map((tagItem) => tagsList.add(tagItem));
       }
     });
-     return [...tagsList].sort((a, b) => a.localeCompare(b))
+    return [...tagsList].sort((a, b) => a.localeCompare(b));
   });
 
   eleventyConfig.addPlugin(VentoPlugin, {
     autotrim: true,
   });
-};
+}
 
 export const config = {
-  htmlTemplateEngine: "vto",
+  htmlTemplateEngine: 'vto',
   markdownTemplateEngine: false,
   dir: {
     input: 'src',
@@ -137,16 +160,19 @@ export const config = {
 };
 
 function getDeepProp(obj, prop = null) {
-	// If there is no property, return the value as-is
-	if (!prop) { return obj; }
+  // If there is no property, return the value as-is
+  if (!prop) {
+    return obj;
+  }
 
-	// Create a list of properties to pluck one by one
-	const propChain = prop.split('.');
-	let groupVal = obj; // Start with the original value
-	const chain = propChain.slice();
-	while (chain.length > 0 && groupVal !== null) {
-		const subProp = chain.shift().trim();
-		groupVal = groupVal[subProp] ?? null;
-	}
-	return groupVal;
+  // Create a list of properties to pluck one by one
+  const propChain = prop.split('.');
+  let groupVal = obj; // Start with the original value
+  const chain = propChain.slice();
+
+  while (chain.length > 0 && groupVal !== null) {
+    const subProp = chain.shift().trim();
+    groupVal = groupVal[subProp] ?? null;
+  }
+  return groupVal;
 }

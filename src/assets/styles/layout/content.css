@@ -37,7 +37,7 @@ main {
   margin-trim: block-end;
 
   :is(h1, h2, h3, blockquote) {
-    --flow-space: 1.5em;
+    --flow-space: 1.75em;
   }
 
   :is(h1, h2, h3) + * {
@@ -45,7 +45,7 @@ main {
   }
 
   > * + * {
-    margin-block-start: var(--flow-space, 1.25em);
+    margin-block-start: var(--flow-space, 1.75em);
   }
 }
 
@@ -92,7 +92,7 @@ main {
   }
 }
 
-.container {
+.container-grid {
   @media (--small) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,8 +100,7 @@ main {
   }
 }
 
-.container-inner {
-  ul {
-    margin: 0;
-  }
+.container-grid-inner {
+  /* stylelint-disable-next-line */
+  margin-trim: block-end;
 }
