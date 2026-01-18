@@ -29,6 +29,7 @@ hr {
   block-size: 1px;
   border: 0;
   background-color: var(--accent-color);
+  margin-block-end: var(--space-xl);
 }
 
 a {
