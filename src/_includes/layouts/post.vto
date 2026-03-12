@@ -1,0 +1,21 @@
+---
+layout: base.vto
+---
+<article>
+  <h1>{{ title }}</h1>
+
+  <div>
+    {{ if date }}
+    <time datetime="{{ dateString }}">{{ postDateString }}</time>
+    {{ /if }}
+
+    {{ if tags }}
+    <p>Tagged with
+      {{ for tag of tags }}
+      <a href="/tags/{{ tag |> slugify }}">{{ tag }}</a>
+      {{ /for }}
+    </p>
+    {{ /if }}
+  </div>
+  {{ content }}
+</article>

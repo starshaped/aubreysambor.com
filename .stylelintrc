@@ -1,7 +1,7 @@
 {
   "plugins": [
     "stylelint-prettier",
-    "stylelint-use-logical-spec"
+    "stylelint-use-logical"
   ],
   "extends": [
     "stylelint-config-standard",
@@ -23,7 +23,6 @@
       {
         "ignore": ["attribute"]
       }
-    ],
-    "liberty/use-logical-spec": ["always", { "direction": "ltr" }]
+    ]
   }
 }

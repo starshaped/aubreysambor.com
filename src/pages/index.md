@@ -1,6 +1,7 @@
 ---
 layout: home.vto
 title: Home
+permalink: /
 ---
 
 # Hi, I'm **Aubrey**.

@@ -3,13 +3,12 @@
 @import './base/variables.css';
 @import './base/utils.css';
 @import './base/base.css';
-@import './base/forms.css';
 @import './layout/content.css';
 @import './layout/archives.css';
 @import './layout/content-intro.css';
-@import './layout/recent-posts.css';
+@import './components/recent-posts.css';
 @import './components/header.css';
 @import './components/navigation.css';
+@import './components/post-list.css';
 @import './components/footer.css';
-@import './components/tags.css';
 @import './components/prism.css';

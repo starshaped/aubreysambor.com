@@ -1,0 +1,7 @@
+{{ import { post_list } from "./functions.vto" }}
+{{ set postListItems = collections.recentPosts }}
+
+<section aria-labelledby="recent-posts">
+  {{ await post_list("Recent posts", postListItems, true)}}
+</section>
+<p><a href="archives">View all archives</a></p>

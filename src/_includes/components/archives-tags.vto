@@ -1,0 +1,5 @@
+<ul class="archives-tags">
+  {{ for tag of collections.tagsList }}
+  <li><a href="/tags/{{ tag |> slugify }}">{{ tag }}</a></li>
+  {{ /for }}
+</ul>

@@ -1,4 +1,4 @@
-.content__intro {
+.content-intro {
   margin-block-end: var(--space-2xl);
 
   > * + * {
@@ -12,7 +12,7 @@
   }
 
   p {
-    max-inline-size: 55ch;
+    max-inline-size: 54ch;
     font-size: var(--size-large);
   }
 

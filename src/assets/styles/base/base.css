@@ -27,9 +27,9 @@ body {
 
 hr {
   block-size: 1px;
+  margin-block-end: var(--space-xl);
   border: 0;
   background-color: var(--accent-color);
-  margin-block-end: var(--space-xl);
 }
 
 a {
@@ -71,6 +71,7 @@ h1,
 
 h2 {
   font-size: var(--size-h2);
+  border-block-end: solid 1px var(--accent-color);
 }
 
 h3 {
@@ -95,7 +96,7 @@ p:empty {
 }
 
 main {
-  max-inline-size: 72ch;
+  max-inline-size: var(--content-width);
   margin-inline: auto;
 }
 
@@ -109,7 +110,7 @@ ul {
 }
 
 li {
-  margin-block-start: var(--space-2xs);
+  margin-block-start: var(--space-xs);
 
   &::marker {
     color: var(--secondary-link);

@@ -4,14 +4,16 @@
 {{ set currentUrl = site.url + page.url }}
 
 {{ if summary }}
-  {{ set pageDesc = summary }}
+{{ set pageDesc = summary }}
 {{ /if }}
+
 <head>
 
   <title>{{ pageTitle }}</title>
   <link rel="canonical" href="{{ currentUrl }}" />
+  <link rel="preload" href="/assets/fonts/lato-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌟</text></svg>" />
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml" />
   <link rel="stylesheet" href="/assets/styles/styles.css" />
 
   <meta charset="UTF-8">

@@ -143,6 +143,10 @@ export default async function (eleventyConfig) {
     return [...tagsList].sort((a, b) => a.localeCompare(b));
   });
 
+  eleventyConfig.addCollection('recentPosts', (collection) => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse().slice(0, 5);
+  });
+
   eleventyConfig.addPlugin(VentoPlugin, {
     autotrim: true,
   });
@@ -154,8 +158,8 @@ export const config = {
   dir: {
     input: 'src',
     output: 'dist',
-    includes: 'components',
-    layouts: 'layouts',
+    includes: '_includes',
+    layouts: '_includes/layouts',
   },
 };
 

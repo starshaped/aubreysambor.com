@@ -1,0 +1,11 @@
+{{ import { post_list } from "./functions.vto" }}
+
+{{ set postsByYear = postListItems |> groupBy('data.yearString') }}
+
+{{ for year of postsByYear |> Object.keys |> sort |> reverse }}
+
+{{ set posts = postsByYear[year] |> reverse }}
+
+{{ await post_list(year, posts)}}
+
+{{ /for }}

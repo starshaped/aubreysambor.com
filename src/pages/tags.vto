@@ -11,4 +11,4 @@ permalink: /tags/{{ tag |> slugify }}/
 ---
 {{ set postListItems = collections[tag] |> reverse }}
 
-{{ include "archives-list.vto" }}
+{{ include "components/archives-list.vto" }}

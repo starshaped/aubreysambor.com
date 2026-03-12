@@ -1,0 +1,8 @@
+---
+layout: base.vto
+---
+{{ set postListItems = collections.list |> reverse }}
+
+<div class="content-intro">{{ content }}</div>
+
+{{ include "components/recent-posts.vto" }}

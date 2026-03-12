@@ -1,6 +1,7 @@
 header {
   padding-block: var(--space-xs);
   background-color: var(--background-color-secondary);
+
   /* border-bottom: solid 1px var(--gray-90); */
 
   @media (--small) {
@@ -12,7 +13,7 @@ header {
     padding-block: var(--space-l);
   }
 
-  .inner {
+  > div {
     max-inline-size: var(--content-width);
     text-align: center;
 
@@ -63,7 +64,7 @@ header {
   }
 }
 
-.header-secondary {
+.navigation {
   display: flex;
   align-items: center;
   justify-content: center;
