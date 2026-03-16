@@ -25,22 +25,22 @@ main {
       outline-color: var(--secondary-link);
     }
   }
+}
 
-  article {
-    /* stylelint-disable-next-line */
-    margin-trim: block-end;
+article {
+  /* stylelint-disable-next-line */
+  margin-trim: block-end;
 
-    :is(h1, h2, h3, blockquote) {
-      --flow-space: 1.75em;
-    }
+  :is(h1, h2, h3, blockquote) {
+    --flow-space: 1.75em;
+  }
 
-    :is(h1, h2, h3) + * {
-      --flow-space: 1em;
-    }
+  :is(h1, h2, h3) + * {
+    --flow-space: 1em;
+  }
 
-    > * + * {
-      margin-block-start: var(--flow-space, 1.75em);
-    }
+  > * + * {
+    margin-block-start: var(--flow-space, 1.75em);
   }
 
   time {

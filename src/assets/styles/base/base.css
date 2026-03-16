@@ -70,6 +70,7 @@ h1,
 }
 
 h2 {
+  padding-block-end: var(--space-3xs);
   font-size: var(--size-h2);
   border-block-end: solid 1px var(--accent-color);
 }
@@ -107,14 +108,14 @@ ol {
 
 ul {
   list-style-type: square;
+
+  li::marker {
+    color: var(--secondary-link);
+  }
 }
 
 li {
   margin-block-start: var(--space-xs);
-
-  &::marker {
-    color: var(--secondary-link);
-  }
 }
 
 blockquote {

@@ -1,4 +1,4 @@
-{{ import { post_list } from "./functions.vto" }}
+{{ import { post_list } from "../utilities/functions.vto" }}
 
 {{ set postsByYear = postListItems |> groupBy('data.yearString') }}
 
