@@ -46,7 +46,7 @@
 
   &:focus-visible {
     border-radius: 2px;
-    outline: solid 3px var(--primary-link);
+    outline: solid 3px var(--link-primary);
     outline-offset: 4px;
   }
 }
@@ -54,7 +54,7 @@
 .theme-icon {
   block-size: var(--icon-size-small);
   inline-size: var(--icon-size-small);
-  fill: var(--primary-link);
+  fill: var(--link-primary);
 
   @media (--small) {
     block-size: var(--icon-size-large);
@@ -62,7 +62,7 @@
   }
 
   &:hover {
-    fill: var(--primary-link-hover);
+    fill: var(--link-primary-hover);
   }
 }
 

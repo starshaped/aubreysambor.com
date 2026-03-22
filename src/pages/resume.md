@@ -5,12 +5,9 @@ title: Resume
 permalink: '/resume/'
 ---
 
-**Senior front end developer** specializing in writing clean and accessible CSS, HTML, and JavaScript, implementing design systems, and leading and mentoring development teams.
+**Lead front end developer** specializing in writing clean and accessible CSS, HTML, and JavaScript, implementing design systems, and leading and mentoring development teams.
 
 ## Skills
-
-:::: container-grid
-::: container-grid-inner
 
 - CSS, Sass, PostCSS
 - HTML, Responsive design
@@ -20,18 +17,15 @@ permalink: '/resume/'
 - Design systems
 - Component libraries
 - Front end architecture
-  :::
-  ::: container-grid-inner
 - Static site generators, 11ty
 - Storybook
 - PHP, Drupal, Wordpress
+- Layout Builder
 - Git, GitHub, GitLab
 - MySQL
 - User experience
 - Mentoring and leadership
 - [Public speaking](/speaking)
-  :::
-  ::::
 
 ## Work Experience
 

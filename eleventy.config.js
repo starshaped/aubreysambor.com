@@ -27,8 +27,6 @@ export default async function (eleventyConfig) {
   );
 
   eleventyConfig.amendLibrary('md', (mdLib) => {
-    mdLib.use(markdownItContainer, 'container-grid');
-    mdLib.use(markdownItContainer, 'container-grid-inner');
     mdLib.use(markdownItAttrs);
   });
 

@@ -55,7 +55,7 @@ header {
       transition:
         inline-size 0.5s ease 0s,
         inset-inline-start 0.5s ease 0s;
-      background-color: var(--primary-link-hover);
+      background-color: var(--text-highlight-5);
       inset-block-end: 0;
       inset-inline-start: 0;
     }

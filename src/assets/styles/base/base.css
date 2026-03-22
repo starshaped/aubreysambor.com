@@ -33,18 +33,19 @@ hr {
 }
 
 a {
-  color: var(--primary-link);
+  transition: all 0.3s;
+  color: var(--link-primary);
   font-weight: bold;
   text-decoration-thickness: 0.25ex;
   text-underline-offset: 0.2ex;
 
   &:hover {
-    color: var(--primary-link-hover);
+    color: var(--link-primary-hover);
   }
 
   &:focus-visible {
     border-radius: 2px;
-    outline: solid 3px var(--primary-link);
+    outline: solid 3px var(--link-primary);
     outline-offset: 4px;
   }
 }
@@ -110,12 +111,16 @@ ul {
   list-style-type: square;
 
   li::marker {
-    color: var(--secondary-link);
+    color: var(--link-secondary);
   }
 }
 
 li {
   margin-block-start: var(--space-xs);
+
+  &:first-child {
+    margin-block-start: 0;
+  }
 }
 
 blockquote {

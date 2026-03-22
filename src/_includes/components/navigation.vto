@@ -2,21 +2,32 @@
   <span id="nav-{{ navType.name }}" class="visually-hidden">{{ navType.name|>capitalize }}</span>
   <ul>
     {{ for item of navType.items }}
-      {{ set navigationAttributes = '' }}
+    {{ set navigationAttributes = '' }}
+    {{ set iconClass = `icon-${item.text}` }}
 
-      {{ if item.attributes }}
-        {{ for key, attribute of item.attributes }}
-          {{ set navigationAttributes = navigationAttributes.concat(`${key}="${attribute}"`) }}
-        {{ /for }}
-      {{ /if }}
+    {{ if item.attributes }}
+    {{ for key, attribute of item.attributes }}
+    {{ set navigationAttributes = navigationAttributes.concat(`${key}="${attribute}"`) }}
+    {{ /for }}
+    {{ /if }}
 
-      {{ if page.url === item.url }}
-        {{ set navigationAttributes = navigationAttributes.concat(' aria-current="page"') }}
-      {{ /if }}
-
-      <li>
-        <a href="{{ item.url }}"{{ navigationAttributes }}>{{ item.text }}</a>
-      </li>
+    {{ if page.url === item.url }}
+    {{ set navigationAttributes = navigationAttributes.concat(' aria-current="page"') }}
+    {{ /if }}
+    {{ if item.icon }}
+    <li class="{{ iconClass|>toLowerCase() }}">
+      <a href="{{ item.url }}" {{ navigationAttributes }}>
+        <span class="visually-hidden">
+          {{- item.text -}}
+        </span>
+        <span aria-hidden="true">{{ item.icon }}</span>
+      </a>
+    </li>
+    {{ else }}
+    <li>
+      <a href="{{ item.url }}" {{ navigationAttributes }}>{{ item.text }}</a>
+    </li>
+    {{ /if }}
     {{ /for }}
   </ul>
 </nav>

@@ -12,9 +12,8 @@ main {
   }
 
   a {
-    transition: all 0.3s;
     color: var(--text-color);
-    text-decoration-color: var(--secondary-link);
+    text-decoration-color: var(--link-secondary);
 
     &:hover {
       color: inherit;
@@ -22,7 +21,7 @@ main {
     }
 
     &:focus-visible {
-      outline-color: var(--secondary-link);
+      outline-color: var(--link-secondary);
     }
   }
 }
@@ -76,23 +75,18 @@ article {
 
 .resume {
   h3 + p {
-    --flow-space: 0.5em;
+    margin-block-start: var(--space-2xs);
   }
 
   p:first-of-type {
     font-size: var(--size-large);
   }
-}
 
-.container-grid {
-  @media (--small) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-m);
+  h2:first-of-type + ul {
+    columns: 1;
+
+    @media (--small) {
+      columns: 2;
+    }
   }
-}
-
-.container-grid-inner {
-  /* stylelint-disable-next-line */
-  margin-trim: block-end;
 }

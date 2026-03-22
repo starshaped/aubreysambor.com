@@ -9,58 +9,60 @@
 
   /* Basic site settings */
 
-  /* --content-width: 55rem; 880px */
-  --content-width: 960px;
+  --content-width: 60rem;
   --icon-size-small: 1.55rem;
   --icon-size-large: 1.75rem;
 
-  /* Colors */
-
   /* 
   --green: #359046;
-  --red-purple: #904b74; 
-   --brand-soft: color-mix(in oklab, var(--brand), white 88%);
+  --red-purple: #904b74;
   */
 
-  --gray-99: oklch(99% 0 0deg);
-  --gray-97: oklch(97% 0 0deg);
-  --gray-90: oklch(90% 0 0deg);
-  --pink-95: oklch(95% 0.15 5.87deg);
-  --pink-80: oklch(80% 0.15 5.87deg);
-  --pink-70: oklch(70% 0.15 5.87deg);
-  --pink-50: oklch(50% 0.15 5.87deg);
-  --pink-40: oklch(40% 0.15 5.87deg);
-  --pink-20: oklch(20% 0.15 5.87deg);
-  --orange-65: oklch(65% 0.15 35.82deg);
-  --orange-55: oklch(55% 0.15 35.82deg);
-  --yellow-65: oklch(65% 0.15 74.1deg);
-  --yellow-55: oklch(55% 0.15 74.1deg);
-  --yellow-green-65: oklch(65% 0.15 115.94deg);
-  --yellow-green-55: oklch(55% 0.15 115.94deg);
-  --blue-90: oklch(90% 0.11 210deg);
-  --blue-80: oklch(80% 0.11 210deg);
-  --blue-60: oklch(60% 0.11 210deg);
-  --purple-65: oklch(65% 0.11 318.57deg);
-  --purple-50: oklch(50% 0.11 318.57deg);
-  --indigo-65: oklch(65% 0.05 258.66deg);
-  --indigo-40: oklch(40% 0.05 258.66deg);
-  --navy-40: oklch(40% 0.05 237.32deg);
-  --navy-30: oklch(30% 0.05 237.32deg);
-  --primary-link: light-dark(var(--pink-50), var(--pink-70));
-  --primary-link-hover: light-dark(var(--pink-40), var(--pink-95));
-  --secondary-link: light-dark(var(--blue-80), var(--blue-60));
-  --background-color: light-dark(var(--gray-99), var(--navy-40));
-  --background-color-secondary: light-dark(var(--gray-97), var(--navy-30));
-  --accent-color: light-dark(var(--gray-90), var(--gray-90));
-  --text-color: light-dark(var(--navy-40), var(--gray-97));
-  --text-highlight-1: light-dark(var(--orange-55), var(--orange-65));
-  --text-highlight-2: light-dark(var(--yellow-55), var(--yellow-65));
-  --text-highlight-3: light-dark(
-    var(--yellow-green-55),
-    var(--yellow-green-65)
+  /* Theme colors */
+  --gray: oklch(99% 0 0deg);
+  --pink: oklch(50% 0.2 6deg);
+  --orange: oklch(55% 0.2 35.82deg);
+  --yellow: oklch(60% 0.2 85deg);
+  --yellow-green: oklch(55% 0.35 116deg);
+  --blue: oklch(75% 0.2 200deg);
+  --navy: oklch(40% 0.05 237.32deg);
+  --indigo: oklch(40% 0.1 258.66deg);
+  --purple: oklch(50% 0.2 318.57deg);
+
+  /* Component colors */
+  --link-primary: light-dark(var(--pink), oklch(from var(--pink) 70% 0.175 h));
+  --link-primary-hover: light-dark(
+    oklch(from var(--pink) 30% c h),
+    oklch(from var(--pink) 90% c h)
   );
-  --text-highlight-4: light-dark(var(--indigo-40), var(--indigo-65));
-  --text-highlight-5: light-dark(var(--purple-50), var(--purple-65));
+  --link-secondary: light-dark(var(--blue), oklch(from var(--blue) 60% c h));
+  --background-color: light-dark(var(--gray), var(--navy));
+  --background-color-secondary: light-dark(
+    oklch(from var(--gray) 97% c h),
+    oklch(from var(--navy) 30% c h)
+  );
+  --text-color: light-dark(var(--navy), var(--gray));
+  --accent-color: light-dark(oklch(from var(--gray) 90% c h), var(--gray));
+  --text-highlight-1: light-dark(
+    var(--orange),
+    oklch(from var(--orange) 65% 0.15 h)
+  );
+  --text-highlight-2: light-dark(
+    var(--yellow),
+    oklch(from var(--yellow) 65% c h)
+  );
+  --text-highlight-3: light-dark(
+    var(--yellow-green),
+    oklch(from var(--yellow-green) 65% c h)
+  );
+  --text-highlight-4: light-dark(
+    var(--indigo),
+    oklch(from var(--indigo) 65% c h)
+  );
+  --text-highlight-5: light-dark(
+    var(--purple),
+    oklch(from var(--purple) 65% 0.15 h)
+  );
 
   /* Spacing */
 

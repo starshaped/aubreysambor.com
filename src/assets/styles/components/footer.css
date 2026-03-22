@@ -51,7 +51,17 @@ footer {
     font-size: var(--size-small);
 
     &:not(:last-child) {
-      margin-inline-end: var(--space-2xs);
+      margin-inline-end: var(--space-xs);
     }
+  }
+
+  span:not([class]) {
+    display: inline-block;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
   }
 }
