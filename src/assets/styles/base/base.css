@@ -123,6 +123,17 @@ li {
   }
 }
 
+figure {
+  margin-inline: 0;
+}
+
+figcaption {
+  margin-block-start: var(--space-2xs);
+  font-size: var(--size-small);
+  line-height: 1.5;
+  text-align: center;
+}
+
 blockquote {
   max-inline-size: 60ch;
   padding-inline-start: var(--space-s);

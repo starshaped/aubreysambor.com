@@ -1,6 +1,6 @@
 ---
 eleventyComputed:
-  title: Posts tagged with "{{ tag }}"
+  title: 'Tagged: {{ tag }}'
 eleventyExcludeFromCollections: true
 layout: page.vto
 pagination:
@@ -9,6 +9,6 @@ pagination:
   alias: tag
 permalink: /tags/{{ tag |> slugify }}/
 ---
-{{ set postListItems = collections[tag] |> reverse }}
+{{ set postListItems = collections[tag] }}
 
 {{ include "components/archives-list.vto" }}

@@ -1,10 +1,13 @@
 // Import @11ty plugins
 import { VentoPlugin } from 'eleventy-plugin-vento';
-import rssPlugin from '@11ty/eleventy-plugin-rss';
+import rssPlugin, {
+  dateToRfc3339,
+  getNewestCollectionItemDate
+} from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
-import markdownItContainer from 'markdown-it-container';
 import markdownItAttrs from 'markdown-it-attrs';
+import markdownItFigures from 'markdown-it-image-figures';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 // import createDebugMessages from 'debug';
 // const debug = createDebugMessages('starshaped');
@@ -23,12 +26,10 @@ export default async function (eleventyConfig) {
       html: true,
       breaks: true,
       linkify: false,
+    }).use(markdownItAttrs).use(markdownItFigures, {
+      figcaption: true
     }),
   );
-
-  eleventyConfig.amendLibrary('md', (mdLib) => {
-    mdLib.use(markdownItAttrs);
-  });
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     // which file extensions to process
@@ -79,9 +80,9 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addFilter(
     'getNewestCollectionItemDate',
-    rssPlugin.getNewestCollectionItemDate,
+    getNewestCollectionItemDate,
   );
-  eleventyConfig.addFilter('dateToRfc3339', rssPlugin.dateToRfc3339);
+  eleventyConfig.addFilter('dateToRfc3339', dateToRfc3339);
 
   eleventyConfig.addFilter('capitalize', (item) => {
     return item[0].toUpperCase() + item.slice(1);
