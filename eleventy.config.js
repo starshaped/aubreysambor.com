@@ -129,7 +129,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/robots.txt');
 
   eleventyConfig.addCollection('list', (collection) => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')];
+    return [...collection.getFilteredByGlob('./src/posts/**/*.md')];
   });
 
   eleventyConfig.addCollection('tagsList', (collection) => {
@@ -143,7 +143,7 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection('recentPosts', (collection) => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse().slice(0, 5);
+    return [...collection.getFilteredByGlob('./src/posts/**/*.md')].reverse().slice(0, 5);
   });
 
   eleventyConfig.addPlugin(VentoPlugin, {
