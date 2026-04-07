@@ -21,8 +21,6 @@ Even though I no longer use Gatsby to power my site, I still enjoy going to talk
 
 ### Media in Drupal 8: everything you need to know by Adam G-H
 
-![Adam starting his presentation at NEDCamp.](nedcamp-2019-media.jpg 'Photo courtesy of the NEDCamp 2019 team.')
-
 Adam gave a fantastic talk on Media in Drupal 8! He explained the complexities of the system in a clear and concise manner. He used diagrams to explain one of the more complex parts of the Media system, and a couple people near me said they understood the system better and could now talk to their clients about why Media in Drupal 8 is useful. I'm so glad I finally got to see him present at a conference.
 
 ### Building Meaningful Network Connections by Mike Miles
