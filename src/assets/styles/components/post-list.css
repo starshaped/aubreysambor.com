@@ -9,7 +9,7 @@
   }
 
   time {
-    flex: 0 0 200px;
+    flex: 0 0 250px;
     font-size: var(--size-small);
     text-align: right;
   }
