@@ -53,7 +53,7 @@
   );
   --text-highlight-3: light-dark(
     var(--yellow-green),
-    oklch(from var(--yellow-green) 65% c h)
+    oklch(from var(--yellow-green) 70% c h)
   );
   --text-highlight-4: light-dark(
     var(--indigo),
