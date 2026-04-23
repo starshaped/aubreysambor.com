@@ -4,8 +4,8 @@
 
 :root {
   /* Font families */
-  --base-font-family: 'Roboto', 'Verdana', sans-serif;
-  --header-font-family: 'Lato', 'Verdana', sans-serif;
+  --base-font-family: 'Roboto', 'Arial', sans-serif;
+  --header-font-family: 'Lato', 'Arial', sans-serif;
 
   /* Basic site settings */
 
