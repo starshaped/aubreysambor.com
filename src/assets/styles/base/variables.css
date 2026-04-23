@@ -45,11 +45,11 @@
   --accent-color: light-dark(oklch(from var(--gray) 90% c h), var(--gray));
   --text-highlight-1: light-dark(
     var(--orange),
-    oklch(from var(--orange) 65% 0.15 h)
+    oklch(from var(--orange) 70% 0.15 h)
   );
   --text-highlight-2: light-dark(
     var(--yellow),
-    oklch(from var(--yellow) 65% c h)
+    oklch(from var(--yellow) 70% c h)
   );
   --text-highlight-3: light-dark(
     var(--yellow-green),
@@ -57,11 +57,11 @@
   );
   --text-highlight-4: light-dark(
     var(--indigo),
-    oklch(from var(--indigo) 65% c h)
+    oklch(from var(--indigo) 70% c h)
   );
   --text-highlight-5: light-dark(
     var(--purple),
-    oklch(from var(--purple) 65% 0.15 h)
+    oklch(from var(--purple) 70% 0.15 h)
   );
 
   /* Spacing */
