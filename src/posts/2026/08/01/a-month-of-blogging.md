@@ -5,7 +5,7 @@ summary:
 tags:
   - blaugust2026
 ---
-It's 5:00pm on August 1st and I read [Jedda's post about Blaugust](https://notes.jeddacp.com/blaugust-2026-year-3/), a yearly event where participants blog every day for a month, and decided to join in on the fun and kickstart writing in this blog again.
+It's 5:00pm on August 1st and I read [Jedda's post](https://notes.jeddacp.com/blaugust-2026-year-3/) and [hexephre's post](https://hexephre.com/blogposts/260801) about Blaugust, a yearly event where participants blog every day for a month, and decided to join in on the fun and kickstart writing in this blog again.
 
 ## What will I write about?
 
