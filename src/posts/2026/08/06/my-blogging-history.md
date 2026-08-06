@@ -6,8 +6,7 @@ tags:
 ---
 I've been writing online in some form now for almost 30 years (how is 1998 almost 30 years ago?), but I didn't start officially blogging until the beginning of the year 2000. 
 
-Prior to 2000 I kept an online journal (I online journaled before LiveJournal made it cool), first constructed with hand coded HTML for every single page, then I used a CGI script a friend found online to render text files into blog posts. (Sounds like today's static site generators in a way.)my-blogging-history.md
-his was fun for awhile, but I knew I wanted more.
+Prior to 2000 I kept an online journal (I online journaled before LiveJournal made it cool), first constructed with hand coded HTML for every single page, then I used a CGI script a friend found online to render text files into blog posts. (Sounds like today's static site generators in a way.) This was fun for awhile, but I knew I wanted more.
 
 When I learned PHP and wanted more control over my online journalling script, I wrote my own mini CMS with a basic admin interface to create all my posts and pages. Ignore the fact that I didn't know anything about database design when I was 20 years old, and let's just say I'm lucky my site never got hacked with all the security holes I left in my code!
 
