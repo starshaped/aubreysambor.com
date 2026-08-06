@@ -18,7 +18,7 @@ I don't remember exactly how or why my website shifted from primarily an online 
 After awhile, the slowness and sluggishness of Moveable Type turned me off, so in 2002, I came across b2 and love love loved it! A small, lightweight PHP script, no waiting for builds, directly pulling data from the database--I was ready to go back to this style of blog software. Of course, b2 stopped being updated and a couple b2 users decided to fork it, creating Wordpress. Yes, I also used Wordpress before it was cool, even spending a ton of time in the #wordpress IRC channel and creating a couple themes that were used by a bunch of people in the mid 2000s before Wordpress themes became really big. It was a blast.
 
 ## A Drupal interlude
-I used Wordpress until 2009 when I became a Drupal developer, and in my process of learning Drupal I moved my blog to Drupal. How many times can I say 'Drupal'? I learned pretty quickly that Drupal does not let itself well to blogging, and after a year or so, I moved back to Wordpress. 
+I used Wordpress until 2009 when I became a Drupal developer, and in my process of learning Drupal I moved my blog to Drupal. How many times can I say 'Drupal'? I learned pretty quickly that Drupal does not lend itself well to blogging, and after a year or so, I moved back to Wordpress. 
 
 I stopped blogging as much in the early 2010s and tried getting back into it (much like I'm doing right now), and I found I wasn't a huge fan of how big and bloated Wordpress had gotten. I knew that I'd need to make a change if I wanted to blog again.
 
