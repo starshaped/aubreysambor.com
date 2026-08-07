@@ -27,7 +27,7 @@ body {
 
 hr {
   block-size: 1px;
-  margin-block-end: var(--space-xl);
+  margin-block-end: var(--space-lg);
   border: 0;
   background-color: var(--accent-color);
 }
