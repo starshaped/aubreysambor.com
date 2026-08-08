@@ -1,5 +1,5 @@
 ---
-title: A morning at Mass MoCa, in photos
+title: A morning at Mass MoCA, in photos
 date: 2026-08-08
 tags:
   - blaugust2026
