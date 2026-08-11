@@ -6,7 +6,7 @@ tags:
 ---
 Blaugust is getting hard, folks! I've had a busy couple days with barely enough time to sit down and write a blog post, so I'm just now getting around to my post for August 11th at 5:30pm. I knew it would get tougher as the month progressed, but I'm still all in on writing every day!
 
-I HAVE been writing in my paper journal more consistently than I have in years, though, so why don't I talk about the journals and planners I'm using this year? I meant to write this post at the beginning of the year and the picture I'll be posting is from the beginning of the year, but nothing's changed except for the color of my journal (my current journal is purple instead of gray).
+I HAVE been writing in my paper journal more consistently than I have in years, though, so why don't I talk about the journals and planners I'm using this year? I meant to write this post at the beginning of the year and I took the picture at the beginning of the year, but nothing's changed except for the color of my journal (my current journal is purple instead of gray).
 
 ![Four notebooks on a wooden desk.](2026-stationery.jpg "These 4 books are my life this year.")
 
