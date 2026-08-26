@@ -3,6 +3,7 @@ title: "WIP Wednesday: Happy with my progress"
 date: 2026-08-26
 tags:
   - blaugust2026
+summary: It may not look like much progress, but I'm still working on my Lillesol sweater.
 ---
 I don't have much to write in regards to my work in progress today because, well, it's the same sweater I've been knitting all month! I'm very happy with [the progress I've made on the Lillesol sweater this past week](/wip-wednesday-still-going-strong/) even though it doesn't look like I've gotten much done.
 
