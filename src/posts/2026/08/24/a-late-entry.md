@@ -6,6 +6,6 @@ tags:
 ---
 It's almost 10pm and I'm finally sitting down to write today's blog post, which will just be me saying I'll be writing a longer entry tomorrow. Blaugust is really hard but again, like NaNoWriMo, some days are writing days and other days it's good to get just a few words down, so today's one of those latter days.
 
-I went to knit night and sat outside and drank a tasty juicy IPA, so everything's ok.
+I went to knit night tonight and sat outside and drank a tasty juicy IPA and chatted with my friends, so life is good.
 
 Time for bed.
