@@ -37,7 +37,7 @@ I've been really excited about [the collect & collage series](https://www.1101.c
 
 ![V&A Series Cousin and A6 Techo, both tan with a floral pattern.](va-cousin.jpg)
 
-Here's a couple pictures from [the V&A Series](https://www.1101.com/store/techo/en/magazine/contents/y27_va/2rkyvmhlr.html) being released this year. I thought these planners were beautiful as well--not my typical style, but worth noting and taking photos.
+I took a couple pictures of [the V&A Series](https://www.1101.com/store/techo/en/magazine/contents/y27_va/2rkyvmhlr.html) being released this year. I thought these planners were beautiful as well--not my typical style, but worth noting and taking photos.
 
 ![Three mini A6 planner keychains, complete with mini fountain pens!](keychains.jpg "I just thought these were cute.")
 
