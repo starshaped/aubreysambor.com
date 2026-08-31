@@ -3,7 +3,7 @@ title: "Hobonichi 2027 preview exhibit!"
 date: 2026-08-31
 tags:
   - blaugust2026
-summary: I attended the Hobonichi 2027 preview exhibit with a few friends and it was a delightful, fun, and amazing experience.
+summary: I attended the Hobonichi 2027 preview exhibit with a few friends and it was amazing.
 ---
 This past Saturday, a couple friends and I went to [the Paper Mouse](https://www.thepapermouse.com) in Newton, Massachusetts, to attend the [Hobonichi 2027 Preview Exhibit](https://www.1101.com/store/techo/en/magazine/contents/y27_event/gz5oxw2hr.html). Only four stationery shops in the US and eight shops throughout the world held these exhibits, so I feel grateful that one of the locations was only a 35ish minute drive away from me!
 
