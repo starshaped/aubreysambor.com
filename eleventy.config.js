@@ -125,6 +125,7 @@ export default async function (eleventyConfig) {
   // Passthrough copy
   eleventyConfig.addPassthroughCopy('src/assets/styles/styles.css');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
+  eleventyConfig.addPassthroughCopy('src/assets/images');
   eleventyConfig.addPassthroughCopy('src/assets/js/scripts.js');
   eleventyConfig.addPassthroughCopy('src/robots.txt');
 

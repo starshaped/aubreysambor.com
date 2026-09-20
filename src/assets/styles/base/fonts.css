@@ -3,9 +3,7 @@
   font-family: Lato;
   font-style: normal;
   font-weight: 400;
-  src:
-    url('../fonts/lato-regular-webfont.woff2') format('woff2'),
-    url('../fonts/lato-regular-webfont.woff') format('woff');
+  src: url('../fonts/lato-regular-webfont.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -14,9 +12,7 @@
   font-family: Lato;
   font-style: normal;
   font-weight: 700;
-  src:
-    url('../fonts/lato-bold-webfont.woff2') format('woff2'),
-    url('../fonts/lato-bold-webfont.woff') format('woff');
+  src: url('../fonts/lato-bold-webfont.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -25,9 +21,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
-  src:
-    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-regular-webfont.woff') format('woff');
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -36,9 +30,7 @@
   font-family: Roboto;
   font-style: italic;
   font-weight: 400;
-  src:
-    url('../fonts/roboto-italic-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-italic-webfont.woff') format('woff');
+  src: url('../fonts/roboto-italic-webfont.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -47,9 +39,7 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
-  src:
-    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-bold-webfont.woff') format('woff');
+  src: url('../fonts/roboto-bold-webfont.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -58,8 +48,6 @@
   font-family: Roboto;
   font-style: italic;
   font-weight: 700;
-  src:
-    url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-bolditalic-webfont.woff') format('woff');
+  src: url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2');
   font-display: swap;
 }
